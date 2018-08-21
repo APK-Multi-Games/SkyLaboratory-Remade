@@ -104,7 +104,7 @@
             "action" : 
             {
                 "type" : "openLink",
-				"link" : "https://www.feed-the-beast.com/projects/ftb-presents-skyfactory-3/files"
+				"link" : "https://minecraft.curseforge.com/projects/skyfactory-remade/files"
             }
         },	
         "options":
@@ -229,7 +229,7 @@
             "alignment" : "bottom_left"
 		},
 		"modpack2":{
-			"text" : "SkyFactory 3 v3.0.6",
+			"text" : "SkyFactory Remade",
             "posX" : 3,
             "posY" : -27,
 			"fontSize" : .6,

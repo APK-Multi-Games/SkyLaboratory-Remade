@@ -13,9 +13,9 @@
         "singleplayer":{
             "text":"menu.singleplayer",
             "texture":"mainmenu:shortbutton.png",
-            "posX":-100,
-            "posY":-8,
-            "width":98,
+            "posX":-165,
+            "posY":-86,
+            "width":70,
             "height":20,
             "imageWidth":98,
             "imageHeight":20,
@@ -28,9 +28,9 @@
         "multiplayer":{
             "text":"menu.multiplayer",
             "texture":"mainmenu:shortbutton.png",
-            "posX":2,
-            "posY":-8,
-            "width":98,
+            "posX":-165,
+            "posY":-64,
+            "width":70,
             "height":20,
             "imageWidth":98,
             "imageHeight":20,
@@ -43,9 +43,9 @@
         "mods":{
             "text":"fml.menu.mods",
             "texture":"mainmenu:shortbutton.png",
-            "posX":-100,
-            "posY":14,
-            "width":98,
+            "posX":-165,
+            "posY":-42,
+            "width":70,
             "height":20,
             "imageWidth":98,
             "imageHeight":20,
@@ -55,12 +55,12 @@
                 "gui":"mods"
             }
         },
-        "options":{
+		"options":{
             "text":"menu.options",
             "texture":"mainmenu:shortbutton.png",
-            "posX":2,
-            "posY":14,
-            "width":98,
+            "posX":-165,
+            "posY":-20,
+            "width":70,
             "height":20,
             "imageWidth":98,
             "imageHeight":20,
@@ -73,9 +73,9 @@
         "quit":{
             "text":"menu.quit",
             "texture":"mainmenu:longbutton.png",
-            "posX":-100,
-            "posY":80,
-            "width":200,
+            "posX":-84,
+            "posY":100,
+            "width":170,
             "height":20,
             "imageWidth":200,
             "imageHeight":20,
@@ -84,42 +84,12 @@
                 "type":"quit"
             }
         },
-        "ftbChangelog":{
-            "text":"Changelogs",
-            "texture":"mainmenu:shortbutton.png",
-            "posX":-100,
-            "posY":36,
-            "width":98,
-            "height":20,
-            "imageWidth":98,
-            "imageHeight":20,
-            "alignment":"center",
-            "action":{            
-                "type":"openLink",
-                "link":"https://www.feed-the-beast.com/projects/ftb-presents-skyfactory-3"
-            }            
-        },
-        "ftbServerFiles":{
-            "text":"Server Files",
-            "texture":"mainmenu:shortbutton.png",
-            "posX":2,
-            "posY":36,
-            "width":98,
-            "height":20,
-            "imageWidth":98,
-            "imageHeight":20,
-            "alignment":"center",
-            "action":{
-                "type":"openLink",
-                "link":"https://www.feed-the-beast.com/projects/ftb-presents-skyfactory-3"
-            }
-        },
         "ftbSupport":{
             "text":"FTB Support",
             "texture":"mainmenu:shortbutton.png",
-            "posX":-100,
-            "posY":58,
-            "width":98,
+            "posX":96,
+            "posY":-86,
+            "width":70,
             "height":20,
             "imageWidth":98,
             "imageHeight":20,
@@ -132,9 +102,9 @@
         "ftbForums":{
             "text":"FTB Forums",
             "texture":"mainmenu:shortbutton.png",
-            "posX":2,
-            "posY":58,
-            "width":98,
+            "posX":96,
+            "posY":-64,
+            "width":70,
             "height":20,
             "imageWidth":98,
             "imageHeight":20,
@@ -143,13 +113,43 @@
                 "type":"openLink",
                 "link":"https://forum.feed-the-beast.com/forum/"
             }
+        },	
+		"ftbServerFiles":{
+            "text":"Server Files",
+            "texture":"mainmenu:shortbutton.png",
+            "posX":96,
+            "posY":-42,
+            "width":70,
+            "height":20,
+            "imageWidth":98,
+            "imageHeight":20,
+            "alignment":"center",
+            "action":{
+                "type":"openLink",
+                "link":"https://minecraft.curseforge.com/projects/skyfactory-remade"
+            }
+        },
+		"ftbChangelog":{
+            "text":"Changelogs",
+            "texture":"mainmenu:shortbutton.png",
+            "posX":96,
+            "posY":-20,
+            "width":70,
+            "height":20,
+            "imageWidth":98,
+            "imageHeight":20,
+            "alignment":"center",
+            "action":{            
+                "type":"openLink",
+                "link":"https://minecraft.curseforge.com/projects/skyfactory-remade"
+            }            
         },
         "language":{
             "text":"",
             "tooltip":"Language",
             "texture":"mainmenu:lang.png",
-            "posX":104,
-            "posY":-8,
+            "posX":-70,
+            "posY":-120,
             "width":20,
             "height":20,
             "imageWidth":40,
@@ -164,8 +164,8 @@
             "text":"",
             "tooltip":"FTB Site",
             "texture":"mainmenu:web.png",
-            "posX":104,
-            "posY":14,
+            "posX":-10,
+            "posY":-120,
             "width":20,
             "height":20,
             "imageWidth":"40",
@@ -180,8 +180,8 @@
             "text":"",
             "tooltip":"FTB Shop",
             "texture":"mainmenu:shop.png",
-            "posX":104,
-            "posY":36,
+            "posX":50,
+            "posY":-120,
             "width":20,
             "height":20,
             "imageWidth":40,
@@ -208,6 +208,15 @@
         }
     },
     "labels":{
+		"Raziel23x":{
+            "text":"Modpack by Raziel23x",
+            "posX":-65,
+            "posY":-19,
+            "color":-1,
+            "hoverColor":-1,
+            "fontSize":0.6,
+            "alignment":"bottom_right"
+        },
         "mojang":{
             "text":"Copyright Mojang AB",
             "posX":-65,
@@ -218,7 +227,7 @@
             "alignment":"bottom_right"
         },
         "forge":{
-            "text":"Minecraft 1.10.2",
+            "text":"Minecraft 1.12.2",
             "posX":3,
             "posY":-19,
             "color":-1,
@@ -236,7 +245,7 @@
             "alignment":"bottom_left"
         },
         "modpack":{
-            "text":"FTB Presents SkyFactory 3 3.0.15",
+            "text":"SkyFactory Remade",
             "posX":3,
             "posY":-25,
             "color":-1,
