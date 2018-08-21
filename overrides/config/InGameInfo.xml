@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <lines at="topleft">
+        <line>
+            <str>Day {day}, {mctime12} (</str>
+            <if>
+                <var>daytime</var>
+                <str>$eDay</str>
+                <str>$8Night</str>
+            </if>
+            <str> time$f)</str>
+        </line>
+ 
+    </lines>
+    <lines at="middleright">
+        <line>
+            <max>
+                <var>potiondurationticks0</var>
+                <num>0.5</num>
+                <str>{potionicon0}: {potionduration0}</str>
+                <str> </str>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks1</var>
+                <num>0.5</num>
+                <str>{potionicon1}: {potionduration1}</str>
+                <str> </str>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks2</var>
+                <num>0.5</num>
+                <str>{potionicon2}: {potionduration2}</str>
+                <str> </str>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks3</var>
+                <num>0.5</num>
+                <str>{potionicon3}: {potionduration3}</str>
+                <str> </str>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks4</var>
+                <num>0.5</num>
+                <str>{potionicon4}: {potionduration4}</str>
+                <str> </str>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks5</var>
+                <num>0.5</num>
+                <str>{potionicon5}: {potionduration5}</str>
+                <str> </str>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks6</var>
+                <num>0.5</num>
+                <str>{potionicon6}: {potionduration6}</str>
+                <str> </str>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks7</var>
+                <num>0.5</num>
+                <str>{potionicon7}: {potionduration7}</str>
+                <str> </str>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks8</var>
+                <num>0.5</num>
+                <str>{potionicon8}: {potionduration8}</str>
+                <str> </str>
+            </max>
+        </line>
+    </lines>
+   
+    <lines at="middleleft">
+     <line>
+                        <var>helmeticon</var>
+                        <str> </str>
+            <operation>
+                <str>ge</str>
+                <pct>
+                    <var>helmetdamageleft</var>
+                    <var>helmetmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+            </operation>
+            <max>
+                <var>helmetdamageleft</var>
+                <num>0.5</num>
+                <str>{helmetdamageleft}$f</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <var>chestplateicon</var>
+            <str> </str>
+            <operation>
+                <str>ge</str>
+                <pct>
+                    <var>chestplatedamageleft</var>
+                    <var>chestplatemaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+            </operation>
+            <max>
+                <var>chestplatedamageleft</var>
+                <num>0.5</num>
+                <str>{chestplatedamageleft}$f</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <var>leggingsicon</var>
+            <str> </str>
+            <operation>
+                <str>ge</str>
+                <pct>
+                    <var>leggingsdamageleft</var>
+                    <var>leggingsmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+            </operation>
+            <max>
+                <var>leggingsdamageleft</var>
+                <num>0.5</num>
+                <str>{leggingsdamageleft}$f</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <var>bootsicon</var>
+            <str> </str>
+            <operation>
+                <str>ge</str>
+                <pct>
+                    <var>bootsdamageleft</var>
+                    <var>bootsmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+            </operation>
+            <max>
+                <var>bootsdamageleft</var>
+                <num>0.5</num>
+                <str>{bootsdamageleft}$f</str>
+                <str/>
+            </max>
+        </line>
+       <line>
+            <if>
+                <not>
+                    <equal>
+                        <var>equippeddamage</var>
+                        <num>0</num>
+                    </equal>
+                </not>
+                <concat>
+                    <var>equippedicon</var>
+                    <str> </str>
+                    <op>
+                        <str>ge</str>
+                        <pct>
+                            <var>equippeddamageleft</var>
+                            <var>equippedmaxdamage</var>
+                        </pct>
+                        <num>50</num>
+                        <num>20</num>
+                        <num>10</num>
+                        <num>0</num>
+                        <str>$e</str>
+                        <str>$6</str>
+                        <str>$c</str>
+                        <str>$4</str>
+                        <str/>
+                    </op>
+                    <max>
+                        <var>equippeddamageleft</var>
+                        <num>0.5</num>
+                        <str>{equippeddamageleft}</str>
+                        <var>equippeddamage</var>
+                    </max>
+                </concat>
+            </if>
+        </line>
+    </lines>
+</config>

@@ -1,0 +1,549 @@
+									§4 3.0.15 Changelog
+* §6Updated Chest Transporter which allows Tinkers' Construct part and pattern chests to be moved
+* Updated More Chickens; If you experienced the bug with game crashing because of chickens it was an issue with IDs
+* §6Enabled "Force Threaded Chunk Rendering" by default in the Forge Client config. This should increase FPS significantly for a number of users. If it does happen to cause you a decrease in performance for any reason, locate the config/forge.cfg file and change the option to "false"
+* The Extra Utilities crash from inserting upgrades into a transfer node should now be fixed
+* §6Thanks to DubstepDentist for making the loading screen gif!
+
+------------------------------------------------------------------	
+
+									§4 3.0.14 Changelog
+* §6Updated SonarCore and Flux Networks to allow wireless power transfer between machines/blocks that were not previously working
+* Added the Energy Converters mod to help alleviate issues between mods using different incompatible energy types
+* §6Removed extra entries in the More Chickens config for modded items not in the modpack
+
+------------------------------------------------------------------	
+
+									§4 3.0.13 Changelog
+* §6Updated Dark Utils to provide a hotfix to eliminate servers crashes due to Ender Tethers
+
+------------------------------------------------------------------									
+
+									§4 3.0.11 Changelog
+* §6This should mark the final update for SkyFactory 3. This last update comes with a number of mod updates which should fix many of their individual bugs not pack specific. Keep in mind, not every bug from every mod is fixed. Thank you for the positive feedback and happy crafting!
+* Natura's override Nether option allowed the nether to generate normal terrain. This option has been reverted to false. This is probably the largest fix of this version and would have been released sooner but I put it on hold to wait for a number of mod updates.
+* §6Edited the Changelog button on the main menu to not crash out the game any longer
+
+------------------------------------------------------------------
+
+									§4 3.0.10 Changelog
+* §6Disabled version checking for some mods
+* Enabled Klee Slabs integration Missing Pieces
+* §6Cleaned up some configs
+* Removed the recipe for the Tuberous Jetpack due to freezing the game when you use it
+* §6Added a script to allow Bottles O' Enchanting to be made using the Immersive Engineering Bottling Machine
+* Sand to Snad in a barrel is removed in this version due to the complications it presents when trying to make a Soul Sand farm via Ex Nihilo
+* §6Fixed the Tiny Progression Golden/Notch Apple Fiasco. Both recipes should be throwback to 1.7.10
+* After numerous update, Actually Additions Rice now works in the SAG Mill to make Sugar!
+* §6Removed numerous armor types from the SAG Mill Grinding Ball list, meaning you will not get double the resources back which led to an exploit
+
+------------------------------------------------------------------
+
+									§4 3.0.9 Changelog										
+* §6Fixed the 2 Sieve Table entries that were not correctly working and spamming the console, the issue was due to Extra Utils changing its item ID's to all lower case and the sieve table using older ID's
+* Removed the duplicate Moonstone recipe from Extra Utils
+* §6Added recipes for the missing Scanner machines/blocks
+* Now introducing: Sand to Snad in a barrel!
+* §6Edited the recipe for Vast Storage Units
+* Dirt in Ex Nihilo Barrels should no longer get "stuck" when logging off and back on
+* §6Removed the OreDictionary from vanilla stone variants so you can chisel them correctly
+* Took out the quartz knife and its recipe to make Quartz Enriched Iron Dust
+* §6The iChisel is now available! Wooo!
+
+------------------------------------------------------------------
+
+									§4 3.0.8 Changelog										
+* §6Fixed Ore Chunks being replaced by Ore blocks, this was due to a mod update and UniDict swapping the recipe for unification purposes
+* FTB Utils now has GUI's for teams, making it a simpler process for admins and players
+* §6Enabled Chance Icosahedrons to use all rewards, not just the very good/bad rewards
+* The Blood Magic update should stop the console spam when using redstone with your Blood Altar
+* §6Most Natura Saplings now grow, allowing you to decorate you base with a different set of tools if you desire
+
+------------------------------------------------------------------
+
+									§4 3.0.7 Changelog										
+* §6This version of SkyFactory is primarily to allow for mod updates to fix or enhance many existing features. For more detailed descriptions of the mod fixes/updates check each mod changelog
+* There should not be a crash due to looking at/holding a disk drive with a large amount of information in it
+* §6Regenerated the Scanner Mod's config file to alleviate potential conflicts
+* Rabbit Bait should now have a proper recipe
+* §6Ender Tethers should no longer make an annoying sound in mob farms by repeating the same teleporting audio clip in rapid succession
+* The new Chisel update has decreased the lag when placing/mining blocks
+* §6Reduced the amount of liquid iron and gold you get when melting spikes in a smeltery
+* Chicken Nesting Pens should now allow rotation using certain wrenches without losing the chicken in the void
+* §6The SonarCore "Stable Stones" should now all require the correct dye to craft the respective colored 
+* This update is using the latest Forge which SHOULD increase server and client performance due to optimizations
+* §6The Mob Grinding Utils spikes should now give 4 when crafted instead of 1
+
+------------------------------------------------------------------
+
+									§4 3.0.6 Changelog										
+* §6Reborn Storage has been updated to fix the huge performance decrease when connecting the multiblock crafting structure to your Refined Storage system
+* Chickens now actually drop gold ingots correctly as opposed to only on death
+* §6In an effort to increase performance, Colossal Chests developers has rewritten a significant portion of the mod to institute a new inventory system to better integrate with other mods. Many have reported the mod is "too buggy" when in fact much of this is due to how other mods integrate with colossal chests, for example, Actually Additions laser relays or translocators trying to access every single inventory slot at the exact same time. This can be quite cumbersome for your server. This has been redone and should have a much better integration with other mods. This will still require many mods to update their code to reflect the new inventory handling system. Integrated Dynamics is the only mod that has made this change so far, meaning you should notice significantly less lag when connecting the two mods. Refined Storage is in the middle of this addition, too. You should see this completed for the 3.0.7 SkyFactory update
+* Removed the iChisel recipe. It was already removed from JEI, but users kept reporting a crash after crafting and using it. This is a known crash and has no fix at the moment
+* §6Absorption hoppers should now work correctly when outputting fluids without pipes/conduits, the hopper should not just randomly halt exporting liquid XP any longer
+* Tiny Torches and Menril Stone Torches now count as torches for off-hand torch tweaks
+* §6Removed the obtrusive LLibray out of date message on the main title screen
+* The update to Simple Labels SHOULD stop chunks from NBT corruption. What this means is your refined storage importer/exporters/etc. should not spin around and your Vast Storage Units SHOULD not delete their contents any longer. Big emphasis on SHOULD!
+* §6Long Fall Boots no longer require a Nether Star
+* Wood Chips should now drop 100% for every user. There was an issue where many users reported Wood Chips not dropping any longer or compostable. I've added Wood Chippings to both the Hammer and Composting registries so every user should now get them
+* §6Added a recipe for Extra Utilities Moonstones
+* Prismarine Blocks can now be crushed/pulverized/etc. into Prismarine Shards
+* §6Sag Milling Cobalt and Ardite Chunks should now properly pulverize correctly and not skip directly to ingots
+* Added the ability to make Manyullyn in an Alloy Smelter with dusts
+* §6Fixed the Tinkers' Construct Crafting Station connection configs to actually disable certain blocks from interfacing
+* Regenerated more config files to stop console spam and eliminate possible errors
+* §6Enabled the RFTools Randomize Seed option to allow players a better chance at getting random dimensions with the features they want or dimlet houses
+* Removed the party pickaxe from being newly crafted
+
+------------------------------------------------------------------
+
+									§4 3.0.5 Changelog							
+* §6Added the Ex Nihilo Mesh Enchantments to the EnderIO Enchanter allowing easier access to mesh enchanting
+* Fixed a lootbag config error causing console spam
+* §6The Epic Bacon recipe now uses OreDictionary for needed dyes
+* Vanilla Signs are not craftable due to Moar Signs overwriting the recipe, on purpose. Any recipe that needs a sign will use the Moar Signs items instead
+* Added Draconium Dust to the Crushed Endstone Sieve Table along with Ender Pearl Powder and Shulker Pearls
+* §6Removed the Woven Cotton recipe
+* The Engineer's Workshop RF Acceptor Upgrade is craftable once again
+* §6Ex Nihilo will now try to send items directly to your inventory instead of dropping on the ground, this should help people who have reported their items flying everywhere and losing items in the void (Redstone will still fly around and is being fixed)
+* Spikes and Obsidian Armor is now smeltable in the Tinkers' Smeltery
+* §6Unified and made sure all crushing/pulverizing/etc. created the same type of dust instead of different machines creating different modded dusts. Everything should now create Immersive Engineering Dust/Grit. The reasoning for making this switch was to simplify the process and Immersive Engineering Grit has more uses and is more beneficial to the player
+* Bauxite aka Aluminum should now generate in the Beneath
+* §6Regenerated the Common Capabilities, Chickens, More Chickens, Open Computers, and a few other configuration files to eliminate console message spam and eliminate issues
+* Added the Tinkers' Stone Torch and the Menril Torch to the Crucible Melting item list
+* Slightly increased the sieve drop rates of Ardite and Cobalt
+* §6Added a bunch of blocks and machines to not connect to the Tinkers' Crafting Station anymore. Some were superfluous and others causes integration issues
+* Gold Chicken now drop Gold Ingots but have a slightly slower laying time
+* §6Added the Botania and Actually Additions Black Lotus to the Loot Bags list
+* The Flux Network Storage Blocks have been re-enabled now that the duplication bug has been resolved
+* §6Fixed the Pam's Bait having duplicate recipes
+* Uranium Ore is now able to be used in the SAG Mill
+* §6Actually Additions Rice can now be used in the SAG Mill to make sugar
+* Electrum Chickens are now obtainable
+* Slightly increased the difficulty of the Ring of Growth from Actually Additions to match difficulty with other growth blocks/items
+* §6On request by many users, Smiley the Cloud is now craftable using an XP Bucket!
+* Certain liquids placed in Ex Nihilo barrels should not crash the game anymore
+* §6Added the Simple Labels and Reborn Storage mods
+* Enabled Alternate metals in Extreme Reactors, this should now work properly
+* §6The Engineer's Workshop upgrades should now all have crafting recipes
+* Updated Inventory Sorter to fix a duplication bug associated with Brewing Stands and Furnaces
+* §6Tweaked the Growth Cystal recipes and their effectiveness. They should no longer instantly grow an entire farm, and are more difficult to craft. This is due to their faster growth over most other growth increasing blocks
+
+------------------------------------------------------------------
+
+									§4 3.0.4 Changelog (Hotfix)
+* §6Fixed Porcelain Clay conflict
+* For all servers: Your island.json in the config server for the folder needs to remain after this update or else all players will have their spawns overwritten. This needs to be in place for the new mod mechanics to copy it into the world folder to be in the proper place. Do not delete this file.	
+
+------------------------------------------------------------------
+
+									§4 3.0.3 Changelog (Hotfix)
+* §6Fixed a Loot Bags issue causing client crashes
+* Updated Reborn Storage to fix a crash when in the Creative Menu					
+
+------------------------------------------------------------------
+
+									§4 3.0.2 Changelog
+* §6Fixed the Wooden Shears recipe to use any type of planks, not just oak
+* Updated Reliquia which should now lower RAM usage. Many users reported have much more RAM usage than allocated
+* §6Updated Foamfix, this should also decrease RAM usage significantly
+* Minetweaker has made an update to stop extra loading when connecting to a server to eliminate players being kicked during login
+* §6Increased the Chisel and Bits bit bag size to 4096
+* Fixed the recipe conflict between Actually Additions Dough and Cow Bait
+* §6Fixed the Simply Jetpack recipe mismatch
+* Added a second recipe for the Cobblestone Generator that uses Clay Buckets
+* §6APPARENTLY! Gravel and Sand somehow made it into the Loot Recycler table. THIS WAS NOT INTENDED. I blame somebody else that isn't me. Don't get mad at me for removing it, I'm looking at you Reddit!
+* Removed the Last Cable, it was a bit buggy and is better off being disabled (and then the mod ended up removing it in an update anyways)
+* §6Made some edits in the achievement book. To view the updated book use the command /flushachievements in creative mode
+* You no longer need to be Opped on a server to create your own island in multiplayer
+* §6Using a crook will now drop more saplings, players shouldn't have to restart due to not getting a sapling on their first tree
+* Cooked Silkworms no longer grant full saturation when eaten
+* §6Items will no longer be flung 20 blocks away when multi-block sieving
+* Meshes should no longer disappear when breaking a heavy sieve
+* §6Crashes related to holding a builder's wand should no longer happen
+* The player should no longer be able to click items in JEI while the achievement book is open
+* §6Leaves should no longer auto-infest
+* Using shears on leaves will now drop the infested leaves and yes, they are compostable!
+* §6Removed many useless items from JEI
+* Removed Stacks on Stacks to prevent a crash experienced by a number of users
+* §6Fixed recipe conflict with the obsidian pickaxes from Actually Additions and Tiny Progressions pick
+* Removed the Smashing 2 modifier for Tinkers' tools as it does not work as intended and causes more confusion than anything else
+* §6You no longer will receive a full cactus when sieving, you will get the correct seeds
+* The RFTools Dragon dimension should work closer to intended, the dragons will not persist through death and should now actually fly around
+* §6Quartz Enriched Iron Dust now drops 1/2 of the amount as it did in previous versions
+* Ex Nihilo Fluid Transformation, i.e. Witchwater, now scans 2 blocks instead of 1. This will allow you to increase your fluid transformation speed
+* §6Added a number of items to the Loot Bag Recycler Blacklist
+* Angel Rings can now be added to the Bauble slot! Insert your Angel Ring into a crafting table to convert it into the bauble version!
+* §6Thanks to the rando in oisketchio's channel, you can NOT double your dirt amounts using the gravel/dirt recipe. Nice try though! Thanks guy!
+* Fixed the Quantum Tank recipe to actually be craftable
+* §6Added a recipe to the Actually Additions and the Immersive Engineering Crushers to make Dust from Sand
+* The Mob Masher from Mob Grinding Utils will not spam the sword "swooshing" sound anymore
+* §6Used JEI instead of NEI to move the search bar to the middle of the screen due to some users requesting I do this. You can move the search bar using the JEI settings to the right of the search bar
+* Slime Vines should now be craftable using Slime Leaves
+* §6Enabled the Porcelain Clay decorative blocks from Ceramics and the Clay Shears
+* Removed the Better Combat mod since it was allowing the player to kill withers before they spawn and caused issues when players reversed their mouse buttons
+* §6Added RebornCore to increase the Refined Storage related items and content
+
+------------------------------------------------------------------
+
+									§4 3.0 Changelog (Initial Release)
+* §6Removed Draconium and Awakened Draconium Chickens
+* Increased the energy requirement for the Extra Utilities Quarry
+* §6Removed MmmMmmMmmMmm due to a dupe bug
+* Disabled Skull drops from dirt
+* §6Increased the time between growth ticks for the Growth Crystals
+* Added a number of mods to the Not Enough Wands blacklist
+* §6Increased Vanilla Dungeon spawn chances in the Beneath Dimension
+* Removed Hammer Core due to issues with the pack freezing on load
+* §6Disabled Bone Drops from breaking dirt
+* Removed Steve's Factory Manager due to a high number of bugs
+* §6Allowed Yellorium to once again be usable in Extreme Reactors recipes
+* Added Chance Cubes back to Loot Bags since Turkey2349 changed 1 letter to a lower case "c" and didn't tell me! GG!
+* §6Removed the duplicate Charcoal and Coal blocks and tiny variations
+* Added many new items to the loot bag drops table and filled out the Blue and Artifact bags
+* §6Lowered the cooldown for the Loot Bag Opener
+* Increased the amount needed for the Loot Bags to be created from Loot Value
+* §6Fixed a HUGE dupe bug with armor slots
+* Added the Flesh block as a compost-able block
+* §6New title screen artwork is added!
+* Added the Default Options mod to make updating and shipping the pack with custom keybindings much simpler!
+* §6Added an entry in the Guide Book for Server Commands
+
+------------------------------------------------------------------
+
+									§4 0.3 Changelog
+* §6Fixed Achievement Book typos
+* Removed chickens and other mobs from autospawning lists due to unintended features
+* §6Added back Not Enough Wands and then promptly filled the blacklist of mods and items that it cannot interact with
+* Added the Engineer's Workshop and Reliquia
+* §6Added the ability to process Ex Nihilo ore with Immersive Engineering machines
+* Added back the processing of Ex Nihilo Cobalt and Ardite to the Tinkers' Smeltery
+* §6The Soul Vial can no longer pickup the Chaos Guardian Crystal
+* Added Actually Additions Crusher support for Ex Nihilo ores
+* §6Added some new blocks to the Crucible Heat Registry
+* Added Hatchery/Chickens eggs, cookies, and manure to the compost table
+* §6Fixed some name localization issues
+* Fixed a recipe conflict between Carving Tools and the Skillet
+* §6Removed Yellorium dust from the Uranium Ore Dictionary as this was an unintended feature
+
+------------------------------------------------------------------
+
+									§4 0.2.9 Changelog	
+* §6Added Not Enough Wands and then realized it allowed a number of duplication bugs and you could move bedrock, So... I removed it
+* Dropped the drop rate of Fertilized Essence from 5% to 1% due to the huge amount dropped when a certain size farm is obtained. Literally, hundreds of thousands
+* §6Disabled the Cake is a Lie reward from Chance Cubes due to server crash and the Math reward since it leaves you in a box of bedrock
+* Decreased the time it takes to transform witchwater
+* §6Fixed the tier 2 Growth Crystal crashes
+* Removed custom scripts for Loot Bag recipes to craft downwards
+* §6Disable Mousetweeks scrolling to eliminate bad mouse scroll mechanic
+* Growth Crystals have been fixed to not crash servers or single player worlds when using a ton of Tier 2 Crystals
+* §6Removed Automated Redstone and it's core mod due to having those mechanics already present with other mods
+* Updated Hatchery to fix incorrect item names and a bucket duplication bug
+* §6The Beneath mod has been updated to fix portal duping bug and adds many new features to the dimension
+* Removed the Ding mod as it is not used
+* §6Removed the duplicate Initial Inventory Mod
+* Added the Controlling mod to help with Keybindings
+* §6Steve's Factory Manager has been updated to not allow EnderIO tanks from working with the factory manager due to an un-fixable bug temporarily. This was done to eliminate crashes and will be worked on in the near future
+* Disabled the iChisel for now to eliminate a crash
+* §6Removed Topiary Grass from it's own sieve table
+* Added BiomeTweaker to allow passive mob spawning in Ocean and Deep Ocean Biomes
+* §6Created recipes for the Immersive Engineering Blueprints since finding a villager to trade with could be quite... obnoxious
+* Removed the outlines from the Decocraft blocks/items when placed in the world
+* §6Slightly lowered the speed of infested leaf spread
+* Added recipes to the Scanner mod
+* Added ItsBecauseUHasNoGoodSpawn to allow for easier multiplayer platform creation
+
+------------------------------------------------------------------
+
+									§4 0.2.8 Changelog	
+* §6Fixed Achievement book spacing and typos
+* REMOVED THE I WIN BUTTON MOD BECAUSE I DIDN'T REALIZE IT PUT YOU INTO CREATIVE! APPARENTLY THE JOKE WAS LOST ON ME BECAUSE I THOUGHT THE BUTTON ITSELF AND THE FIREWORKS WERE FUNNY! NOT THE CREATIVE PART! SORRY, YOU CAN'T WIN THE MODPACK ANYMORE! #BLAMEVAZKII
+* §6Removed the field for E-Mail in the bug tracker, I don't really need or want that information
+* Updated Literal Ascension to fix Ghast Projectile crash bug
+* §6Changed the Sieve to use any wood type
+
+------------------------------------------------------------------
+
+									§4 0.2.7 Changelog	
+* §6Changed the lore of the Mega Torch to include "magnum" for easier player transition and re-added the lore disabled a few versions ago
+* Further refines the in-game bug tracker with correct info version, etc.
+* Updated YUNoMakeGoodMap to allow for Multiplayer island creation bug fixes
+
+------------------------------------------------------------------
+
+									§4 0.2.6 Changelog								
+* §6Many mods updated
+* Edited the initial inventory for new worlds
+* §6Fixed the broken Cobblegen recipe
+* Mystical Agriculture Hoes now work in EnderIO farming stations. Thanks BlakeBro!	
+* §6Added Wood Chippings back to the hammer list
+* Changed the recipes for the Dragon Egg Generator, The Quantum Storage Unit, and Quantum Tank
+* §6Added a ton of new achievements
+* Most, if not all, Pam's Harvestcraft food is compost-able into dirt
+* §6Added Literal Ascension
+* Replace WAILA and WAILA Harvestability with HWYLA
+* §6Added Immersive Engineering Crusher recipes to turn vanilla armors and horse armors into ore dust/leather
+* Added mods: Longfall Boots and Steve's Carts Reborn, Torch Master
+* §6Added Garden of Glass, DON'T WORRY ABOUT THE TREE BEING IN THE GROUND. IT'S FINE AND INTENDED!
+* Removed AudioDeath, Additional Resources as it's unused
+
+
+------------------------------------------------------------------
+
+									§4 0.2.5 Changelog								
+* §6Added Moar Signs	
+* Switched the Light Level X's to use FTB Utils and not NEI							
+
+------------------------------------------------------------------
+
+									§4 0.2.4 Changelog								
+* §6Updated Simply Jetpacks, you can now remove armor properly
+* Added Extreme Reactor oregen to the Extra Utils Mining Dimension (Quarry)
+* §6Removed the Deep Dark portal recipe and removed it from JEI
+* Added an EnderIO Steel processing recipe
+* §6Yellorite should now be available through the Extra Utils Quarry
+* Added a Tier 5 Jetpack recipe and tweaked the Tier 5 Thruster recipe
+* §6Any of the "Bookshelf" mod bookshelves should now work to create Magical Wood
+* Added mods: Missing Pieces, Simple Barrels, and Automated Redstone, Decocraft
+* §6Reduced the resulting amounts of some Mystical Agriculture resources
+* Increased the size of the Ender Chests to 6x9 from 3x9
+* §6Removed Yellorium Ingots from the Uranium OreDictionary
+* Replaced Starting Inventory with Initial Inventory
+* §6Replaced Advanced System Manager with Steve's Factory Manager
+
+------------------------------------------------------------------
+
+									§4 0.2.3 Changelog
+* §6Added the Corn Mod so you can grow more fantastic vanilla style corn. Plus! You can make Corn Chowder, mmmmmmmmmmmmmm delicious!
+* Fixed Quartz Cutting Knives not using durability when crafting
+* §6Added all Mystical Agriculture hoes to the Farming Station
+* Added the Funnels mod for early game fluid transport
+* §6Most of Ex Nihilo should now have JEI and WAILA support
+* Refined Storage has been updated to fix MANY issues regarding FPS Lag, TPS issues, and Autocrafting, as well as some visual improvements
+* §6Many, many mod updates!
+
+------------------------------------------------------------------
+
+									§4 0.2.2 Changelog										
+* §6Mod updates
+* Added Fluid Funnels for easy/early game liquid transport
+* §6Downgraded JEI to fix custom recipes not working
+
+------------------------------------------------------------------
+
+									§4 0.2.1 Changelog									
+* §6Mod updates
+* Added Clipboards for y'all who like to plan out your stuff and things
+* §6Refined storage has now been updated to a newer version to hopefully fix up some issues
+* Continued to implement JEI support to Ex Nihilo
+* §6Continued to add sieve tables to Ex Nihilo
+* Added back Natura Nether generation when applicable, should not crash anymore
+* §6Fixed some of the weighting of Loot Bag tables
+* Added some flavor text to items for simple 1.7.10 to 1.10.2 conversion
+
+------------------------------------------------------------------	
+
+									§4 0.2 Changelog
+* §6Fixed Natura worldgen not allowing players to travel to the Nether
+* Updated mods
+* Upgraded Refined Storage to an alpha build, may break stuffs			
+
+------------------------------------------------------------------	
+	
+									§4 0.1.9 Changelog
+* §6Removed Random thing fertilized dirt as it's redundant and has a dupe bug associated with it
+* Added back the correct Stones Pebbles to sieving
+* §6Added the 1.8 stone pebbles to tier 2 dirt sieving
+* Added multiple fluid transformations in Ex Nihilo Barrels
+* §6Fixed recipes not accepting OreDictionary modded ingots
+* Removed Forge Endertech (Not needed)
+* §6Added Beetroot seeds to sieving
+* Added furnace recipe for Redstone Block to Flux Block
+* §6Added the Ceramics mod for Clay Buckets
+
+------------------------------------------------------------------	
+									
+									§4 0.1.8 Changelog
+* §6Fixed a config issue causing diamond meshes not to work correctly					
+------------------------------------------------------------------	
+
+									§4 0.1.7 Changelog									
+* §6Added Crushed Netherrack and Endstone
+* Turned the chance of Draconium Comets up from 1 in 5000, to 1 in 4000
+* §6Cleaned up Draconic configs to not allow worldgen in Overworld and Nether
+* Added the Appleskin mod for more tooltips regarding hunger/saturation
+* §6Added a number of blocks to composting and crucible melting
+* Nether Star generators are now available
+* §6Added all leave blocks to composting list, and a slime leaves to crucible to melt into liquid slime
+* JEI Integration for Ex Nihilo hammers has begun, still a bit buggy
+* §6Removed the Ex Compressum sieve and wooden buckets from JEI as they are not used
+* Fixed crash when making Obsidian in a stone barrel with water on top
+
+------------------------------------------------------------------
+
+									§4 0.1.6 Changelog
+* §6Halved the amount of RF per tick the Environmental Solar Panels give in an effort to be a little less overpowered
+* Increased RangedPumps energy buffer, range of operations, RF per operation, and it requires energy to operate
+* §6Removed Overrides for OreExcavation to allow for wooden tools to work properly
+* JEI Support is now added for Ex Nihilo
+* Stone barrels are back!																
+
+------------------------------------------------------------------
+
+									§4 0.1.4 Changelog	
+* §6Removed the Deep Dark Dimension as it has been replaced by "The Beneath" dimension
+* Replaced all temporary recipes for Ex Nihilo with the correct items
+* §6Added the first tier Experience Ring to Loot Bag drops
+* Added Mystical Agriculture recipe to Menril Saplings
+* §6Added googly eyes because it looks hilarious :P Will configure to be a smaller percentage of mobs at a later date
+
+------------------------------------------------------------------
+
+									§4 0.1.3 Changelog	
+* §6Added Ex Nihilo dusts/chunks to Sag Mill to allow ore doubling
+* Mod updates
+* Added Wither Muffler
+* Recipes Changes
+
+------------------------------------------------------------------
+
+									§4 0.1.2 Changelog									
+* §6Disabled Vanilla Potion Overlay on top of the minimap
+* Lowered the amount of ores generating in The Beneath and limited some to the bottom of the map
+* §6Switched over to the official version of Botania
+* Edited/Added Achievements
+* §6Added Prismarine Crystals recipe
+* Mod updates
+* §6Only Diamond Chest Transporters can now move spawners
+* Added recipe options to dye Elevators after initial creation
+* §6Added Iron Backpacks mod for testing
+* Replaced Steve's Factory Manager with Advanced System Manager
+* §6Added difficulty to Environmental Tech Recipes
+* Removed Unnecessary config options for mod compatibilities and update checks
+* §6Added the Client Tweaks mod for user convenience
+* Enabled the Tier 6 Solar Flux panel
+* §6Increased the Quantum Storage units to hold a max of 2147483648
+* Disabled Magneticraft for now since there's a chance of it not being continued
+* §6Added the Redstone Paste mod
+* Added the Trash Slot mod in NEI's absence
+* §6Added MineMenu for testing
+* Added Thut's Elevators for more base building options
+* §6Added Drawers & Bits mod
+* Removed a few more Chance Cube rewards
+* §6Decreased the rarity of Draconic Evolution comets from 10,000 to 5,000
+* Added all Natura Saplings and Bushes to sieve drops
+
+------------------------------------------------------------------
+
+									§4 0.1.1 Changelog									
+* §6Disabled stick drops from leaves
+* Lava Generators now only use up 20 mb of lava when running instead of 100
+* Added Environmental Tech and Advanced Generators for more power options
+
+------------------------------------------------------------------
+
+									§4 0.1 Changelog										
+* §6Added modded items to lootbags
+* Slightly raised the Twerking for Trees effectiveness
+* §6Change Infusion Crystal (unlimited) to Nether Star and Epic Bacon
+* Made the Chest Transporter items more difficult to craft
+* §6Added TinkerIO mod
+* Fixed Generator Mod Recipes to not use Dragon Breath and matched recipe with increased RF output
+* §6Removed more overlays
+* Raised the amount of time for a Chickens to give resources
+* §6Turned off some Better Combat features to allow for easier building when around friendly mobs
+* Edited the Headcrumbs name list
+* §6Added remaining Ex Nihilo ores to smelting list
+* Disabled Blood Magic meteors
+* §6Disabled some Chance Cube rewards
+* Added sieving for End Stone
+* §6Added Sag Mill recipes to pulverize vanilla armor, horse armor, and saddles
+* Added Firewater, Rocket Fuel, and Liquid Sunshine to the Heat Registry for Crucibles
+* §6Lowered the RF cost of the Auto Hammers and Sieves
+* Lowered many of the sieve drops to levels that aren't OP
+* §6Quartz Enriched Iron now can be made from cooking Quartz Dust
+* Added crafting recipes for all the Overworld spawn Chickens
+* §6Increased the number of items needed to craft Chickens Eggs
+* Added Mycelium block to sand sieving mesh 3 and 4 as a placeholder for Ancient Spores
+* §6Added barrel recipes to get Congealed Slime Blocks
+* Added prismarine sag mill recipes
+* §6Allowed blueprints from Immersive Engineering to be craftable
+* Created shaped/shapeless crafting recipes for many of the Refined Storage blocks
+* §6Added Mob Grinder Utilities for early-mid game mob farm items 
+* Turned down the weight of Baconator items in loot bags
+* Added Snad mod
+
+------------------------------------------------------------------
+
+									§4 0.0.8 Changelog										
+* §6Added More Shears
+* Removed Ender Tanks
+* §6Allowed Loot Bags to be uncrafted into previous tiers
+* Edited Dimension Builder recipe to require Draconium Dust
+* §6Edited recipe for Draconic Mob Grinder
+* Added more bucket recipes
+* §6Standing on an egg in the Hatchery or placing a Redstone Torch directly next to it will increase the hatch time
+
+------------------------------------------------------------------
+
+									§4 0.0.7 Changelog										
+* §6Added mods: Hatchery
+* Adjusted sieving rates for: Gravel, Sand, Dust
+* §6Set the player starting inventory
+* Increased Wooden Shear durability to 75
+* §6Turned off all update notifications from mods
+* Disabled New Years Fireworks from Ender IO
+
+------------------------------------------------------------------
+
+									§4 0.0.6 Changelog										
+* §6Changed the Solar Flux config to double all RF output
+* Added sponge sieve loot tables
+
+------------------------------------------------------------------
+
+									§4 0.0.5 Changelog									
+* §6Added mods: InGameInfoXML, Ex Compressum, 
+* Ex Nihilo modded ores are now implemented
+* §6Created a recipes for Sponges and added to loot bags
+* Added prismarine to loot bags
+
+------------------------------------------------------------------
+
+									§4 0.0.4 Changelog
+* §6Added mods: Chickens, Starting Inventory, OreExcavator, Loot Bags, TinyProgression
+* Removed: VeinMiner, Simple Upgrades, Aroma Mining Dimension
+* §6Edited Loot bags to SkyFactory 2.5 values minus modded items
+* Disabled seeds dropping when harvesting Mystical Agriculture crops
+
+------------------------------------------------------------------
+
+									§4 0.0.3 Changelog
+* §6Added Mods: Blood Magic, Aroma's Mining Dimension, Wooden Shears
+* Added temp ores to begin drop rate testing in sieves 		
+
+------------------------------------------------------------------
+
+									§4 0.0.2 Changelog
+* §6Added Mods: Extreme Reactors, Refined Storage, 
+* RFTools worlds are now always void worlds
+* §6Edited the tier 1 sieve drops to be closer to classic SkyFactory levels
+* Veinminer now has a max of 9,999 blocks and works with any item in your hand
+* §6Added recipes for all Ex Nihilo items
+* Extended the range of Twerking Sim to 5 blocks and increased the chance for bonemeal
+* §6Removed mean Chance Cube rewards
+* Started editing the Simple Achievment book
+* Added food to the Baconators food lists
+
+------------------------------------------------------------------
+
+									§4 0.0.1 Changelog
+
+* §6Turned off Slime Islands
+* Disabled StellarSky GUI and disabled altered wake times
+* §6Added AudioDeath and Additional Resources
+* Added a new Temp Custom Menu
+
+------------------------------------------------------------------
+

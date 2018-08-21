@@ -1,0 +1,6 @@
+{
+  "name": "SkyFactory 3",
+  "type": "modpack",
+  "authors": ["Bacon_Donut"],
+  "icon": "servercommands:textures/icon.png"
+}

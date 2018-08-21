@@ -1,0 +1,53 @@
+[
+  {
+    "inputFluid": "water",
+    "outputFluid": "witchwater",
+    "transformingBlocks": [
+      {
+        "name": "minecraft:mycelium",
+        "meta": 0
+      }
+    ],
+    "blocksToSpawn": [
+      {
+        "name": "minecraft:brown_mushroom",
+        "meta": 0
+      },
+      {
+        "name": "minecraft:red_mushroom",
+        "meta": 0
+      }
+    ],
+    "duration": 10000
+  },
+  {
+    "inputFluid": "water",
+    "outputFluid": "fire_water",
+    "transformingBlocks": [
+      {
+        "name": "minecraft:magma",
+        "meta": 0
+      }
+    ],
+    "blocksToSpawn": [
+      {
+        "name": "minecraft:fire",
+        "meta": 0
+      }
+    ],
+    "duration": 36000
+  },
+  {
+    "inputFluid": "witchwater",
+    "outputFluid": "blood",
+    "transformingBlocks": [
+      {
+        "name": "tp:FleshBlock",
+        "meta": 0
+      }
+    ],
+    "blocksToSpawn": [
+    ],
+    "duration": 36000
+  }
+]
