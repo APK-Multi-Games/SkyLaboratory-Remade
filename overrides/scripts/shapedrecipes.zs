@@ -1,40 +1,18 @@
 #Name: shapedrecipes.zs
-#Author: Feed the Beast
+#Author: Raziel23x
 
 print("Initializing 'shapedrecipes'...");
 
 //recipes.remove(<>);
 //recipes.addShaped(<>, [[<>, <>, <>], [<>, <>, <>], [<>, <>, <>]]);
 
-//Adding Recipes for Ex Nihilo Meshes
-recipes.remove(<exnihiloadscensio:blockSieve>);
-recipes.addShaped(<exnihiloadscensio:blockSieve>, [[<ore:plankWood>, null, <ore:plankWood>], [<ore:plankWood>, <ore:slabWood>, <ore:plankWood>], [<minecraft:stick>, null, <minecraft:stick>]]);
-
-recipes.remove(<exnihiloadscensio:itemMesh:1>);
-recipes.addShaped(<exnihiloadscensio:itemMesh:1>, [[<minecraft:string>, <minecraft:string>, <minecraft:string>], [<minecraft:string>, <minecraft:string>, <minecraft:string>], [<minecraft:string>, <minecraft:string>, <minecraft:string>]]);
-
-recipes.remove(<exnihiloadscensio:itemMesh:2>);
-recipes.addShaped(<exnihiloadscensio:itemMesh:2>, [[<minecraft:string>, <minecraft:flint>, <minecraft:string>], [<minecraft:flint>, <minecraft:string>, <minecraft:flint>], [<minecraft:string>, <minecraft:flint>, <minecraft:string>]]);
-
-recipes.remove(<exnihiloadscensio:itemMesh:3>);
-recipes.addShaped(<exnihiloadscensio:itemMesh:3>, [[<minecraft:string>, <minecraft:iron_ingot>, <minecraft:string>], [<minecraft:iron_ingot>, <minecraft:string>, <minecraft:iron_ingot>], [<minecraft:string>, <minecraft:iron_ingot>, <minecraft:string>]]);
-
-recipes.remove(<exnihiloadscensio:itemMesh:4>);
-recipes.addShaped(<exnihiloadscensio:itemMesh:4>, [[<minecraft:string>, <minecraft:diamond>, <minecraft:string>], [<minecraft:diamond>, <minecraft:string>, <minecraft:diamond>], [<minecraft:string>, <minecraft:diamond>, <minecraft:string>]]);
-
 //Change Chisel & Bits Wrench
 recipes.remove(<chiselsandbits:wrench_wood>);
 recipes.addShaped(<chiselsandbits:wrench_wood>, [[<ore:plankWood>, null, <ore:plankWood>], [null,  <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
 
-//Crook has more durability
-<exnihiloadscensio:crookWood>.maxDamage = 128;
-
+//Change Extra Utilites 2
 recipes.remove(<extrautils2:ingredients:8>);
 recipes.addShaped(<extrautils2:ingredients:8>, [[<minecraft:iron_ingot>, <minecraft:dye:4>, <minecraft:iron_ingot>], [<minecraft:dye:4>,  <minecraft:iron_pickaxe>, <minecraft:dye:4>], [<minecraft:iron_ingot>, <minecraft:dye:4>, <minecraft:iron_ingot>]]);
-
-//Watering Can Progression
-recipes.remove(<tp:WateringCan>);
-recipes.addShaped(<tp:WateringCan>, [[<minecraft:iron_ingot>, <minecraft:dye:15>, null], [<minecraft:iron_ingot>,  <extrautils2:wateringcan:*>, <minecraft:iron_ingot>], [null, <minecraft:iron_ingot>, null]]);
 
 //Sponge Recipe
 recipes.addShaped(<minecraft:sponge>, [[<minecraft:wool:4>, <excompressum:wood_chippings>, <minecraft:wool:4>], [<excompressum:wood_chippings>,  <minecraft:slime>, <excompressum:wood_chippings>], [<minecraft:wool:4>, <excompressum:wood_chippings>, <minecraft:wool:4>]]);
@@ -59,10 +37,6 @@ recipes.addShaped(<minecraft:bucket> * 1, [[<ore:ingotLead>, null, <ore:ingotLea
 recipes.remove(<extrautils2:pipe>);
 recipes.addShaped(<extrautils2:pipe> * 16, [[<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>], [<ore:blockGlass>, <minecraft:redstone>, <ore:blockGlass>], [<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]]);
 
-//Master Infusion Stone
-recipes.remove(<mysticalagriculture:master_infusion_crystal>);
-recipes.addShaped(<mysticalagriculture:master_infusion_crystal>, [[<mysticalagriculture:supremium_essence>, <harvestcraft:epicbaconItem>, <mysticalagriculture:supremium_essence>], [<harvestcraft:epicbaconItem>, <mysticalagriculture:infusion_crystal:*>, <harvestcraft:epicbaconItem>], [<mysticalagriculture:supremium_essence>, <minecraft:nether_star>, <mysticalagriculture:supremium_essence>]]);
-
 //Chest Transporter Harder Recipes
 recipes.remove(<chesttransporter:chesttransporter>);
 recipes.remove(<chesttransporter:chesttransporter_iron>);
@@ -72,27 +46,6 @@ recipes.addShaped(<chesttransporter:chesttransporter>, [[<ore:plankWood>, null, 
 recipes.addShaped(<chesttransporter:chesttransporter_iron>, [[<minecraft:iron_ingot>, null, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>], [null, <minecraft:stick>, null]]);
 recipes.addShaped(<chesttransporter:chesttransporter_gold>, [[<minecraft:gold_ingot>, null, <minecraft:gold_ingot>], [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>], [null, <minecraft:stick>, null]]);
 recipes.addShaped(<chesttransporter:chesttransporter_diamond>, [[<minecraft:diamond>, null, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>], [null, <minecraft:stick>, null]]);
-
-//Altered Generator Recipes to not use Dragon Breath
-recipes.remove(<simplegenerators:furnace_generator>);
-recipes.remove(<simplegenerators:ender_generator>);
-recipes.remove(<simplegenerators:culinary_generator>);
-recipes.remove(<simplegenerators:lava_generator>);
-recipes.remove(<simplegenerators:furnace_generator_2>);
-recipes.remove(<simplegenerators:ender_generator_2>);
-recipes.remove(<simplegenerators:culinary_generator_2>);
-recipes.remove(<simplegenerators:lava_generator_2>);
-
-recipes.addShaped(<simplegenerators:furnace_generator>, [[<immersiveengineering:metal:39>, <minecraft:iron_ingot>, <immersiveengineering:metal:39>], [<minecraft:iron_ingot>, <minecraft:furnace>, <minecraft:iron_ingot>], [<immersiveengineering:metal:39>, <minecraft:redstone_block>, <immersiveengineering:metal:39>]]);
-recipes.addShaped(<simplegenerators:culinary_generator>, [[<immersiveengineering:metal:39>, <minecraft:flint_and_steel>, <immersiveengineering:metal:39>], [<minecraft:fishing_rod>, <rftools:machine_frame>, <minecraft:iron_hoe>], [<immersiveengineering:metal:39>, <minecraft:redstone_block>, <immersiveengineering:metal:39>]]);
-recipes.addShaped(<simplegenerators:furnace_generator>, [[<immersiveengineering:metal:31>, <immersiveengineering:metal:1>, <immersiveengineering:metal:31>], [<immersiveengineering:metal:1>, <minecraft:furnace>, <immersiveengineering:metal:1>], [<immersiveengineering:metal:31>, <minecraft:redstone_block>, <immersiveengineering:metal:31>]]);
-recipes.addShaped(<simplegenerators:culinary_generator>, [[<immersiveengineering:metal:31>, <minecraft:flint_and_steel>, <immersiveengineering:metal:31>], [<minecraft:fishing_rod>, <rftools:machine_frame>, <minecraft:iron_hoe>], [<immersiveengineering:metal:31>, <minecraft:redstone_block>, <immersiveengineering:metal:31>]]);
-recipes.addShaped(<simplegenerators:ender_generator>, [[<immersiveengineering:metal:37>, <minecraft:ender_eye>, <immersiveengineering:metal:37>], [<minecraft:ender_eye>, <rftools:machine_frame>, <minecraft:ender_eye>], [<immersiveengineering:metal:37>, <minecraft:redstone_block>, <immersiveengineering:metal:37>]]);
-recipes.addShaped(<simplegenerators:lava_generator>, [[<immersiveengineering:metal:37>, <ore:ingotCopper>, <immersiveengineering:metal:37>], [<ore:ingotCopper>, <rftools:machine_frame>, <ore:ingotCopper>], [<immersiveengineering:metal:37>, <minecraft:redstone_block>, <immersiveengineering:metal:37>]]);
-recipes.addShaped(<simplegenerators:furnace_generator_2>, [[<simplegenerators:furnace_generator>, <simplegenerators:furnace_generator>, <simplegenerators:furnace_generator>], [<simplegenerators:furnace_generator>, <enderio:itemMaterial:6>, <simplegenerators:furnace_generator>], [<simplegenerators:furnace_generator>, <simplegenerators:furnace_generator>, <simplegenerators:furnace_generator>]]);
-recipes.addShaped(<simplegenerators:ender_generator_2>, [[<simplegenerators:ender_generator>, <simplegenerators:ender_generator>, <simplegenerators:ender_generator>], [<simplegenerators:ender_generator>, <enderio:itemMaterial:6>, <simplegenerators:ender_generator>], [<simplegenerators:ender_generator>, <simplegenerators:ender_generator>, <simplegenerators:ender_generator>]]);
-recipes.addShaped(<simplegenerators:culinary_generator_2>, [[<simplegenerators:culinary_generator>, <simplegenerators:culinary_generator>, <simplegenerators:culinary_generator>], [<simplegenerators:culinary_generator>, <enderio:itemMaterial:6>, <simplegenerators:culinary_generator>], [<simplegenerators:culinary_generator>, <simplegenerators:culinary_generator>, <simplegenerators:culinary_generator>]]);
-recipes.addShaped(<simplegenerators:lava_generator_2>, [[<simplegenerators:lava_generator>, <simplegenerators:lava_generator>, <simplegenerators:lava_generator>], [<simplegenerators:lava_generator>, <enderio:itemMaterial:6>, <simplegenerators:lava_generator>], [<simplegenerators:lava_generator>, <simplegenerators:lava_generator>, <simplegenerators:lava_generator>]]);
 
 //Add recipes for slime dirt
 recipes.addShaped(<tconstruct:slime_dirt>, [[<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>], [<minecraft:slime_ball>, <minecraft:dirt>, <minecraft:slime_ball>], [<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>]]);
@@ -174,16 +127,6 @@ recipes.addShaped(<elevatorid:elevator_orange>, [[<ore:dyeOrange>, <ore:dyeOrang
 recipes.addShaped(<elevatorid:elevator_pink>, [[<ore:dyePink>, <ore:dyePink>, <ore:dyePink>], [<ore:dyePink>, <elevatorid:elevator_white>, <ore:dyePink>], [<ore:dyePink>, <ore:dyePink>, <ore:dyePink>]]);
 recipes.addShaped(<elevatorid:elevator_silver>, [[<ore:dyeLightGray>, <ore:dyeLightGray>, <ore:dyeLightGray>], [<ore:dyeLightGray>, <elevatorid:elevator_white>, <ore:dyeLightGray>], [<ore:dyeLightGray>, <ore:dyeLightGray>, <ore:dyeLightGray>]]);
 
-//Environmental Tech needs to be harder
-recipes.remove(<environmentaltech:controller_solar_1>);
-recipes.addShaped(<environmentaltech:controller_solar_1>, [[<enderio:itemAlloy>, <minecraft:gold_block>, <enderio:itemAlloy>], [<minecraft:gold_block>, <environmentaltech:solar_1>, <minecraft:gold_block>], [<enderio:itemAlloy>, <minecraft:gold_block>, <enderio:itemAlloy>]]);
-recipes.remove(<environmentaltech:controller_solar_2>);
-recipes.addShaped(<environmentaltech:controller_solar_2>, [[<enderio:itemAlloy:1>, <minecraft:diamond_block>, <enderio:itemAlloy:1>], [<minecraft:diamond_block>, <environmentaltech:controller_solar_1>, <minecraft:diamond_block>], [<enderio:itemAlloy:1>, <minecraft:diamond_block>, <enderio:itemAlloy:1>]]);
-recipes.remove(<environmentaltech:controller_solar_3>);
-recipes.addShaped(<environmentaltech:controller_solar_3>, [[<enderio:itemAlloy:2>, <environmentaltech:ender_stabilized>, <enderio:itemAlloy:2>], [<solarfluxreborn:solar2>, <environmentaltech:controller_solar_2>, <solarfluxreborn:solar2>], [<enderio:itemAlloy:2>, <environmentaltech:ender_stabilized>, <enderio:itemAlloy:2>]]);
-recipes.remove(<environmentaltech:controller_solar_4>);
-recipes.addShaped(<environmentaltech:controller_solar_4>, [[<enderio:blockIngotStorage:2>, <minecraft:nether_star>, <enderio:blockIngotStorage:2>], [<solarfluxreborn:solar5>, <environmentaltech:controller_solar_3>, <solarfluxreborn:solar5>], [<enderio:blockIngotStorage:2>, <minecraft:nether_star>, <enderio:blockIngotStorage:2>]]);
-
 //Mob Grinder Utils Fan Upgrades
 recipes.remove(<mob_grinding_utils:fan_upgrade:0>);
 recipes.remove(<mob_grinding_utils:fan_upgrade:1>);
@@ -203,16 +146,9 @@ recipes.addShaped(<mob_grinding_utils:mob_swab>, [[null, null, <minecraft:wool>]
 recipes.remove(<mob_grinding_utils:wither_muffler>);
 recipes.addShaped(<mob_grinding_utils:wither_muffler>, [[<minecraft:wool>, <minecraft:wool>, <minecraft:wool>], [<minecraft:wool>, <minecraft:skull:1>, <minecraft:wool>], [<minecraft:wool>, <minecraft:wool>, <minecraft:wool>]]);
 
-//Void Ore Miner Nether Quartz Replacement
-recipes.remove(<environmentaltech:controller_void_ore_miner_1>);
-recipes.addShaped(<environmentaltech:controller_void_ore_miner_1>, [[<minecraft:gold_block>, <minecraft:quartz_block>, <minecraft:gold_block>], [<minecraft:gold_block>, <environmentaltech:lens>, <minecraft:gold_block>], [<minecraft:iron_ore>, <environmentaltech:laser_core>, <minecraft:diamond_ore>]]);
-
 //Adding recipe for Dragon Egg since mods decided to make it so you can only get 1 instead of having an egg every time you kill the dragon, because that would make sense
 recipes.remove(<minecraft:dragon_egg>);
 recipes.addShaped(<minecraft:dragon_egg>, [[<minecraft:end_crystal>, <darkutils:material:1>, <minecraft:end_crystal>], [<darkutils:shulker_pearl>, <minecraft:nether_star>, <darkutils:shulker_pearl>], [<minecraft:dragon_breath>, <draconicevolution:dragon_heart>, <minecraft:dragon_breath>]]);
-
-//Menril Sapling with Mystical Agriculture
-recipes.addShaped(<integrateddynamics:menrilSapling>, [[ <mysticalagriculture:nature_essence>], [<mysticalagriculture:nature_essence>], [<mysticalagriculture:wood_essence>]]);
 
 //Dragon Muffler Recipe
 recipes.remove(<mob_grinding_utils:dragon_muffler>);
@@ -223,20 +159,6 @@ recipes.remove(<tp:cobblegen_block>);
 recipes.addShaped(<tp:cobblegen_block>, [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>], [<ore:listAllwater>, <ore:blockGlass>, <ore:listAlllava>], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
 
 recipes.addShaped(<tp:cobblegen_block>, [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>], [<ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}), <ore:blockGlass>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "lava", Amount: 1000}})], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
-
-//Changing Tiny Progression Wither Proof Blocks to match other mod recipes
-recipes.remove(<tp:ReinforcedGlass>);
-recipes.addShaped(<tp:ReinforcedGlass>, [[null, <minecraft:glass>, null], [<minecraft:glass>, <minecraft:skull:1>, <minecraft:glass>], [null, <minecraft:glass>, null]]);
-
-recipes.remove(<tp:ReinforcedObsidian>);
-recipes.addShaped(<tp:ReinforcedObsidian>, [[<immersiveengineering:metal:8>, <immersiveengineering:metalDecoration1:1>, <immersiveengineering:metal:8>], [<immersiveengineering:metalDecoration1:1>, <minecraft:obsidian>, <immersiveengineering:metalDecoration1:1>], [<immersiveengineering:metal:8>, <immersiveengineering:metalDecoration1:1>, <immersiveengineering:metal:8>]]);
-
-//Refined Storage alternate route
-//recipes.addShaped(<refinedstorage:processor:4>, [[null, <tp:QuartzKnife>.transformDamage(1).anyDamage(), null], [<minecraft:redstone>, <refinedstorage:processor:1>, <minecraft:redstone>], [null, <refinedstorage:processor:6>, null]]);
-
-//recipes.addShaped(<refinedstorage:processor:5>, [[null, <tp:QuartzKnife>.anyDamage().transformDamage(1), null], [<minecraft:redstone>, <refinedstorage:processor:2>, <minecraft:redstone>], [null, <refinedstorage:processor:6>, null]]);
-
-//recipes.addShaped(<refinedstorage:processor:3>, [[null, <tp:QuartzKnife>.anyDamage().transformDamage(1), null], [<minecraft:redstone>, <refinedstorage:processor>, <minecraft:redstone>], [null, <refinedstorage:processor:6>, null]]);
 
 //Mob Grinder Utils Upgrades
 recipes.remove(<mob_grinding_utils:saw>);
@@ -254,32 +176,6 @@ recipes.addShaped(<mob_grinding_utils:saw_upgrade:3>, [[<minecraft:gold_nugget>,
 recipes.remove(<mob_grinding_utils:saw_upgrade:1>);
 recipes.addShaped(<mob_grinding_utils:saw_upgrade:1>, [[<minecraft:gold_nugget>, <minecraft:dye:4>, <minecraft:gold_nugget>], [<minecraft:dye:4>, <minecraft:redstone_block>, <minecraft:dye:4>], [<minecraft:gold_nugget>, <minecraft:dye:4>, <minecraft:gold_nugget>]]);
 
-//Adds Recipe to Simply Jetpacks Tier 5
-recipes.remove(<simplyjetpacks:itemJetpack:10>);
-recipes.addShaped(<simplyjetpacks:itemJetpack:10>, [[<simplyjetpacks:metaItemMods>, <enderio:itemMaterial:8>, <simplyjetpacks:metaItemMods>], [<simplyjetpacks:metaItemMods>, <simplyjetpacks:itemJetpack:9>, <simplyjetpacks:metaItemMods>], [<simplyjetpacks:metaItemMods:8>, null, <simplyjetpacks:metaItemMods:8>]]);
-//recipes.remove(<simplyjetpacks:metaItemEIO:8>);
-//recipes.addShaped(<simplyjetpacks:metaItemEIO:8>, [[<enderio:blockCapBank:3>, <enderio:itemBasicCapacitor:2>, <enderio:blockCapBank:3>], [<enderio:itemBasicCapacitor:2>, <simplyjetpacks:metaItemEIO:3>, <enderio:itemBasicCapacitor:2>], [<simplyjetpacks:metaItemEIO>, <simplyjetpacks:metaItemEIO:7>, <simplyjetpacks:metaItemEIO>]]);
-
-//More difficult Dragon Egg GP Gen
-recipes.remove(<extrautils2:passivegenerator:8>);
-recipes.addShaped(<extrautils2:passivegenerator:8>, [[<draconicevolution:crafting_pedestal:2>, <mysticalagriculture:ultimate_furnace>, <draconicevolution:crafting_pedestal:2>], [<botania:manaResource:9>, <minecraft:dragon_egg>, <botania:manaResource:9>], [<simplegenerators:netherstar_generator_3>, <draconicevolution:dragon_heart>, <simplegenerators:netherstar_generator_3>]]);
-
-//Harder Quantum Storage Recipes
-recipes.remove(<quantumstorage:quantumdsu>);
-recipes.addShaped(<quantumstorage:quantumdsu>, [[<minecraft:ender_pearl>, <ironchest:BlockIronChest:6>, <minecraft:ender_pearl>], [<ironchest:BlockIronChest:6>, <enderio:itemMachinePart>, <ironchest:BlockIronChest:6>], [<minecraft:iron_ingot>, <ironchest:BlockIronChest:6>, <minecraft:iron_ingot>]]);
-
-recipes.remove(<quantumstorage:quantumtank>);
-recipes.addShaped(<quantumstorage:quantumtank>, [[<minecraft:ender_pearl>, <ironchest:BlockIronChest:6>, <minecraft:ender_pearl>], [<ironchest:BlockIronChest:6>, <extrautils2:drum:2>, <ironchest:BlockIronChest:6>], [<minecraft:iron_ingot>, <ironchest:BlockIronChest:6>, <minecraft:iron_ingot>]]);
-
-recipes.remove(<simplelabels:blockVSU>);
-recipes.addShaped(<simplelabels:blockVSU>, [[null, null, null], [null, <quantumstorage:quantumdsu>, null], [null, null, null]]);
-
-recipes.addShaped(<quantumstorage:quantumdsu>, [[null, null, null], [null, <simplelabels:blockVSU>, null], [null, null, null]]);
-
-recipes.remove(<torchmaster:mega_torch>);
-recipes.addShaped(<torchmaster:mega_torch>, [[<integrateddynamics:menrilTorch>, <integrateddynamics:menrilTorch>, <integrateddynamics:menrilTorch>], [<minecraft:diamond>, <ore:logWood>, <minecraft:diamond>], [<minecraft:emerald_block>, <ore:logWood>, <minecraft:emerald_block>]]);
-
-
 //Immersive Engineering Blueprint Recipes
 recipes.remove(<immersiveengineering:blueprint>);
 recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "bullet"}), [[<minecraft:gunpowder>, <ore:ingotCopper>, <minecraft:gunpowder>], [<minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
@@ -290,101 +186,11 @@ recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "specialB
 //recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}));
 recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}), [[<minecraft:gunpowder>, <ore:ingotCopper>, <minecraft:gunpowder>], [<minecraft:dye:4>, <minecraft:gunpowder>, <minecraft:dye:4>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
 
-//Scanner Recipes
-recipes.remove(<scanner:biomeScannerBasic>);
-recipes.addShaped(<scanner:biomeScannerBasic>, [[<minecraft:map>, <extrautils2:screen>, <minecraft:map>], [<ore:ingotIron>, <rftools:machine_frame>, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
-recipes.remove(<scanner:biomeScannerAdv>);
-recipes.addShaped(<scanner:biomeScannerAdv>, [[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], [<ore:ingotGold>, <scanner:biomeScannerBasic>, <ore:ingotGold>], [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]]);
-recipes.remove(<scanner:biomeScannerElite>);
-recipes.addShaped(<scanner:biomeScannerElite>, [[<draconicevolution:draconium_ingot>, <draconicevolution:draconium_ingot>, <draconicevolution:draconium_ingot>], [<draconicevolution:draconium_ingot>, <scanner:biomeScannerAdv>, <draconicevolution:draconium_ingot>], [<draconicevolution:draconium_ingot>, <draconicevolution:draconium_ingot>, <draconicevolution:draconium_ingot>]]);
-recipes.remove(<scanner:biomeScannerUltimate>);
-recipes.addShaped(<scanner:biomeScannerUltimate>, [[<mysticalagriculture:supremium_ingot>, <mysticalagriculture:supremium_ingot>, <mysticalagriculture:supremium_ingot>], [<mysticalagriculture:supremium_ingot>, <scanner:biomeScannerElite>, <mysticalagriculture:supremium_ingot>], [<mysticalagriculture:supremium_ingot>, <mysticalagriculture:supremium_ingot>, <mysticalagriculture:supremium_ingot>]]);
-recipes.remove(<scanner:terrainScanner>);
-recipes.addShaped(<scanner:terrainScanner>, [[<draconicevolution:draconic_ingot>, <extrautils2:quarry>, <draconicevolution:draconic_ingot>], [<rftools:builder>, <scanner:biomeScannerUltimate>, <rftools:builder>], [<draconicevolution:draconic_ingot>, <extrautils2:quarry>, <draconicevolution:draconic_ingot>]]);
-
-//recipes.remove(<>);
-//recipes.addShaped(<>, [[<>, <>, <>], [<>, <>, <>], [<>, <>, <>]]);
-recipes.remove(<scanner:scannerQueue>);
-recipes.addShaped(<scanner:scannerQueue>, [[<minecraft:iron_ingot>, <darkutils:timer>, <minecraft:iron_ingot>], [<enderio:itemBasicCapacitor>, <enderio:itemMachinePart>, <enderio:itemBasicCapacitor:1>], [<minecraft:iron_ingot>, <enderio:itemBasicCapacitor:2>, <minecraft:iron_ingot>]]);
-
-recipes.remove(<scanner:dimensionalCore:2>);
-recipes.addShaped(<scanner:dimensionalCore:2>, [[<minecraft:end_rod>, <minecraft:purpur_block>, <minecraft:end_rod>], [<minecraft:end_portal_frame>, <scanner:dimensionalCore:3>, <botania:manaResource:15>], [<minecraft:end_rod>, <minecraft:end_crystal>, <minecraft:end_rod>]]);
-
-recipes.remove(<scanner:dimensionalCore:1>);
-recipes.addShaped(<scanner:dimensionalCore:1>, [[<minecraft:blaze_rod>, <minecraft:quartz_block>, <minecraft:blaze_rod>], [<minecraft:ghast_tear>, <scanner:dimensionalCore:3>, <minecraft:skull:1>], [<minecraft:blaze_rod>, <minecraft:soul_sand>, <minecraft:blaze_rod>]]);
-
-recipes.remove(<scanner:dimensionalCore>);
-recipes.addShaped(<scanner:dimensionalCore>, [[<minecraft:stick>, <minecraft:grass>, <minecraft:stick>], [<minecraft:potion>, <scanner:dimensionalCore:3>, <ore:treeLeaves>], [<minecraft:stick>, <minecraft:pumpkin>, <minecraft:stick>]]);
-
-recipes.remove(<scanner:dimensionalCore:3>);
-recipes.addShaped(<scanner:dimensionalCore:3>, [[<minecraft:iron_ingot>, <extrautils2:itemdestructionwand>, <minecraft:iron_ingot>], [<minecraft:repeater>, <enderio:itemMachinePart>, <minecraft:comparator>], [<minecraft:iron_ingot>, <betterbuilderswands:wandDiamond>, <minecraft:iron_ingot>]]);
-
-//Skillet Recipe Conflict Fix
-recipes.remove(<harvestcraft:skilletItem>);
-recipes.addShaped(<harvestcraft:skilletItem>, [[<ore:ingotAluminum>, null, null], [null, <ore:ingotAluminum>, null], [null, null, <minecraft:stick>]]);
-recipes.addShaped(<harvestcraft:skilletItem>, [[null, null, <ore:ingotAluminum>], [null, <ore:ingotAluminum>, null], [<minecraft:stick>, null, null]]);
-recipes.addShaped(<harvestcraft:skilletItem>, [[<ore:ingotCopper>, null, null], [null, <ore:ingotCopper>, null], [null, null, <minecraft:stick>]]);
-recipes.addShaped(<harvestcraft:skilletItem>, [[null, null, <ore:ingotCopper>], [null, <ore:ingotCopper>, null], [<minecraft:stick>, null, null]]);
-recipes.addShaped(<harvestcraft:skilletItem>, [[<ore:ingotSteel>, null, null], [null, <ore:ingotSteel>, null], [null, null, <minecraft:stick>]]);
-recipes.addShaped(<harvestcraft:skilletItem>, [[null, null, <ore:ingotSteel>], [null, <ore:ingotSteel>, null], [<minecraft:stick>, null, null]]);
-recipes.addShaped(<harvestcraft:skilletItem>, [[<ore:ingotLead>, null, null], [null, <ore:ingotLead>, null], [null, null, <minecraft:stick>]]);
-recipes.addShaped(<harvestcraft:skilletItem>, [[null, null, <ore:ingotLead>], [null, <ore:ingotLead>, null], [<minecraft:stick>, null, null]]);
-
-//Tiny Torch Fix
-recipes.remove(<actuallyadditions:blockTinyTorch>);
-recipes.addShaped(<actuallyadditions:blockTinyTorch>, [[<minicoal:miniCoal>], [<minecraft:stick>]]);
-recipes.addShaped(<actuallyadditions:blockTinyTorch>, [[<minicoal:miniCharcoal>], [<minecraft:stick>]]);
-
-recipes.remove(<actuallyadditions:itemMisc:4>);
-recipes.addShaped(<actuallyadditions:itemMisc:4>, [[<minecraft:wheat>], [<minecraft:wheat>], [<minecraft:wheat>]]);
-
 recipes.remove(<woodenshears:wshears>);
 recipes.addShaped(<woodenshears:wshears>, [[<ore:plankWood>, null, <ore:plankWood>], [null, <ore:treeSapling>, null], [<ore:stickWood>, null, <ore:stickWood>]]);
 
 recipes.remove(<minecraft:dirt:1>);
 recipes.addShaped(<minecraft:dirt:1> * 2, [[<minecraft:gravel>, <minecraft:dirt>], [<minecraft:dirt>, <minecraft:gravel>]]);
-
-//Epic Bacon! Now with OreDictionaried Dyes!
-recipes.remove(<harvestcraft:epicbaconItem>);
-recipes.addShaped(<harvestcraft:epicbaconItem>, [[<ore:listAllporkcooked>, <ore:dyeRed>, <ore:dyeOrange>], [<ore:dyeYellow>, <ore:dyeGreen>, <ore:dyeCyan>], [<ore:dyePurple>, <ore:dyeMagenta>, null]]);
-
-recipes.remove(<minecraft:leather_helmet>);
-recipes.remove(<minecraft:leather_chestplate>);
-recipes.remove(<minecraft:leather_leggings>);
-recipes.remove(<minecraft:leather_boots>);
-
-recipes.addShaped(<minecraft:leather_helmet>, [[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<minecraft:leather>, null, <minecraft:leather>]]);
-recipes.addShaped(<minecraft:leather_chestplate>, [[<minecraft:leather>, null, <minecraft:leather>], [<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<minecraft:leather>, <minecraft:leather>, <minecraft:leather>]]);
-recipes.addShaped(<minecraft:leather_leggings>, [[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<minecraft:leather>, null, <minecraft:leather>], [<minecraft:leather>, null, <minecraft:leather>]]);
-recipes.addShaped(<minecraft:leather_boots>, [[<minecraft:leather>, null, <minecraft:leather>], [<minecraft:leather>, null, <minecraft:leather>]]);
-
-//Fixing Pam's Broken Recipes
-recipes.remove(<harvestcraft:fruitbaitItem>);
-recipes.remove(<harvestcraft:grainbaitItem>);
-recipes.remove(<harvestcraft:veggiebaitItem>);
-recipes.remove(<harvestcraft:fishtrapbaitItem>);
-recipes.addShaped(<harvestcraft:fruitbaitItem> * 4, [[<minecraft:string>, <ore:listAllfruit>], [<ore:listAllfruit>, <ore:listAllfruit>]]);
-recipes.addShaped(<harvestcraft:grainbaitItem> * 4, [[<minecraft:string>, <ore:listAllgrain>], [<ore:listAllgrain>, <ore:listAllgrain>]]);
-recipes.addShaped(<harvestcraft:veggiebaitItem> * 4, [[<minecraft:string>, <ore:listAllveggie>], [<ore:listAllveggie>, <ore:listAllveggie>]]);
-recipes.addShaped(<harvestcraft:fishtrapbaitItem> * 4, [[<minecraft:string>, <ore:listAllfishraw>], [<ore:listAllfishraw>, <ore:listAllfishraw>]]);
-
-//Recipe Change for Growth Crystals
-recipes.remove(<tp:growth_block>);
-recipes.remove(<tp:growth_upgrade>);
-recipes.addShaped(<tp:growth_block>, [[<minecraft:iron_ingot>, <tp:BoneBlock>, <minecraft:iron_ingot>], [<tp:BoneBlock>, <minecraft:sea_lantern>, <tp:BoneBlock>], [<minecraft:iron_ingot>, <tp:BoneBlock>, <minecraft:iron_ingot>]]);
-recipes.addShaped(<tp:growth_upgrade>, [[<mysticalagriculture:growth_accelerator>, <actuallyadditions:blockGreenhouseGlass>, <mysticalagriculture:growth_accelerator>], [<actuallyadditions:blockGreenhouseGlass>, <tp:growth_block>, <actuallyadditions:blockGreenhouseGlass>], [<hatchery:fertilized_dirt>, <actuallyadditions:blockGreenhouseGlass>, <hatchery:fertilized_dirt>]]);
-
-//Slightly more difficult Ring of Growth to match progression with other crop growth blocks
-recipes.remove(<actuallyadditions:itemGrowthRing>);
-recipes.addShaped(<actuallyadditions:itemGrowthRing>, [[<actuallyadditions:itemCrystalEmpowered:4>, <actuallyadditions:itemCrystalEmpowered:5>, <actuallyadditions:itemCrystalEmpowered:4>], [<actuallyadditions:itemCrystalEmpowered:5>, <actuallyadditions:itemMisc:6>, <actuallyadditions:itemCrystalEmpowered:5>], [<actuallyadditions:itemCrystalEmpowered:4>, <actuallyadditions:itemCrystalEmpowered:5>, <actuallyadditions:itemCrystalEmpowered:4>]]);
-
-//Smiley Cloud is craftable. You're welcome.
-recipes.remove(<actuallyadditions:blockSmileyCloud>);
-recipes.addShaped(<actuallyadditions:blockSmileyCloud>, [[null, <minecraft:wool:*>, null], [<minecraft:wool:*>, <forge:bucketFilled>.withTag({FluidName: "xpjuice", Amount: 1000}), <minecraft:wool:*>], [null, <minecraft:wool:*>, null]]);
-
-//I have no idea why Long Fall Boots requires a nether star? But apparently they must do something absolutely magical that I haven't experienced yet? Is it because I don't believe in the magic? Or is it maybe because the value of nether stars has decreased, like inflation? The world will never know!
-recipes.remove(<boots:FallBoots>);
-recipes.addShaped(<boots:FallBoots>, [[<minecraft:iron_block>, null, <minecraft:iron_block>], [<minecraft:obsidian>, null, <minecraft:obsidian>], [<minecraft:diamond_block>, null, <minecraft:diamond_block>]]);
 
 //Recipe for MoonStone. THE ONE YOU'VE ALL BEEN WAITING FOR! Then the mod added it, and then I commented it out
 //recipes.addShaped(<extrautils2:ingredients:5>, [[<extrautils2:ingredients:3>, <extrautils2:ingredients:3>, <extrautils2:ingredients:3>], [<extrautils2:ingredients:3>, <minecraft:diamond>, <extrautils2:ingredients:3>], [<extrautils2:ingredients:3>, <extrautils2:ingredients:3>, <extrautils2:ingredients:3>]]);

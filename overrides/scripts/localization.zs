@@ -1,5 +1,5 @@
 #Name: localization.zs
-#Author: Feed the Beast
+#Author: Raziel23x
 
 print("Initializing 'localization'...");
 

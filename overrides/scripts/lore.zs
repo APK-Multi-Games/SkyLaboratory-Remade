@@ -1,18 +1,15 @@
 #Name: lore.zs
-#Author: Feed the Beast
+#Author: Raziel23x
 
 print("Initializing 'lore'...");
 
-//<mob_grinding_utils:absorption_hopper>.addTooltip(format.yellow("Billy Mays here with"));
-//<mob_grinding_utils:absorption_hopper>.addTooltip(format.yellow("a revolutionary new Vacuum Hopper"));
 <darkutils:ender_hopper>.addTooltip(format.yellow("A fancy pants Vacuum Hopper!"));
-<funnels:funnel>.addTooltip(format.yellow("Fluid Transport Pipe"));
-
 <torchmaster:mega_torch>.addTooltip(format.yellow("Like a Magnum Torch!"));
 <torchmaster:mega_torch>.addTooltip(format.yellow("Stops Mob Spawns in a"));
 <torchmaster:mega_torch>.addTooltip(format.yellow("64 Block Radius"));
 
-<exnihiloadscensio:blockSieve>.addTooltip(format.yellow("Requires a Mesh"));
+//<exnihiloadscensio:blockSieve>.addTooltip(format.yellow("Requires a Mesh"));
+
 <excompressum:heavy_sieve:5>.addTooltip(format.yellow("Requires a Mesh"));
 <excompressum:heavy_sieve:5>.addTooltip(format.yellow("Only sieves compressed blocks"));
 <excompressum:heavy_sieve:4>.addTooltip(format.yellow("Requires a Mesh"));

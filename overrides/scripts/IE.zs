@@ -1,5 +1,5 @@
 #Name: IE.zs
-#Author: Feed the Beast
+#Author: Raziel23x
 
 print("Initializing 'IE'...");
 
@@ -34,10 +34,10 @@ mods.immersiveengineering.Crusher.addRecipe(<minecraft:leather> * 5, <minecraft:
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:leather> * 2, <minecraft:leather_boots>, 8000);
 
 //Obsidian Armor
-mods.immersiveengineering.Crusher.addRecipe(<enderio:itemPowderIngot:7> * 3, <actuallyadditions:itemHelmObsidian>, 10000);
-mods.immersiveengineering.Crusher.addRecipe(<enderio:itemPowderIngot:7> * 6, <actuallyadditions:itemChestObsidian>, 16000);
-mods.immersiveengineering.Crusher.addRecipe(<enderio:itemPowderIngot:7> * 5, <actuallyadditions:itemPantsObsidian>, 14000);
-mods.immersiveengineering.Crusher.addRecipe(<enderio:itemPowderIngot:7> * 2, <actuallyadditions:itemBootsObsidian>, 8000);
+//mods.immersiveengineering.Crusher.addRecipe(<enderio:itemPowderIngot:7> * 3, <actuallyadditions:itemHelmObsidian>, 10000);
+//mods.immersiveengineering.Crusher.addRecipe(<enderio:itemPowderIngot:7> * 6, <actuallyadditions:itemChestObsidian>, 16000);
+//mods.immersiveengineering.Crusher.addRecipe(<enderio:itemPowderIngot:7> * 5, <actuallyadditions:itemPantsObsidian>, 14000);
+//mods.immersiveengineering.Crusher.addRecipe(<enderio:itemPowderIngot:7> * 2, <actuallyadditions:itemBootsObsidian>, 8000);
 
 //Other Horse Armor
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:diamond> * 6, <minecraft:diamond_horse_armor>, 6000);
@@ -49,22 +49,10 @@ mods.immersiveengineering.Crusher.addRecipe(<minecraft:leather> * 3, <minecraft:
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:netherbrick> * 4, <minecraft:nether_brick>, 2000);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:brick> * 4, <minecraft:brick_block>, 2000);
 
-//Ex Nihilo Ore Processing
-mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:19> * 2, <exnihiloadscensio:itemOreGold:1>, 2000);
-mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:18> * 2, <exnihiloadscensio:itemOreIron:1>, 2000);
-mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:9> * 2, <exnihiloadscensio:itemOreCopper:1>, 2000);
-mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:10> * 2, <exnihiloadscensio:itemOreAluminium:1>, 2000);
-mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:11> * 2, <exnihiloadscensio:itemOreLead:1>, 2000);
-mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:12> * 2, <exnihiloadscensio:itemOreSilver:1>, 2000);
-mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:13> * 2, <exnihiloadscensio:itemOreNickel:1>, 2000);
-mods.immersiveengineering.Crusher.addRecipe(<exnihiloadscensio:itemOreArdite:2> * 2, <exnihiloadscensio:itemOreArdite:1>, 2000);
-mods.immersiveengineering.Crusher.addRecipe(<exnihiloadscensio:itemOreCobalt:2> * 2, <exnihiloadscensio:itemOreCobalt:1>, 2000);
 
-mods.immersiveengineering.ArcFurnace.addRecipe(<tconstruct:ingots:1>, <exnihiloadscensio:itemOreArdite:2>, null, 100, 512, []);
-mods.immersiveengineering.ArcFurnace.addRecipe(<tconstruct:ingots>, <exnihiloadscensio:itemOreCobalt:2>, null, 100, 512, []);
 
 //Crusher Sand to Dust
-mods.immersiveengineering.Crusher.addRecipe(<exnihiloadscensio:blockDust>, <minecraft:sand>, 2000);
+//mods.immersiveengineering.Crusher.addRecipe(<exnihilocreatio:blockDust>, <minecraft:sand>, 2000);
 
 //Prismarine Block to Shard
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:prismarine_shard> * 2, <minecraft:prismarine>, 3000);
