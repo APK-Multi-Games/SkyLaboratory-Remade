@@ -1,6 +1,6 @@
 
 {
-  "ID": 43,
+  "ID": 62,
   "Name": "Meneglin",
   "Resource Location": "integrateddynamics:biome_meneglin",
   "Class": "org.cyclops.integrateddynamics.world.biome.BiomeMeneglin",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
-    "MAGICAL"
+    "MAGICAL",
+    "COLD"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

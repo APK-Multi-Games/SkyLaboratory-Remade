@@ -1,6 +1,6 @@
 
 {
-  "ID": 42,
+  "ID": 61,
   "Name": "Desert Oil Field",
   "Resource Location": "buildcraftenergy:oil_desert",
   "Class": "buildcraft.energy.generation.BiomeOilDesert",
@@ -20,10 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
     "PLAINS",
     "SANDY",
-    "HOT"
+    "HOT",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

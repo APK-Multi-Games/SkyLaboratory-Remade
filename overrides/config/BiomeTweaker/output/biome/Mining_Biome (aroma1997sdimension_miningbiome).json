@@ -1,6 +1,6 @@
 
 {
-  "ID": 44,
+  "ID": 63,
   "Name": "Mining Biome",
   "Resource Location": "aroma1997sdimension:miningbiome",
   "Class": "aroma1997.world.dimension.BiomeGenMining",
