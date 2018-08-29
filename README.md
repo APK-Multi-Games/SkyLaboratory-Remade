@@ -11,10 +11,10 @@ you can find more information and other guides from the help guide link below fo
 
 Importing Modpacks
 At the top of the Minecraft section select CREATE CUSTOM PROFILE.
-![CREATE CUSTOM PROFILE] (https://help.twitch.tv/customer/portal/attachments/811925)
+![CREATE CUSTOM PROFILE] (https://assistly-production.s3.amazonaws.com/31172/portal_attachments/811925/createprofile_original.png?AWSAccessKeyId=AKIAJNSFWOZ6ZS23BMKQ&Expires=1535569578&Signature=d6WQUuKU9BXspkzus4RWyHr0Fhg%3D&response-content-disposition=filename%3D%22createprofile.png%22&response-content-type=image%2Fpng)
 
 Then select the import link.
-![IMPORT] (https://help.twitch.tv/customer/portal/attachments/812382)
+![IMPORT] (https://assistly-production.s3.amazonaws.com/31172/portal_attachments/812382/modpack-06_original.png?AWSAccessKeyId=AKIAJNSFWOZ6ZS23BMKQ&Expires=1535558620&Signature=EMiIerLMtpPGxRHJZRYLqc9QP0E%3D&response-content-disposition=filename%3D%22modpack-06.png%22&response-content-type=image%2Fpng)
 
 Locate the zipped Modpack and allow the Twitch App to install it, and make your game profile.
 
