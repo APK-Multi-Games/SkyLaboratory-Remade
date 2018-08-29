@@ -53,6 +53,11 @@ recipes.addShaped(<tconstruct:slime_dirt:1>, [[<tconstruct:edible:1>, <tconstruc
 recipes.addShaped(<tconstruct:slime_dirt:2>, [[<tconstruct:edible:2>, <tconstruct:edible:2>, <tconstruct:edible:2>], [<tconstruct:edible:2>, <minecraft:dirt>, <tconstruct:edible:2>], [<tconstruct:edible:2>, <tconstruct:edible:2>, <tconstruct:edible:2>]]);
 recipes.addShaped(<tconstruct:slime_dirt:3>, [[<tconstruct:edible:4>, <tconstruct:edible:4>, <tconstruct:edible:4>], [<tconstruct:edible:4>, <minecraft:dirt>, <tconstruct:edible:4>], [<tconstruct:edible:4>, <tconstruct:edible:4>, <tconstruct:edible:4>]]);
 
+//Aroma1997s Dimensional World
+recipes.remove(<aroma1997sdimension:portaligniter>);
+recipes.addShaped(<aroma1997sdimension:portaligniter>, [[<minecraft:emerald_block>, <minecraft:nether_star>, <minecraft:diamond_block>], [null, <thermalfoundation:tool.pickaxe_steel>, null], [null, <minecraft:stick>, null]]);
+
+
 //Chickens Eggs
 recipes.remove(<chickens:colored_egg>);
 recipes.remove(<chickens:colored_egg:1>);
