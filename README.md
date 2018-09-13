@@ -1,7 +1,7 @@
-# SkyLaboratory-Remade
-Remake of FTB Presents SkyFactory 3 
+# Sky Laboratory-Remade
+Based off of FTB Presents Sky Factory 3
 
-It's skyblock like then you will Love this. With High Tech mods with full automation as well as Magic which will make your enemies bones melt! Sky Laboratory Remade starts the player in the void with nothing but a tree and a *single* piece of dirt between you and certain death! This Modpack is a remake of FTB Presents SkyFactory 3 that has been updated to Minecraft 1.12.X and will be updated to 1.13.X if enough people enjoy this Modpack and upvote it. If your ready to get started just come and pick up your achievement book today and start your journey into Sky Factory Remade!
+It's skyblock like then you will Love this. With High Tech mods with full automation as well as Magic which will make your enemies bones melt! Sky Factory Remade starts the player in the void with nothing but a tree and a single piece of dirt between you and certain death! This Modpack is based of FTB Presents Sky Factory 3 for minecraft 1.10.2 that has been updated to run Minecraft 1.12.X and will be updated to 1.13.X if enough people enjoy this Modpack and upvote it. If your ready to get started just come and pick up your achievement book today and start your journey into Sky Laboratory-Remade!
 
 
 #Installing this modpack in your Twitch app
@@ -11,10 +11,10 @@ you can find more information and other guides from the help guide link below fo
 
 Importing Modpacks
 At the top of the Minecraft section select CREATE CUSTOM PROFILE.
-![CREATE CUSTOM PROFILE] (https://help.twitch.tv/customer/portal/attachments/811925)
+ [CREATE CUSTOM PROFILE] (https://help.twitch.tv/customer/portal/attachments/811925)
 
 Then select the import link.
-![IMPORT] (https://help.twitch.tv/customer/portal/attachments/812382)
+ [IMPORT] (https://help.twitch.tv/customer/portal/attachments/812382)
 
 Locate the zipped Modpack and allow the Twitch App to install it, and make your game profile.
 
