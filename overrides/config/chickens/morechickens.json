@@ -707,5 +707,25 @@
     "Spawn Type": "NONE",
     "Parent 1": "chickens:quartzchicken",
     "Parent 2": "chickens:ironchicken"
+  },
+  "morechickens:osmiumchicken": {
+    "Name": "osmiumChicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "mekanism:ingot:1",
+    "Drop Item": "mekanism:ingot:1",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:ironchicken",
+    "Parent 2": "chickens:quartzchicken"
+  },
+  "morechickens:titaniumchicken": {
+    "Name": "titaniumchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "libvulpes:productingot:7",
+    "Drop Item": "libvulpes:productingot:7",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:ironchicken",
+    "Parent 2": "morechickens:aluminumchicken"
   }
 }

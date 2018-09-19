@@ -84,8 +84,8 @@
                 "type":"quit"
             }
         },
-        "ftbSupport":{
-            "text":"Modpack Support",
+        "Support":{
+            "text":"Support",
             "texture":"mainmenu:shortbutton.png",
             "posX":96,
             "posY":-86,
@@ -96,9 +96,9 @@
             "alignment":"center",
             "action":{
                 "type":"openLink",
-                "link":"https://github.com/APK-Multi-Games/SkyLabritory-Remade/issues"
+                "link":"https://github.com/APK-Multi-Games/SkyLaboratory-Remade/issues"
             }
-        },
+        },/*
         "ftbForums":{
             "text":"FTB Forums",
             "texture":"mainmenu:shortbutton.png",
@@ -112,9 +112,9 @@
             "action":{
                 "type":"openLink",
                 "link":"https://forum.feed-the-beast.com/forum/"
-            }
+            }*/
         },	
-		"ftbServerFiles":{
+		"ServerFiles":{
             "text":"Server Files",
             "texture":"mainmenu:shortbutton.png",
             "posX":96,
@@ -126,10 +126,10 @@
             "alignment":"center",
             "action":{
                 "type":"openLink",
-                "link":"https://minecraft.curseforge.com/projects/skylabritory-remade"
+                "link":"https://minecraft.curseforge.com/projects/sky-laboratory-remade"
             }
         },
-		"ftbChangelog":{
+		"Changelog":{
             "text":"Changelogs",
             "texture":"mainmenu:shortbutton.png",
             "posX":96,
@@ -141,7 +141,7 @@
             "alignment":"center",
             "action":{            
                 "type":"openLink",
-                "link":"https://minecraft.curseforge.com/projects/skylabritory-remade"
+                "link":"https://minecraft.curseforge.com/projects/sky-laboratory-remade"
             }            
         },
         "language":{
@@ -160,7 +160,7 @@
                 "gui":"languages"
             }
         },
-        "ftbSite":{
+ /*         "ftbSite":{
             "text":"",
             "tooltip":"FTB Site",
             "texture":"mainmenu:web.png",
@@ -176,7 +176,7 @@
                 "link":"https://www.feed-the-beast.com/"
             }
         },
-        "ftbShop":{
+      "ftbShop":{
             "text":"",
             "tooltip":"FTB Shop",
             "texture":"mainmenu:shop.png",
@@ -190,7 +190,7 @@
             "action":{
                 "type":"openLink",
                 "link":"https://society6.com/feedthebeast"
-            }
+            } */
         },
         "refresh":{
             "text":"",
@@ -245,7 +245,7 @@
             "alignment":"bottom_left"
         },
         "modpack":{
-            "text":"SkyFactory Remade",
+            "text":"Sky Laboratory-Remade",
             "posX":3,
             "posY":-25,
             "color":-1,

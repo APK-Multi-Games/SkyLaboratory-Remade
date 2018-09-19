@@ -1,6 +1,6 @@
 
 {
-  "ID": 62,
+  "ID": 60,
   "Name": "Meneglin",
   "Resource Location": "integrateddynamics:biome_meneglin",
   "Class": "org.cyclops.integrateddynamics.world.biome.BiomeMeneglin",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MAGICAL",
-    "COLD"
+    "COLD",
+    "MAGICAL"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [
@@ -108,6 +108,12 @@
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "mekanism.common.entity.EntityBabySkeleton",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     },
     {
       "Entity Class": "ganymedes01.headcrumbs.entity.EntityHuman",

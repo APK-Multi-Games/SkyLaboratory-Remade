@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "HOT",
     "JUNGLE",
-    "DENSE",
-    "WET"
+    "WET",
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -130,6 +130,12 @@
       "Weight": 2,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "mekanism.common.entity.EntityBabySkeleton",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     },
     {
       "Entity Class": "ganymedes01.headcrumbs.entity.EntityHuman",
