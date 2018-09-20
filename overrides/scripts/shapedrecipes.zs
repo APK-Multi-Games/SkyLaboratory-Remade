@@ -192,7 +192,4 @@ recipes.addShaped(<woodenshears:wshears>, [[<ore:plankWood>, null, <ore:plankWoo
 recipes.remove(<minecraft:dirt:1>);
 recipes.addShaped(<minecraft:dirt:1> * 2, [[<minecraft:gravel>, <minecraft:dirt>], [<minecraft:dirt>, <minecraft:gravel>]]);
 
-//Recipe for MoonStone. THE ONE YOU'VE ALL BEEN WAITING FOR! Then the mod added it, and then I commented it out
-//recipes.addShaped(<extrautils2:ingredients:5>, [[<extrautils2:ingredients:3>, <extrautils2:ingredients:3>, <extrautils2:ingredients:3>], [<extrautils2:ingredients:3>, <minecraft:diamond>, <extrautils2:ingredients:3>], [<extrautils2:ingredients:3>, <extrautils2:ingredients:3>, <extrautils2:ingredients:3>]]);
-
 print("Initialized 'shapedrecipes'");
