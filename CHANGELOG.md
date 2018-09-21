@@ -1,9 +1,6 @@
 #Version 0.0.0.5
 * Added AE2 Stuff
 * Added Agricraft
-* Added Better Questing
-* Added Better Questing - Standard Expansion
-* Added Better Questing - Quest Book
 
 -------
 #Version 0.0.0.4

@@ -12,7 +12,8 @@
     "Vanilla Flowers": false,
     "Natura Bushes": true,
     "Vanilla Mushrooms": false,
-    "Natura Nether Bushes": true
+    "Natura Nether Bushes": true,
+    "AgriCraft Seeds": false
   },
   "defaults payment": {
     "__comment": "You can define custom payment items for the default entries here.",
@@ -27,7 +28,8 @@
     "Vanilla Flowers": "1*minecraft:emerald:0",
     "Natura Bushes": "2*minecraft:emerald:0",
     "Vanilla Mushrooms": "1*minecraft:emerald:0",
-    "Natura Nether Bushes": "3*minecraft:emerald:0"
+    "Natura Nether Bushes": "3*minecraft:emerald:0",
+    "AgriCraft Seeds": "2*minecraft:emerald:0"
   },
   "defaults blacklist": [
     "examplemod:example_item"
@@ -48,6 +50,7 @@
     "Vanilla Saplings": 1,
     "Bonemeal": 1,
     "Animal Eggs": 1,
-    "Pams Harvestcraft Seeds": 1
+    "Pams Harvestcraft Seeds": 1,
+    "AgriCraft Seeds": 1
   }
 }
