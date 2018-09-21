@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "CONIFEROUS",
     "COLD",
-    "FOREST",
-    "CONIFEROUS"
+    "FOREST"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [
@@ -145,6 +145,18 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "vazkii.quark.world.entity.EntityDweller",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "vazkii.quark.world.entity.EntityAshen",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "mekanism.common.entity.EntityBabySkeleton",

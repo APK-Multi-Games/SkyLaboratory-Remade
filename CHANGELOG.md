@@ -1,6 +1,6 @@
 #Version 0.0.0.4
-Updated Fair Lights
-Updated the Main Menu Option Layout
+* Updated Fair Lights
+* Updated the Main Menu Option Layout
 
 -------
 #Version 0.0.0.3

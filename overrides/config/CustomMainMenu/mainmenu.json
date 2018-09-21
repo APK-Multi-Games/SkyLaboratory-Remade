@@ -98,6 +98,21 @@
                 "type":"openLink",
                 "link":"https://github.com/APK-Multi-Games/SkyLaboratory-Remade/issues"
             }
+        },
+        "language":{
+            "text":"Language",
+            "texture":"mainmenu:shortbutton.png",
+            "posX":96,
+            "posY":-64,
+            "width":70,
+            "height":20,
+            "imageWidth":98,
+            "imageHeight":20,
+            "alignment":"center",
+            "action":{
+                "type":"openGui",
+                "gui":"languages"
+            }
         },	
 		"ServerFiles":{
             "text":"Server Files",
@@ -126,24 +141,8 @@
             "alignment":"center",
             "action":{            
                 "type":"openLink",
-                "link":"https://minecraft.curseforge.com/projects/sky-laboratory-remade"
+                "link":"https://github.com/APK-Multi-Games/SkyLaboratory-Remade/blob/master/CHANGELOG.md"
             }            
-        },
-        "language":{
-            "text":"",
-            "tooltip":"Language",
-            "texture":"mainmenu:lang.png",
-            "posX":-70,
-            "posY":-120,
-            "width":20,
-            "height":20,
-            "imageWidth":40,
-            "imageHeight":40,
-            "alignment":"center",
-            "action":{
-                "type":"openGui",
-                "gui":"languages"
-            }
         },
         "refresh":{
             "text":"",

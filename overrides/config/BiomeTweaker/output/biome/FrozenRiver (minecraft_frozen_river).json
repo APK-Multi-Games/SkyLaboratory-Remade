@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "SNOWY",
     "RIVER",
-    "WATER",
-    "COLD"
+    "COLD",
+    "WATER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -81,6 +81,18 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "vazkii.quark.world.entity.EntityDweller",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "vazkii.quark.world.entity.EntityAshen",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "ganymedes01.headcrumbs.entity.EntityHuman",
