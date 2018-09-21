@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Sky Laboratory-Remade",
-  "version": "0.0.0.4",
+  "version": "0.0.0.5",
   "author": "raziel23x",
   "projectID": 302940,
   "files": [
@@ -1258,6 +1258,36 @@
     {
       "projectID": 244559,
       "fileID": 2618507,
+      "required": true
+    },
+    {
+      "projectID": 251396,
+      "fileID": 2537265,
+      "required": true
+    },
+    {
+      "projectID": 225635,
+      "fileID": 2609648,
+      "required": true
+    },
+    {
+      "projectID": 225194,
+      "fileID": 2491032,
+      "required": true
+    },
+    {
+      "projectID": 238856,
+      "fileID": 2619361,
+      "required": true
+    },
+    {
+      "projectID": 238857,
+      "fileID": 2606083,
+      "required": true
+    },
+    {
+      "projectID": 242106,
+      "fileID": 2539562,
       "required": true
     }
   ],
