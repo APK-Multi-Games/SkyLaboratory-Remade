@@ -1,5 +1,8 @@
 #Version 0.0.0.4
 * Updated Fair Lights
+* Updated Random PSIdeas
+* Updated Steve's Carts Reborn
+* Updated Tiny Progressions
 * Updated the Main Menu Option Layout
 
 -------
