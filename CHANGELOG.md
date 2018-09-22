@@ -1,3 +1,10 @@
+#Version 0.0.0.7
+* Fixed oredict for lava which broke a few recipes
+* Adjusted Durability for Wooden Shears
+* Adjusted Durability for Compressed Wooden Crooks
+* Adjusted Durability for Wooden Crooks
+
+-------
 #Version 0.0.0.6
 * Added Tinkers' Complement
 * Added Tinker I/O
