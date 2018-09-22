@@ -5,6 +5,9 @@ print("Initializing 'remove'...");
 
 //recipes.remove(<>);
 
+// Removes Wooden shears from Roots to use wooden shears mod recipes instead
+recipes.remove(<roots:wood_shears>);
+
 //Remove ChunkLoaders (use FTBU to manage chunkloading)
 recipes.remove(<opencomputers:upgrade:4>);
 

@@ -1,3 +1,9 @@
+#Version 0.0.0.6
+* Added Tinkers' Complement
+* Added Tinker I/O
+* Removed the Roots Wooden shears recipe to keep conflicts with Wooden shears mod
+
+-------
 #Version 0.0.0.5
 * Added AE2 Stuff
 * Added Agricraft
