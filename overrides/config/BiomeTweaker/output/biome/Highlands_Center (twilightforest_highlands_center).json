@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "WASTELAND",
     "DRY",
-    "DEAD",
-    "MESA"
+    "MESA",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
