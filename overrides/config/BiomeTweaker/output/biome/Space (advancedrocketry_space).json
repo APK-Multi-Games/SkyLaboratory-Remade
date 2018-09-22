@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "WATER",
-    "RIVER",
     "PLAINS",
-    "HOT"
+    "HOT",
+    "RIVER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

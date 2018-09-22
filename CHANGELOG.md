@@ -1,6 +1,10 @@
 #Version 0.0.0.5
 * Added AE2 Stuff
 * Added Agricraft
+* Updated Brandon's Core
+* Updated Draconic Evolution
+* Updated Headcrumbs
+* Updated Random PSIdeas
 
 -------
 #Version 0.0.0.4
