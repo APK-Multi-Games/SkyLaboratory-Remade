@@ -1,3 +1,8 @@
+#Version 0.0.0.8
+* Updated oredict
+* Removed unneeded Recipes due to updates to the oredict
+
+-------
 #Version 0.0.0.7
 * Fixed oredict for lava which broke a few recipes
 * Adjusted Durability for Wooden Shears
