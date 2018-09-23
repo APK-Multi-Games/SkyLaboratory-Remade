@@ -8,6 +8,34 @@ import crafttweaker.oredict.IOreDictEntry as IOreDictEntry;
 import mods.jei.JEI.removeAndHide as rh;
 print("Initializing 'oredict'...");
 
+
+//Botania
+
+val botaniablocks = [
+		<botania:storage>,
+		<botania:storage:1>,
+		<botania:storage:2>,
+		<botania:storage:3>,
+		<botania:storage:4>
+	] as IItemStack[];
+
+	for botaniablock in botaniablocks {
+		<ore:blockMana>.add(botaniablock);
+	}
+
+	val botaniaingots = [
+		<botania:manaresource>,
+		<botania:manaresource:2>,
+		<botania:manaresource:4>,
+		<botania:manaresource:7>,
+		<botania:manaresource:9>,
+		<botania:manaresource:14>
+	] as IItemStack[];
+
+	for botaniaingot in botaniaingots {
+		<ore:ingotMana>.add(botaniaingot);
+	}
+
 //LAVA
 <ore:listAlllava>.add(<chickens:liquid_egg:1>);
 <ore:listAlllava>.add(<minecraft:lava_bucket>);
@@ -31,18 +59,18 @@ print("Initializing 'oredict'...");
 
 //Water
 <ore:listAllwater>.add(<chickens:liquid_egg>);
-<ore:listAlllava>.add(<randomthings:enderbucket>.withTag({Fluid: {FluidName: "water", Amount: 1000}}));
-<ore:listAlllava>.add(<mekanism:machineblock2:11>.withTag({tier: 3, mekData: {security: 0, ownerUUID: "", fluidTank: {FluidName: "water", Amount: 1000}, Items: []}}));
-<ore:listAlllava>.add(<mekanism:machineblock2:11>.withTag({tier: 2, mekData: {security: 0, ownerUUID: "", fluidTank: {FluidName: "water", Amount: 1000}, Items: []}}));
-<ore:listAlllava>.add(<advancedrocketry:liquidtank>.withTag({FluidName: "water", Amount: 1000}));
-<ore:listAlllava>.add(<mekanism:machineblock2:11>.withTag({tier: 0, mekData: {security: 0, ownerUUID: "", fluidTank: {FluidName: "water", Amount: 1000}, Items: []}}));
-<ore:listAlllava>.add(<mekanism:machineblock2:11>.withTag({tier: 1, mekData: {security: 0, ownerUUID: "", fluidTank: {FluidName: "water", Amount: 1000}, Items: []}}));
-<ore:listAlllava>.add(<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "water", Amount: 1000}, Level: 4 as byte, Lock: 0 as byte}));
-<ore:listAlllava>.add(<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "water", Amount: 1000}, Level: 3 as byte, Lock: 0 as byte}));
-<ore:listAlllava>.add(<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "water", Amount: 1000}, Level: 2 as byte, Lock: 0 as byte}));
-<ore:listAlllava>.add(<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "water", Amount: 1000}, Level: 1 as byte, Lock: 0 as byte}));
-<ore:listAlllava>.add(<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "water", Amount: 1000}, Level: 0 as byte, Lock: 0 as byte}));
-<ore:listAlllava>.add(<ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}));
+<ore:listAllwater>.add(<randomthings:enderbucket>.withTag({Fluid: {FluidName: "water", Amount: 1000}}));
+<ore:listAllwater>.add(<mekanism:machineblock2:11>.withTag({tier: 3, mekData: {security: 0, ownerUUID: "", fluidTank: {FluidName: "water", Amount: 1000}, Items: []}}));
+<ore:listAllwater>.add(<mekanism:machineblock2:11>.withTag({tier: 2, mekData: {security: 0, ownerUUID: "", fluidTank: {FluidName: "water", Amount: 1000}, Items: []}}));
+<ore:listAllwater>.add(<advancedrocketry:liquidtank>.withTag({FluidName: "water", Amount: 1000}));
+<ore:listAllwater>.add(<mekanism:machineblock2:11>.withTag({tier: 0, mekData: {security: 0, ownerUUID: "", fluidTank: {FluidName: "water", Amount: 1000}, Items: []}}));
+<ore:listAllwater>.add(<mekanism:machineblock2:11>.withTag({tier: 1, mekData: {security: 0, ownerUUID: "", fluidTank: {FluidName: "water", Amount: 1000}, Items: []}}));
+<ore:listAllwater>.add(<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "water", Amount: 1000}, Level: 4 as byte, Lock: 0 as byte}));
+<ore:listAllwater>.add(<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "water", Amount: 1000}, Level: 3 as byte, Lock: 0 as byte}));
+<ore:listAllwater>.add(<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "water", Amount: 1000}, Level: 2 as byte, Lock: 0 as byte}));
+<ore:listAllwater>.add(<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "water", Amount: 1000}, Level: 1 as byte, Lock: 0 as byte}));
+<ore:listAllwater>.add(<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "water", Amount: 1000}, Level: 0 as byte, Lock: 0 as byte}));
+<ore:listAllwater>.add(<ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}));
 
 //Astral Sorcery Rock Crystals
     <ore:crystalAstralAny>.add(<astralsorcery:itemrockcrystalsimple>.withEmptyTag());

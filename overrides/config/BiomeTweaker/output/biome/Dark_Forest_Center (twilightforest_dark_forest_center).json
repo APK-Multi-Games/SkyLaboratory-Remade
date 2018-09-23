@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "DENSE",
     "SPOOKY",
-    "FOREST",
-    "MAGICAL"
+    "MAGICAL",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -136,12 +136,6 @@
       "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 1
-    },
-    {
-      "Entity Class": "ganymedes01.headcrumbs.entity.EntityHuman",
-      "Weight": 80,
-      "Min Group Count": 4,
-      "Max Group Count": 4
     }
   ],
   "Spawnable Water Creatures": [],

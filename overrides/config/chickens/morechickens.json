@@ -727,5 +727,15 @@
     "Spawn Type": "NONE",
     "Parent 1": "chickens:ironchicken",
     "Parent 2": "morechickens:aluminumchicken"
+  },
+  "morechickens:refinedironchicken": {
+    "Name": "refinedironchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "ic2:ingot:7",
+    "Drop Item": "ic2:ingot:7",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:ironchicken",
+    "Parent 2": "chickens:ironchicken"
   }
 }

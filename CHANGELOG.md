@@ -1,8 +1,14 @@
 #Version 0.0.0.8
-* Updated oredict
+* Added Sky Resources 2
+* Added Sky Compression
+* Added Industrial Craft
+* Added Industrial Wires
 * Updated Draconic Evolution
 * Updated Simply Jetpacks 2
+* Updated Solar Flux Reborn
 * Removed unneeded Recipes due to updates to the oredict
+* Changed Recipes for Sieves
+* Rewrote parts of the Oredict to better intergrate cross mod recipes for many items to use other ores from multiple mods
 
 -------
 #Version 0.0.0.7
