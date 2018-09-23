@@ -1,5 +1,7 @@
 #Version 0.0.0.8
 * Updated oredict
+* Updated Draconic Evolution
+* Updated Simply Jetpacks 2
 * Removed unneeded Recipes due to updates to the oredict
 
 -------
