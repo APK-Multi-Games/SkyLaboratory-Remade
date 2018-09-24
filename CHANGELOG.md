@@ -1,3 +1,7 @@
+#Version 0.0.0.9
+Fixed inferium plants can't be planted in crop sticks -Thanks Relentless
+
+-------
 #Version 0.0.0.8
 * Added Sky Resources 2
 * Added Sky Compression
