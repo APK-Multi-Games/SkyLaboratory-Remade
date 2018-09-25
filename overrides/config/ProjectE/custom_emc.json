@@ -1,4 +1,20 @@
 {
-  "entries": [],
-  "__comment": "Use the in-game commands to edit this file"
+  "entries": [
+    {
+      "item": "minecraft:brick|0",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:wool|0",
+      "emc": 48
+    },
+    {
+      "item": "harvestcraft:spiderweb_sapling|0",
+      "emc": 32
+    },
+    {
+      "item": "harvestcraft:avocado_sapling|0",
+      "emc": 32
+    }
+  ]
 }
