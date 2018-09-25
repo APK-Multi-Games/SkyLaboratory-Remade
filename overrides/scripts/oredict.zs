@@ -20,7 +20,7 @@ val botaniablocks = [
 	] as IItemStack[];
 
 	for botaniablock in botaniablocks {
-		<ore:blockMana>.add(botaniablock);
+		<ore:blockManaAny>.add(botaniablock);
 	}
 
 	val botaniaingots = [
@@ -33,7 +33,7 @@ val botaniablocks = [
 	] as IItemStack[];
 
 	for botaniaingot in botaniaingots {
-		<ore:ingotMana>.add(botaniaingot);
+		<ore:ingotManaAny>.add(botaniaingot);
 	}
 
 //LAVA

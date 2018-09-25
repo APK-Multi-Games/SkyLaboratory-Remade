@@ -14,7 +14,7 @@ recipes.remove(<excompressum:mana_sieve>);
 
 recipes.addShaped("excompressum_auto_sieve", <excompressum:auto_sieve>, [[<ore:blockIron>, <ore:paneGlassColorless>, <ore:blockIron>], [<ore:paneGlassColorless>, <exnihilocreatio:block_sieve:*>, <extrautils2:user>], [<ore:ingotIron>, <ore:paneGlassColorless>, <ore:ingotIron>]]);
 recipes.addShaped("excompressum_auto_heavy_sieve_with_steel", <excompressum:auto_heavy_sieve>, [[<ore:blockSteel>, <ore:paneGlassColorless>, <ore:blockSteel>], [<ore:paneGlassColorless>, <excompressum:heavy_sieve:*>, <extrautils2:user>], [<ore:ingotSteel>, <ore:paneGlassColorless>, <ore:ingotSteel>]]);
-recipes.addShaped("excompressum_mana_sieve", <excompressum:mana_sieve>, [[<ore:blockMana>, <ore:paneGlassColorless>, <ore:blockMana>], [<ore:paneGlassColorless>, <exnihilocreatio:block_sieve:*>, <extrautils2:user>], [<ore:ingotMana>, <ore:paneGlassColorless>, <ore:ingotMana>]]);
+recipes.addShaped("excompressum_mana_sieve", <excompressum:mana_sieve>, [[<ore:blockManaAny>, <ore:paneGlassColorless>, <ore:blockManaAny>], [<ore:paneGlassColorless>, <exnihilocreatio:block_sieve:*>, <extrautils2:user>], [<ore:ingotManaAny>, <ore:paneGlassColorless>, <ore:ingotManaAny>]]);
 
 //Normal Sieve
 recipes.remove(<exnihilocreatio:block_sieve>);
