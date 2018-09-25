@@ -737,5 +737,25 @@
     "Spawn Type": "NONE",
     "Parent 1": "chickens:ironchicken",
     "Parent 2": "chickens:ironchicken"
+  },
+  "morechickens:brasschicken": {
+    "Name": "brasschicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "thaumcraft:ingot:2",
+    "Drop Item": "thaumcraft:ingot:2",
+    "Spawn Type": "NONE",
+    "Parent 1": "",
+    "Parent 2": ""
+  },
+  "morechickens:amberchicken": {
+    "Name": "amberchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "thaumcraft:amber",
+    "Drop Item": "thaumcraft:amber",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:waterchicken",
+    "Parent 2": "chickens:logchicken"
   }
 }

@@ -1,6 +1,6 @@
 
 {
-  "ID": 50,
+  "ID": 53,
   "Name": "Twilight Glacier",
   "Resource Location": "twilightforest:twilight_glacier",
   "Class": "twilightforest.biomes.TFBiomeGlacier",

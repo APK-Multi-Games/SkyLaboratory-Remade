@@ -1,6 +1,6 @@
 
 {
-  "ID": 72,
+  "ID": 75,
   "Name": "Mining Biome",
   "Resource Location": "aroma1997sdimension:miningbiome",
   "Class": "aroma1997.world.dimension.BiomeGenMining",
@@ -20,8 +20,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MOUNTAIN",
-    "PLAINS"
+    "PLAINS",
+    "MOUNTAIN"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

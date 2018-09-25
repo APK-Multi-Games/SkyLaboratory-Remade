@@ -1,6 +1,6 @@
 
 {
-  "ID": 61,
+  "ID": 64,
   "Name": "Meneglin",
   "Resource Location": "integrateddynamics:biome_meneglin",
   "Class": "org.cyclops.integrateddynamics.world.biome.BiomeMeneglin",
@@ -114,6 +114,18 @@
       "Weight": 40,
       "Min Group Count": 1,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "thaumcraft.common.entities.monster.EntityPech",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     },
     {
       "Entity Class": "ganymedes01.headcrumbs.entity.EntityHuman",

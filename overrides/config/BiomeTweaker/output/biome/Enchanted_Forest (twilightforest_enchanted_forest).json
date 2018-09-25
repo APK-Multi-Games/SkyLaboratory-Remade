@@ -1,6 +1,6 @@
 
 {
-  "ID": 56,
+  "ID": 59,
   "Name": "Enchanted Forest",
   "Resource Location": "twilightforest:enchanted_forest",
   "Class": "twilightforest.biomes.TFBiomeEnchantedForest",

@@ -1,6 +1,6 @@
 
 {
-  "ID": 46,
+  "ID": 49,
   "Name": "Mushroom Forest",
   "Resource Location": "twilightforest:mushroom_forest",
   "Class": "twilightforest.biomes.TFBiomeMushrooms",

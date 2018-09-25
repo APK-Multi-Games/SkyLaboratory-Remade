@@ -1,6 +1,6 @@
 
 {
-  "ID": 49,
+  "ID": 52,
   "Name": "Snowy Forest",
   "Resource Location": "twilightforest:snowy_forest",
   "Class": "twilightforest.biomes.TFBiomeSnow",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "CONIFEROUS",
     "SNOWY",
+    "CONIFEROUS",
     "FOREST",
     "COLD"
   ],

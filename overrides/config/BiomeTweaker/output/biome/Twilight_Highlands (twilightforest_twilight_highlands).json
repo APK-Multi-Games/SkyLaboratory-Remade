@@ -1,6 +1,6 @@
 
 {
-  "ID": 45,
+  "ID": 48,
   "Name": "Twilight Highlands",
   "Resource Location": "twilightforest:twilight_highlands",
   "Class": "twilightforest.biomes.TFBiomeHighlands",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MOUNTAIN",
     "CONIFEROUS",
-    "FOREST"
+    "FOREST",
+    "MOUNTAIN"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

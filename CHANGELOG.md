@@ -1,5 +1,14 @@
 #Version 0.0.0.9
-Fixed inferium plants can't be planted in crop sticks -Thanks Relentless
+* Fixed inferium seeds tier 1-6 can't be planted in crop sticks -Thanks Relentless
+* Updated Quark
+* Added ProjectE
+* Added Just Enough HarvestCraft (JEHC)
+* Added Thaumcraft
+* Added Thaumcraft 6 Aspects for JEI
+* Added Thaumic JEI
+* Added Thaumic Tinkerer
+* Added Thaumic Inventory Scanning (Thaumcraft Addon)
+* Added Thaumic Equivalence
 
 -------
 #Version 0.0.0.8

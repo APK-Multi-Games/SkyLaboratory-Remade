@@ -1,6 +1,6 @@
 
 {
-  "ID": 68,
+  "ID": 71,
   "Name": "DeepSwamp",
   "Resource Location": "advancedrocketry:deepswamp",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenDeepSwamp",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
+    "DENSE",
+    "WET",
     "SWAMP",
     "JUNGLE",
-    "DENSE",
-    "WET"
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "CONIFEROUS",
     "SNOWY",
-    "FOREST",
-    "COLD"
+    "COLD",
+    "FOREST"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [
@@ -152,6 +152,12 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 2
+    },
+    {
+      "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     },
     {
       "Entity Class": "ganymedes01.headcrumbs.entity.EntityHuman",
