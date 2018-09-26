@@ -1,6 +1,9 @@
 #Version 0.0.0.9
 * Fixed inferium seeds tier 1-6 can't be planted in crop sticks -Thanks Relentless
 * Updated Quark
+* Updated Ex Compressum
+* Updated Chace Cubes
+* Updated Random PSIdeas
 * Added ProjectE
 * Added Just Enough HarvestCraft (JEHC)
 * Added Thaumcraft
@@ -9,6 +12,13 @@
 * Added Thaumic Tinkerer
 * Added Thaumic Inventory Scanning (Thaumcraft Addon)
 * Added Thaumic Equivalence
+* Added Thaumic Computers
+* Added Thaumic Periphery
+* Added Tinkers' Skyblock
+* Added TinkerStages
+* Added Game Stages
+* Added Custom Starter Gear
+* New custom Recipes for gaining items from Tinkers' Skyblock making them craftable
 
 -------
 #Version 0.0.0.8
