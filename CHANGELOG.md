@@ -18,7 +18,9 @@
 * Added TinkerStages
 * Added Game Stages
 * Added Custom Starter Gear
+* Added ContentTweaker
 * New custom Recipes for gaining items from Tinkers' Skyblock making them craftable
+* Removed NEI was causing to many issues
 
 -------
 #Version 0.0.0.8
