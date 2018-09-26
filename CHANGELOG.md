@@ -4,6 +4,8 @@
 * Updated Ex Compressum
 * Updated Chace Cubes
 * Updated Random PSIdeas
+* Updated DecoCraft2
+* Updated PTRLib
 * Added ProjectE
 * Added Just Enough HarvestCraft (JEHC)
 * Added Thaumcraft
@@ -19,8 +21,13 @@
 * Added Game Stages
 * Added Custom Starter Gear
 * Added ContentTweaker
+* Added Ultimate Car Mod
 * New custom Recipes for gaining items from Tinkers' Skyblock making them craftable
 * Removed NEI was causing to many issues
+* fixed canola seeds and Canola recipes to use ore directory instead allowing canola from the car mod to be used in all recipes that dealing with canola from AA
+* Changed Recipes for Porcelain
+* Nerfed Durability for shears and crooks i made them too op a few updates ago they are made of wood or bone after all
+* Misc CFG Changes
 
 -------
 #Version 0.0.0.8

@@ -36,6 +36,17 @@ val botaniablocks = [
 		<ore:ingotManaAny>.add(botaniaingot);
 	}
 
+//MISC
+val canolacrops = [
+		<car:canola>,
+		<actuallyadditions:item_misc:13>
+	 ] as IItemStack[];
+
+	 for canolacrop in canolacrops {
+	 <ore:cropCanola>.add(canolacrop);
+	 }
+
+
 //LAVA
 <ore:listAlllava>.add(<chickens:liquid_egg:1>);
 <ore:listAlllava>.add(<minecraft:lava_bucket>);

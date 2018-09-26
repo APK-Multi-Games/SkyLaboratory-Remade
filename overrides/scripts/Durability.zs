@@ -4,8 +4,8 @@
 print("Initializing 'Durability'...");
 
 
-<excompressum:compressed_crook>.maxDamage = 250;
-<exnihilocreatio:crook_wood>.maxDamage = 250;
-<exnihilocreatio:crook_bone>.maxDamage = 500;
+<excompressum:compressed_crook>.maxDamage = 100;
+<exnihilocreatio:crook_wood>.maxDamage = 100;
+<exnihilocreatio:crook_bone>.maxDamage = 150;
 
 print("Initialized 'Durability'");
