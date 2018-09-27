@@ -1,4 +1,5 @@
 #Version 0.0.0.9
+**********THIS UPDATE WILL REQUIRE A NEW WORLD**********
 * Fixed inferium seeds tier 1-6 can't be planted in crop sticks -Thanks Relentless
 * Updated Quark
 * Updated Ex Compressum
@@ -6,6 +7,7 @@
 * Updated Random PSIdeas
 * Updated DecoCraft2
 * Updated PTRLib
+* Updated Actually Additions
 * Added ProjectE
 * Added Just Enough HarvestCraft (JEHC)
 * Added Thaumcraft
@@ -22,6 +24,58 @@
 * Added Custom Starter Gear
 * Added ContentTweaker
 * Added Ultimate Car Mod
+* Added Cyclic 
+* Added ExtraCells2 
+* Added MultiBeds 
+* Added Dynamic Dynamos 
+* Added Backpacks 
+* Added Block Drops (JEI Addon) 
+* Added Block Drops Tweaker 
+* Added Broken Wings 
+* Added Carry On 
+* Added Clay Bucket 
+* Added Colytra 
+* Added Compact Solars 
+* Added ComputerCraft 
+* Added Cosmetic Armor Reworked 
+* Added /dank/null 
+* Added DiscordSuite 
+* Added DiscordIntegration 
+* Added MinecraftDiscordStartAlert 
+* Added Lapis Stays in the Enchanting Table 
+* Added Environmental Materials 
+* Added Exchangers 
+* Added Extended Crafting 
+* Added Forgiving Void
+* Added FPS Reducer 
+* Added BetterFps
+* Added Forestry 
+* Added Gendustry 
+* Added Just Enough Reactors 
+* Added MekaTweaker 
+* Added Modular Machinery 
+* Added Modular Diversity 
+* Added More Overlays 
+* Added Morph-o-Tool
+* Added MystAgrad Cloche Compat
+* Added No Mob Spawning on Trees 
+* Added No Night Vision Flashing 
+* Added NuclearCraft 
+* Added OpenModsLib 
+* Added OpenBlocks 
+* Added Redstone Arsenal
+* Added Rustic
+* Added Rustic Thaumaturgy
+* Added TESLA
+* Added Toast Control
+* Added Tomb Many Graves 2
+* Added TombManyGraves 2 API
+* Added TombManyPlugins - Backpacks
+* Added TombManyPlugins - Cosmetic Armor Reworked 
+* Added ToroHealth Damage Indicators
+* Added Villager Market
+* Added YNot
+* Added OC XNet Driver
 * New custom Recipes for gaining items from Tinkers' Skyblock making them craftable
 * Removed NEI was causing to many issues
 * fixed canola seeds and Canola recipes to use ore directory instead allowing canola from the car mod to be used in all recipes that dealing with canola from AA

@@ -11,6 +11,7 @@
     "0:1": "woodenshears:wshears,1,0,{mType:0b}",
     "0:34": "minecraft:torch,12",
     "0:35": "minecraft:cookie,16",
-    "0:0": "exnihilocreatio:crook_wood"
+    "0:0": "exnihilocreatio:crook_wood",
+    "0:3": "forestry:book_forester"
   }
 }
