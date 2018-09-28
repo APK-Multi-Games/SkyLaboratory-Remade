@@ -128,3 +128,4 @@ key_key.journeymap.minimap_type:0:NONE
 key_key.journeymap.minimap_preset:43:NONE
 key_key.journeymap.create_waypoint:48:NONE
 key_BetterFps:88:NONE
+key_key.carry.desc:54:NONE

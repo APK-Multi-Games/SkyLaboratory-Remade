@@ -78,6 +78,9 @@
 * Added YNot
 * Added OC XNet Driver
 * Added In-Game Wiki Mod
+* Added VanillaFix
+* Added NetherPortalFix
+* Added ContainerFix
 * New custom Recipes for gaining items from Tinkers' Skyblock making them craftable
 * Removed NEI was causing to many issues
 * fixed canola seeds and Canola recipes to use ore directory instead allowing canola from the car mod to be used in all recipes that dealing with canola from AA
