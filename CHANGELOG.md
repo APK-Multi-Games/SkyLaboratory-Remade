@@ -8,6 +8,8 @@
 * Updated DecoCraft2
 * Updated PTRLib
 * Updated Actually Additions
+* Updated Forge to 14.23.4.2763
+* Updated FoamFix for Minecraft
 * Added ProjectE
 * Added Just Enough HarvestCraft (JEHC)
 * Added Thaumcraft
@@ -45,7 +47,6 @@
 * Added Lapis Stays in the Enchanting Table 
 * Added Environmental Materials 
 * Added Exchangers 
-* Added Extended Crafting 
 * Added Forgiving Void
 * Added FPS Reducer 
 * Added BetterFps
@@ -76,6 +77,7 @@
 * Added Villager Market
 * Added YNot
 * Added OC XNet Driver
+* Added In-Game Wiki Mod
 * New custom Recipes for gaining items from Tinkers' Skyblock making them craftable
 * Removed NEI was causing to many issues
 * fixed canola seeds and Canola recipes to use ore directory instead allowing canola from the car mod to be used in all recipes that dealing with canola from AA
