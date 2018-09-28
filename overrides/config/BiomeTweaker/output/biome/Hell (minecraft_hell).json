@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
-    "DRY",
-    "NETHER"
+    "NETHER",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -87,6 +87,18 @@
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.progwml6.natura.entities.entity.monster.EntityHeatscarSpider",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.progwml6.natura.entities.entity.monster.EntityBabyHeatscarSpider",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     },
     {
       "Entity Class": "com.progwml6.natura.entities.entity.monster.EntityNitroCreeper",

@@ -2,5 +2,9 @@
   {
     "energy": 96000000,
     "id": "minecraft:nether_star"
+  },
+  {
+    "energy": 864000000,
+    "id": "tp:netherstar_block"
   }
 ]

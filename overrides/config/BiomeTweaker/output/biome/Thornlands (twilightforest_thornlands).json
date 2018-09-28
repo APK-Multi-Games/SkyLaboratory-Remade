@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DEAD",
+    "WASTELAND",
     "DRY",
-    "HILLS",
-    "WASTELAND"
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

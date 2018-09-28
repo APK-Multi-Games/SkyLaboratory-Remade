@@ -3,7 +3,7 @@
     "version": "1.12.2",
     "modLoaders": [
       {
-        "id": "forge-14.23.4.2763",
+        "id": "forge-14.23.4.2762",
         "primary": true
       }
     ]
@@ -227,7 +227,7 @@
     },
     {
       "projectID": 253565,
-      "fileID": 2605745,
+      "fileID": 2621778,
       "required": true
     },
     {
@@ -292,7 +292,7 @@
     },
     {
       "projectID": 245453,
-      "fileID": 2605746,
+      "fileID": 2621777,
       "required": true
     },
     {
@@ -452,12 +452,7 @@
     },
     {
       "projectID": 246010,
-      "fileID": 2605743,
-      "required": true
-    },
-    {
-      "projectID": 225604,
-      "fileID": 2489566,
+      "fileID": 2621780,
       "required": true
     },
     {
@@ -482,12 +477,7 @@
     },
     {
       "projectID": 245480,
-      "fileID": 2605740,
-      "required": true
-    },
-    {
-      "projectID": 225605,
-      "fileID": 2489549,
+      "fileID": 2621772,
       "required": true
     },
     {
@@ -1212,7 +1202,7 @@
     },
     {
       "projectID": 302313,
-      "fileID": 2620463,
+      "fileID": 2621901,
       "required": true
     },
     {
@@ -1223,11 +1213,6 @@
     {
       "projectID": 236542,
       "fileID": 2618799,
-      "required": true
-    },
-    {
-      "projectID": 252104,
-      "fileID": 2540882,
       "required": true
     },
     {
@@ -1423,7 +1408,7 @@
     {
       "projectID": 274259,
       "fileID": 2603316,
-      "required": true
+      "required": false
     },
     {
       "projectID": 242568,
@@ -1477,7 +1462,7 @@
     },
     {
       "projectID": 278825,
-      "fileID": 2605749,
+      "fileID": 2621776,
       "required": true
     },
     {
@@ -1641,11 +1626,6 @@
       "required": true
     },
     {
-      "projectID": 292785,
-      "fileID": 2574249,
-      "required": true
-    },
-    {
       "projectID": 241160,
       "fileID": 2612052,
       "required": true
@@ -1653,6 +1633,36 @@
     {
       "projectID": 290240,
       "fileID": 2541816,
+      "required": false
+    },
+    {
+      "projectID": 257655,
+      "fileID": 2612274,
+      "required": true
+    },
+    {
+      "projectID": 254466,
+      "fileID": 2498115,
+      "required": true
+    },
+    {
+      "projectID": 289380,
+      "fileID": 2595064,
+      "required": true
+    },
+    {
+      "projectID": 286660,
+      "fileID": 2619099,
+      "required": true
+    },
+    {
+      "projectID": 298737,
+      "fileID": 2619452,
+      "required": true
+    },
+    {
+      "projectID": 278493,
+      "fileID": 2586932,
       "required": true
     }
   ],

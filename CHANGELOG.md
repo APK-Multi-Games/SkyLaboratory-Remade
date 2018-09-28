@@ -10,6 +10,11 @@
 * Updated Actually Additions
 * Updated Forge to 14.23.4.2763
 * Updated FoamFix for Minecraft
+* Updated Environmental Tech
+* Updated Environmental Materials
+* Updated ET Lunar
+* Updated Simple Generators
+* Updated  ValkrieLib
 * Added ProjectE
 * Added Just Enough HarvestCraft (JEHC)
 * Added Thaumcraft
@@ -77,12 +82,17 @@
 * Added Villager Market
 * Added YNot
 * Added OC XNet Driver
-* Added In-Game Wiki Mod
-* Added VanillaFix
 * Added NetherPortalFix
 * Added ContainerFix
+* Added Unlimited Chisel Works
+* Added Mr.Crayfish Vehicle Spawner
+* Added MrCrayfish's Vehicle Mod
+* Added Obfuscate
+* Added Simple Void World
+* Added Void Island Control
 * New custom Recipes for gaining items from Tinkers' Skyblock making them craftable
 * Removed NEI was causing to many issues
+* Removed YUNoMakeGoodMap Replaced it with Void Island Control
 * fixed canola seeds and Canola recipes to use ore directory instead allowing canola from the car mod to be used in all recipes that dealing with canola from AA
 * Changed Recipes for Porcelain
 * Nerfed Durability for shears and crooks i made them too op a few updates ago they are made of wood or bone after all
