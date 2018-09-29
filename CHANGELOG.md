@@ -1,3 +1,6 @@
+#Version 0.0.1.0
+Downgraded Forge back to 14.23.4.2760 as I had many people report to me the game became unplayable due to jittering and when they downgraded back to 2760 it went away
+-------
 #Version 0.0.0.9
 **********THIS UPDATE WILL REQUIRE A NEW WORLD**********
 * Fixed inferium seeds tier 1-6 can't be planted in crop sticks -Thanks Relentless

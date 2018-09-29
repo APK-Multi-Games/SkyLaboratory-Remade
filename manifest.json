@@ -3,7 +3,7 @@
     "version": "1.12.2",
     "modLoaders": [
       {
-        "id": "forge-14.23.4.2762",
+        "id": "forge-14.23.4.2760",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Sky Laboratory-Remade",
-  "version": "0.0.0.9",
+  "version": "0.0.1.0",
   "author": "raziel23x",
   "projectID": 302940,
   "files": [
