@@ -2,7 +2,7 @@
 
 Based off of FTB Presents Sky Factory 3 from minecraft 1.10.2
 
-It's skyblock like then you will Love this. With High Tech mods with full automation as well as Magic which will make your enemies bones melt! Sky Laboratory Remade starts the player in the void with nothing but a tree and a few blocks of dirt between you and certain death! . If your ready to get started just come and pick up your achievement book today and start your journey into Sky Laboratory-Remade!
+It's skyblock like then you will Love this. With High Tech mods with full automation as well as Magic which will make your enemies bones melt! Sky Laboratory Remade starts the player in the void with nothing but a tree and a few blocks of dirt between you and certain death! If your ready to get started just come and pick up your achievement book today and start your journey into Sky Laboratory-Remade!
 
 -------
 #Installing this modpack in your Twitch app
