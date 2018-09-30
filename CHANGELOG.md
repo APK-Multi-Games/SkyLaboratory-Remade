@@ -1,5 +1,24 @@
+#Version 0.0.1.1
+* Changed Durability for exnihilocreatio Hammers
+* Changed Durability for excompressum Compressed Hammers
+* Changed Durability for excompressum Compressed Crooks
+* Fixed Astral Sorcery wand and alter not requireing starlight crystal 
+* Updated Extra Utilities 2
+* Updated Wireless Redstone CBE
+* Updated Woot
+* Updated /dank/null
+* Updated Just Enough Items
+* Updated ET Lunar
+* Updated Environmental Tech
+* Updated Environmental Materials
+* Updated Simple Generators
+* Updated ValkyrieLib 
+* Added ValkyrieCompat 
+
+-------
 #Version 0.0.1.0
 Downgraded Forge back to 14.23.4.2760 as I had many people report to me the game became unplayable due to jittering and when they downgraded back to 2760 it went away
+
 -------
 #Version 0.0.0.9
 **********THIS UPDATE WILL REQUIRE A NEW WORLD**********

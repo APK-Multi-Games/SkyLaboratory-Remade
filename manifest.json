@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Sky Laboratory-Remade",
-  "version": "0.0.1.0",
+  "version": "0.0.1.1",
   "author": "raziel23x",
   "projectID": 302940,
   "files": [
@@ -227,7 +227,7 @@
     },
     {
       "projectID": 253565,
-      "fileID": 2621778,
+      "fileID": 2622391,
       "required": true
     },
     {
@@ -247,7 +247,7 @@
     },
     {
       "projectID": 225561,
-      "fileID": 2618166,
+      "fileID": 2622003,
       "required": true
     },
     {
@@ -292,7 +292,7 @@
     },
     {
       "projectID": 245453,
-      "fileID": 2621777,
+      "fileID": 2622390,
       "required": true
     },
     {
@@ -452,7 +452,7 @@
     },
     {
       "projectID": 246010,
-      "fileID": 2621780,
+      "fileID": 2622388,
       "required": true
     },
     {
@@ -477,7 +477,7 @@
     },
     {
       "projectID": 245480,
-      "fileID": 2621772,
+      "fileID": 2622385,
       "required": true
     },
     {
@@ -527,7 +527,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 2602311,
+      "fileID": 2621449,
       "required": true
     },
     {
@@ -847,7 +847,7 @@
     },
     {
       "projectID": 244049,
-      "fileID": 2608263,
+      "fileID": 2622047,
       "required": true
     },
     {
@@ -1162,7 +1162,7 @@
     },
     {
       "projectID": 260824,
-      "fileID": 2594251,
+      "fileID": 2622045,
       "required": true
     },
     {
@@ -1408,7 +1408,7 @@
     {
       "projectID": 274259,
       "fileID": 2603316,
-      "required": false
+      "required": true
     },
     {
       "projectID": 242568,
@@ -1437,7 +1437,7 @@
     },
     {
       "projectID": 272514,
-      "fileID": 2533602,
+      "fileID": 2622241,
       "required": true
     },
     {
@@ -1458,11 +1458,6 @@
     {
       "projectID": 263905,
       "fileID": 2553810,
-      "required": true
-    },
-    {
-      "projectID": 278825,
-      "fileID": 2621776,
       "required": true
     },
     {
@@ -1633,7 +1628,7 @@
     {
       "projectID": 290240,
       "fileID": 2541816,
-      "required": false
+      "required": true
     },
     {
       "projectID": 257655,
@@ -1663,6 +1658,16 @@
     {
       "projectID": 278493,
       "fileID": 2586932,
+      "required": true
+    },
+    {
+      "projectID": 289532,
+      "fileID": 2622386,
+      "required": true
+    },
+    {
+      "projectID": 278825,
+      "fileID": 2622389,
       "required": true
     }
   ],
