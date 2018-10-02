@@ -11,7 +11,7 @@ recipes.remove(<actuallyadditions:item_misc:4>);
 recipes.addShapeless(<actuallyadditions:item_misc:4> * 3, [<ore:cropWheat>, <ore:cropWheat>, <ore:cropWheat>]);
 
 //Prismarine blocks to shards
-mods.actuallyadditions.Crusher.addRecipe(<minecraft:prismarine>, <minecraft:prismarine_shard>*2);
+mods.actuallyadditions.Crusher.addRecipe(<minecraft:prismarine_shard>*2, <minecraft:prismarine>);
 
 //Canola Press
 recipes.remove(<actuallyadditions:block_canola_press>);

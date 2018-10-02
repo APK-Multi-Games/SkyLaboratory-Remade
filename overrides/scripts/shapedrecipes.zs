@@ -81,9 +81,9 @@ recipes.addShaped(<chickens:colored_egg:3>, [[<ore:dyeBrown>, <ore:dyeBrown>, <o
 recipes.addShaped(<chickens:colored_egg:4>, [[<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>], [<ore:dyeBlue>, <minecraft:egg>, <ore:dyeBlue>], [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>]]);
 recipes.addShaped(<chickens:colored_egg:11>, [[<ore:dyeYellow>, <ore:dyeYellow>, <ore:dyeYellow>], [<ore:dyeYellow>, <minecraft:egg>, <ore:dyeYellow>], [<ore:dyeYellow>, <ore:dyeYellow>, <ore:dyeYellow>]]);
 recipes.addShaped(<chickens:colored_egg:15>, [[<ore:dyeWhite>, <ore:dyeWhite>, <ore:dyeWhite>], [<ore:dyeWhite>, <minecraft:egg>, <ore:dyeWhite>], [<ore:dyeWhite>, <ore:dyeWhite>, <ore:dyeWhite>]]);
-recipes.addShaped(<chickens:spawn_egg:101>, [[<minecraft:flint>, <minecraft:flint>, <minecraft:flint>], [<minecraft:flint>, <minecraft:egg>, <minecraft:flint>], [<minecraft:flint>, <minecraft:flint>, <minecraft:flint>]]);
-recipes.addShaped(<chickens:spawn_egg:105>, [[<ore:sand>, <ore:sand>, <ore:sand>], [<ore:sand>, <minecraft:egg>, <ore:sand>], [<ore:sand>, <ore:sand>, <ore:sand>]]);
-recipes.addShaped(<chickens:spawn_egg:108>, [[<ore:logWood>, <ore:logWood>, <ore:logWood>], [<ore:logWood>, <minecraft:egg>, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+recipes.addShaped(<chickens:spawn_egg>.withTag({ChickenType:{id:"chickens:flintchicken"}}), [[<minecraft:flint>, <minecraft:flint>, <minecraft:flint>], [<minecraft:flint>, <minecraft:egg>, <minecraft:flint>], [<minecraft:flint>, <minecraft:flint>, <minecraft:flint>]]);
+recipes.addShaped(<chickens:spawn_egg>.withTag({ChickenType:{id:"chickens:sandchicken"}}), [[<ore:sand>, <ore:sand>, <ore:sand>], [<ore:sand>, <minecraft:egg>, <ore:sand>], [<ore:sand>, <ore:sand>, <ore:sand>]]);
+recipes.addShaped(<chickens:spawn_egg>.withTag({ChickenType:{id:"chickens:logchicken"}}), [[<ore:logWood>, <ore:logWood>, <ore:logWood>], [<ore:logWood>, <minecraft:egg>, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
 recipes.addShaped(<chickens:colored_egg:10>, [[<ore:dyeLime>, <ore:dyeLime>, <ore:dyeLime>], [<ore:dyeLime>, <minecraft:egg>, <ore:dyeLime>], [<ore:dyeLime>, <ore:dyeLime>, <ore:dyeLime>]]);
 recipes.addShaped(<chickens:colored_egg:12>, [[<ore:dyeLightBlue>, <ore:dyeLightBlue>, <ore:dyeLightBlue>], [<ore:dyeLightBlue>, <minecraft:egg>, <ore:dyeLightBlue>], [<ore:dyeLightBlue>, <ore:dyeLightBlue>, <ore:dyeLightBlue>]]);
 recipes.addShaped(<chickens:colored_egg:13>, [[<ore:dyeMagenta>, <ore:dyeMagenta>, <ore:dyeMagenta>], [<ore:dyeMagenta>, <minecraft:egg>, <ore:dyeMagenta>], [<ore:dyeMagenta>, <ore:dyeMagenta>, <ore:dyeMagenta>]]);
@@ -95,7 +95,7 @@ recipes.addShaped(<chickens:colored_egg:8>, [[<ore:dyeGray>, <ore:dyeGray>, <ore
 recipes.addShaped(<chickens:colored_egg:9>, [[<ore:dyePink>, <ore:dyePink>, <ore:dyePink>], [<ore:dyePink>, <minecraft:egg>, <ore:dyePink>], [<ore:dyePink>, <ore:dyePink>, <ore:dyePink>]]);
 
 //Refind Storage 
-recipes.addShaped(<refinedstorage:disk_drive>, [[<refinedstorage:quartz_enriched_iron>, <refinedstorage:processor:5>, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:quartz_enriched_iron>, null, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:processor:5>, <refinedstorage:quartz_enriched_iron>]]);
+//recipes.addShaped(<refinedstorage:disk_drive>, [[<refinedstorage:quartz_enriched_iron>, <refinedstorage:processor:5>, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:quartz_enriched_iron>, null, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:processor:5>, <refinedstorage:quartz_enriched_iron>]]);
 
 //Vacuum Hopper and other MGU changes
 recipes.remove(<mob_grinding_utils:absorption_hopper>);
@@ -118,7 +118,7 @@ recipes.addShaped(<elevatorid:elevator_cyan>, [[<ore:dyeCyan>, <ore:dyeCyan>, <o
 recipes.addShaped(<elevatorid:elevator_gray>, [[<ore:dyeGray>, <ore:dyeGray>, <ore:dyeGray>], [<ore:dyeGray>, <elevatorid:elevator_white>, <ore:dyeGray>], [<ore:dyeGray>, <ore:dyeGray>, <ore:dyeGray>]]);
 recipes.addShaped(<elevatorid:elevator_green>, [[<ore:dyeGreen>, <ore:dyeGreen>, <ore:dyeGreen>], [<ore:dyeGreen>, <elevatorid:elevator_white>, <ore:dyeGreen>], [<ore:dyeGreen>, <ore:dyeGreen>, <ore:dyeGreen>]]);
 recipes.addShaped(<elevatorid:elevator_light_blue>, [[<ore:dyeLightBlue>, <ore:dyeLightBlue>, <ore:dyeLightBlue>], [<ore:dyeLightBlue>, <elevatorid:elevator_white>, <ore:dyeLightBlue>], [<ore:dyeLightBlue>, <ore:dyeLightBlue>, <ore:dyeLightBlue>]]);
-recipes.addShaped(<elevatorid:elevator_lime>, [[<ore:dyeLightLime>, <ore:dyeLightLime>, <ore:dyeLightLime>], [<ore:dyeLightLime>, <elevatorid:elevator_white>, <ore:dyeLightLime>], [<ore:dyeLightLime>, <ore:dyeLightLime>, <ore:dyeLightLime>]]);
+recipes.addShaped(<elevatorid:elevator_lime>, [[<ore:dyeLime>, <ore:dyeLime>, <ore:dyeLime>], [<ore:dyeLime>, <elevatorid:elevator_white>, <ore:dyeLime>], [<ore:dyeLime>, <ore:dyeLime>, <ore:dyeLime>]]);
 recipes.addShaped(<elevatorid:elevator_magenta>, [[<ore:dyeMagenta>, <ore:dyeMagenta>, <ore:dyeMagenta>], [<ore:dyeMagenta>, <elevatorid:elevator_white>, <ore:dyeMagenta>], [<ore:dyeMagenta>, <ore:dyeMagenta>, <ore:dyeMagenta>]]);
 recipes.addShaped(<elevatorid:elevator_red>, [[<ore:dyeRed>, <ore:dyeRed>, <ore:dyeRed>], [<ore:dyeRed>, <elevatorid:elevator_white>, <ore:dyeRed>], [<ore:dyeRed>, <ore:dyeRed>, <ore:dyeRed>]]);
 recipes.addShaped(<elevatorid:elevator_yellow>, [[<ore:dyeYellow>, <ore:dyeYellow>, <ore:dyeYellow>], [<ore:dyeYellow>, <elevatorid:elevator_white>, <ore:dyeYellow>], [<ore:dyeYellow>, <ore:dyeYellow>, <ore:dyeYellow>]]);

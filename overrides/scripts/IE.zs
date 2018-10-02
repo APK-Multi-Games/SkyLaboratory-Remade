@@ -50,7 +50,7 @@ mods.immersiveengineering.Crusher.addRecipe(<minecraft:netherbrick> * 4, <minecr
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:brick> * 4, <minecraft:brick_block>, 2000);
 
 //Crusher Sand to Dust
-//mods.immersiveengineering.Crusher.addRecipe(<exnihilocreatio:blockDust>, <minecraft:sand>, 2000);
+//mods.immersiveengineering.Crusher.addRecipe(<exnihilocreatio:block_dust>, <minecraft:sand>, 2000);
 
 //Prismarine Block to Shard
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:prismarine_shard> * 2, <minecraft:prismarine>, 3000);
