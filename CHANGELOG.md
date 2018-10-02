@@ -1,3 +1,17 @@
+#Version 0.0.1.3
+* Updated CoFH Core
+* Updated CoFH World
+* Updated CoFH Vanilla+ Tools
+* Updated NuclearCraft
+* Updated Redstone Arsenal
+* Updated Redstone Flux
+* Updated Thermal Cultivation
+* Updated Thermal Dynamics
+* Updated Thermal Expansion
+* Updated Thermal Foundation
+* Updated Thermal Innovation
+
+-------
 #Version 0.0.1.2
 * Updated /dank/null
 * Updated Applied Energistics 2
