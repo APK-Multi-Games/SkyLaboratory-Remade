@@ -61,9 +61,9 @@ recipes.remove(<chickens:colored_egg:3>);
 recipes.remove(<chickens:colored_egg:4>);
 recipes.remove(<chickens:colored_egg:11>);
 recipes.remove(<chickens:colored_egg:15>);
-recipes.remove(<chickens:spawn_egg:101>);
-recipes.remove(<chickens:spawn_egg:105>);
-recipes.remove(<chickens:spawn_egg:108>);
+recipes.remove(<chickens:spawn_egg>.withTag({ChickenType:{id:"chickens:flintchicken"}});
+recipes.remove(<chickens:spawn_egg>.withTag({ChickenType:{id:"chickens:sandchicken"}});
+recipes.remove(<chickens:spawn_egg>.withTag({ChickenType:{id:"chickens:logchicken"}});
 recipes.remove(<chickens:colored_egg:10>);
 recipes.remove(<chickens:colored_egg:12>);
 recipes.remove(<chickens:colored_egg:13>);
@@ -93,9 +93,6 @@ recipes.addShaped(<chickens:colored_egg:6>, [[<ore:dyeCyan>, <ore:dyeCyan>, <ore
 recipes.addShaped(<chickens:colored_egg:7>, [[<ore:dyeLightGray>, <ore:dyeLightGray>, <ore:dyeLightGray>], [<ore:dyeLightGray>, <minecraft:egg>, <ore:dyeLightGray>], [<ore:dyeLightGray>, <ore:dyeLightGray>, <ore:dyeLightGray>]]);
 recipes.addShaped(<chickens:colored_egg:8>, [[<ore:dyeGray>, <ore:dyeGray>, <ore:dyeGray>], [<ore:dyeGray>, <minecraft:egg>, <ore:dyeGray>], [<ore:dyeGray>, <ore:dyeGray>, <ore:dyeGray>]]);
 recipes.addShaped(<chickens:colored_egg:9>, [[<ore:dyePink>, <ore:dyePink>, <ore:dyePink>], [<ore:dyePink>, <minecraft:egg>, <ore:dyePink>], [<ore:dyePink>, <ore:dyePink>, <ore:dyePink>]]);
-
-//Refind Storage 
-//recipes.addShaped(<refinedstorage:disk_drive>, [[<refinedstorage:quartz_enriched_iron>, <refinedstorage:processor:5>, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:quartz_enriched_iron>, null, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:processor:5>, <refinedstorage:quartz_enriched_iron>]]);
 
 //Vacuum Hopper and other MGU changes
 recipes.remove(<mob_grinding_utils:absorption_hopper>);
@@ -157,8 +154,6 @@ recipes.addShaped(<mob_grinding_utils:dragon_muffler>, [[<extrautils2:soundmuffl
 //Cobblestone Gen using Oredict
 recipes.remove(<tp:cobblegen_block>);
 recipes.addShaped(<tp:cobblegen_block>, [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>], [<ore:listAllwater>, <ore:blockGlass>, <ore:listAlllava>], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
-
-// recipes.addShaped(<tp:cobblegen_block>, [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>], [<ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}), <ore:blockGlass>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "lava", Amount: 1000}})], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
 
 //Mob Grinder Utils Upgrades
 recipes.remove(<mob_grinding_utils:saw>);

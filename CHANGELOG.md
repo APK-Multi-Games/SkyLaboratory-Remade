@@ -10,6 +10,10 @@
 * Updated Thermal Expansion
 * Updated Thermal Foundation
 * Updated Thermal Innovation
+* Updated Industrial Foregoing
+* Updated Iron Chest
+* Updated Random PSIdeas
+* Updated Thaumcraft
 
 -------
 #Version 0.0.1.2
