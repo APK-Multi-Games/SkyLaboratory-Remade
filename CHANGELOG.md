@@ -1,3 +1,38 @@
+#Version 0.0.1.2
+* Updated /dank/null
+* Updated Applied Energistics 2
+* Updated Construct's Armory
+* Updated Extra Cells 2
+* Updated Just Enough Items (JEI)
+* Updated LibVulpes
+* Updated OpenModsLib
+* Updated Simple Generators
+* Updated UniDict
+* Updated ValkyrieLib
+* Updated Advanced Rocketry
+* Updated Random PSIdeas
+* Fixed Roots Wood Knife Recipe
+* Fixed Roots Stone Knife Recipe (for some reason was memicing with the Rock Grinder Recipe every time i changed the recipe it in script so made a script to keep it from conflicting)
+* Fixed Roots Iron Knife Recipe (for some reason was memicing with the Rock Grinder Recipe every time i changed the recipe it in script so made a script to keep it from conflicting)
+* Fixed Roots Diamond Knife Recipe (for some reason was memicing with the Rock Grinder Recipe every time i changed the recipe it in script so made a script to keep it from conflicting)
+* Fixed Roots Gold Knife Recipe
+* Fixed Sky Resources 2 Stone Rock Grinder Recipe
+* Fixed Sky Resources 2 Iron Rock Grinder Recipe
+* Fixed Sky Resources 2 Diamond Rock Grinder Recipe
+* Fixed AA Dough Recipe
+* Fixed Crop Sticks not working with wheat seeds
+* Fixed Ore Excavation to allow Vien mining with Compressed Hammers
+* Removed Block Drops (JEI Addon) Fixed Delays with the initial start of MC
+* Removed SkyLandsForge
+* Removed Fullscreen Windowed (Borderless) for Minecraft [Has not been updated in over a year]
+* Removed Grue from modpack since it been a year without any updates and causing issues
+* Removed Tomb Many Graves 2 was conflicting with the other grave mod
+* Removed TombManyGraves 2 API was conflicting with the other grave mod
+* Removed TombManyPlugins - Cosmetic Armor Reworked was conflicting with the other grave mod
+* Removed TombManyPlugins - Backpacks was conflicting with the other grave mod
+* Disabled Mekanism Voice Server (its not used in this pack)
+
+-------
 #Version 0.0.1.1
 * Changed Durability for exnihilocreatio Hammers
 * Changed Durability for excompressum Compressed Hammers

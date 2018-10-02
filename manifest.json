@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Sky Laboratory-Remade",
-  "version": "0.0.1.1",
+  "version": "0.0.1.2",
   "author": "raziel23x",
   "projectID": 302940,
   "files": [
@@ -241,11 +241,6 @@
       "required": true
     },
     {
-      "projectID": 227441,
-      "fileID": 2456007,
-      "required": true
-    },
-    {
       "projectID": 225561,
       "fileID": 2622003,
       "required": true
@@ -333,11 +328,6 @@
     {
       "projectID": 231868,
       "fileID": 2616905,
-      "required": true
-    },
-    {
-      "projectID": 235133,
-      "fileID": 2450761,
       "required": true
     },
     {
@@ -452,7 +442,7 @@
     },
     {
       "projectID": 246010,
-      "fileID": 2622388,
+      "fileID": 2622756,
       "required": true
     },
     {
@@ -477,7 +467,7 @@
     },
     {
       "projectID": 245480,
-      "fileID": 2622385,
+      "fileID": 2622755,
       "required": true
     },
     {
@@ -527,7 +517,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 2621449,
+      "fileID": 2622717,
       "required": true
     },
     {
@@ -647,7 +637,7 @@
     },
     {
       "projectID": 244258,
-      "fileID": 2609035,
+      "fileID": 2622976,
       "required": true
     },
     {
@@ -732,7 +722,7 @@
     },
     {
       "projectID": 79616,
-      "fileID": 2621015,
+      "fileID": 2550090,
       "required": true
     },
     {
@@ -816,11 +806,6 @@
       "required": true
     },
     {
-      "projectID": 241789,
-      "fileID": 2557254,
-      "required": true
-    },
-    {
       "projectID": 240630,
       "fileID": 2497186,
       "required": true
@@ -832,7 +817,7 @@
     },
     {
       "projectID": 287683,
-      "fileID": 2613611,
+      "fileID": 2622725,
       "required": true
     },
     {
@@ -1202,17 +1187,17 @@
     },
     {
       "projectID": 302313,
-      "fileID": 2621901,
+      "fileID": 2623059,
       "required": true
     },
     {
       "projectID": 236541,
-      "fileID": 2603519,
+      "fileID": 2622890,
       "required": true
     },
     {
       "projectID": 236542,
-      "fileID": 2618799,
+      "fileID": 2623048,
       "required": true
     },
     {
@@ -1222,7 +1207,7 @@
     },
     {
       "projectID": 223794,
-      "fileID": 2543840,
+      "fileID": 2622506,
       "required": true
     },
     {
@@ -1372,7 +1357,7 @@
     },
     {
       "projectID": 229218,
-      "fileID": 2574581,
+      "fileID": 2622737,
       "required": true
     },
     {
@@ -1383,16 +1368,6 @@
     {
       "projectID": 238627,
       "fileID": 2505925,
-      "required": true
-    },
-    {
-      "projectID": 59143,
-      "fileID": 2554237,
-      "required": true
-    },
-    {
-      "projectID": 244181,
-      "fileID": 2509046,
       "required": true
     },
     {
@@ -1431,13 +1406,8 @@
       "required": true
     },
     {
-      "projectID": 237307,
-      "fileID": 2595679,
-      "required": true
-    },
-    {
       "projectID": 272514,
-      "fileID": 2622241,
+      "fileID": 2622880,
       "required": true
     },
     {
@@ -1542,7 +1512,7 @@
     },
     {
       "projectID": 228815,
-      "fileID": 2620051,
+      "fileID": 2623007,
       "required": true
     },
     {
@@ -1576,26 +1546,6 @@
       "required": true
     },
     {
-      "projectID": 262823,
-      "fileID": 2619249,
-      "required": true
-    },
-    {
-      "projectID": 294202,
-      "fileID": 2563073,
-      "required": true
-    },
-    {
-      "projectID": 294215,
-      "fileID": 2563127,
-      "required": true
-    },
-    {
-      "projectID": 294214,
-      "fileID": 2563120,
-      "required": true
-    },
-    {
       "projectID": 245733,
       "fileID": 2483817,
       "required": true
@@ -1613,11 +1563,6 @@
     {
       "projectID": 285385,
       "fileID": 2540127,
-      "required": true
-    },
-    {
-      "projectID": 223815,
-      "fileID": 2551739,
       "required": true
     },
     {
