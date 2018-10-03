@@ -1,6 +1,6 @@
 
 {
-  "ID": 70,
+  "ID": 51,
   "Name": "Stormland",
   "Resource Location": "advancedrocketry:stormland",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenStormland",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
     "HOT",
+    "WET",
     "JUNGLE"
   ],
   "BiomeManager Entries": {},

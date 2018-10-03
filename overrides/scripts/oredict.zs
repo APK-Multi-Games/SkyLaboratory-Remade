@@ -36,6 +36,30 @@ val botaniablocks = [
 		<ore:ingotManaAny>.add(botaniaingot);
 	}
 
+	//OpenBlocks Elevators
+	val obelevators = [
+		<openblocks:elevator>,
+		<openblocks:elevator:1>,
+		<openblocks:elevator:2>,
+		<openblocks:elevator:3>,
+		<openblocks:elevator:4>,
+		<openblocks:elevator:5>,
+		<openblocks:elevator:6>,
+		<openblocks:elevator:7>,
+		<openblocks:elevator:8>,
+		<openblocks:elevator:9>,
+		<openblocks:elevator:10>,
+		<openblocks:elevator:11>,
+		<openblocks:elevator:12>,
+		<openblocks:elevator:13>,
+		<openblocks:elevator:14>,
+		<openblocks:elevator:15>
+	] as IItemStack[];
+
+	for obelevator in obelevators {
+		<ore:obElevatorAny>.add(obelevators);
+	}
+
 //MISC
 val canolacrops = [
 		<car:canola>,

@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "SNOWY",
     "COLD",
+    "SNOWY",
     "WASTELAND"
   ],
   "BiomeManager Entries": {
@@ -53,12 +53,6 @@
       "Weight": 6,
       "Min Group Count": 3,
       "Max Group Count": 7
-    },
-    {
-      "Entity Class": "com.girafi.waddles.entity.EntityAdeliePenguin",
-      "Weight": 2,
-      "Min Group Count": 1,
-      "Max Group Count": 4
     }
   ],
   "Spawnable Monsters": [

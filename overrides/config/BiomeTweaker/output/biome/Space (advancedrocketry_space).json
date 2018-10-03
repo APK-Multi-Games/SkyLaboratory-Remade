@@ -1,6 +1,6 @@
 
 {
-  "ID": 69,
+  "ID": 50,
   "Name": "Space",
   "Resource Location": "advancedrocketry:space",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenSpace",
@@ -20,10 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WATER",
-    "PLAINS",
     "HOT",
-    "RIVER"
+    "RIVER",
+    "WATER",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

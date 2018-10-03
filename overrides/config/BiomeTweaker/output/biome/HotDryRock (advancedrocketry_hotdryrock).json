@@ -1,6 +1,6 @@
 
 {
-  "ID": 68,
+  "ID": 49,
   "Name": "HotDryRock",
   "Resource Location": "advancedrocketry:hotdryrock",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenHotDryRock",
@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DRY",
-    "PLAINS",
-    "HOT"
+    "HOT",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

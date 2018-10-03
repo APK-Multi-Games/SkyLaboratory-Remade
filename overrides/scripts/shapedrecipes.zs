@@ -61,9 +61,9 @@ recipes.remove(<chickens:colored_egg:3>);
 recipes.remove(<chickens:colored_egg:4>);
 recipes.remove(<chickens:colored_egg:11>);
 recipes.remove(<chickens:colored_egg:15>);
-recipes.remove(<chickens:spawn_egg>.withTag({ChickenType:{id:"chickens:flintchicken"}});
-recipes.remove(<chickens:spawn_egg>.withTag({ChickenType:{id:"chickens:sandchicken"}});
-recipes.remove(<chickens:spawn_egg>.withTag({ChickenType:{id:"chickens:logchicken"}});
+recipes.remove(<chickens:spawn_egg>.withTag({ChickenType:{id:"chickens:flintchicken"}}));
+recipes.remove(<chickens:spawn_egg>.withTag({ChickenType:{id:"chickens:sandchicken"}}));
+recipes.remove(<chickens:spawn_egg>.withTag({ChickenType:{id:"chickens:logchicken"}}));
 recipes.remove(<chickens:colored_egg:10>);
 recipes.remove(<chickens:colored_egg:12>);
 recipes.remove(<chickens:colored_egg:13>);
@@ -108,21 +108,21 @@ recipes.addShaped(<mob_grinding_utils:fan>, [[<minecraft:stone_slab>, <minecraft
 recipes.addShaped(<beneath:teleporterbeneath>, [[<extrautils2:compressedcobblestone:3>, <darkutils:material:1>, <extrautils2:compressedcobblestone:3>], [<darkutils:material:1>, <extrautils2:compressedcobblestone:4>, <darkutils:material:1>], [<extrautils2:compressedcobblestone:3>, <darkutils:material:1>, <extrautils2:compressedcobblestone:3>]]);
 
 //Dye Elevators
-recipes.addShaped(<elevatorid:elevator_black>, [[<ore:dyeBlack>, <ore:dyeBlack>, <ore:dyeBlack>], [<ore:dyeBlack>, <elevatorid:elevator_white>, <ore:dyeBlack>], [<ore:dyeBlack>, <ore:dyeBlack>, <ore:dyeBlack>]]);
-recipes.addShaped(<elevatorid:elevator_blue>, [[<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>], [<ore:dyeBlue>, <elevatorid:elevator_white>, <ore:dyeBlue>], [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>]]);
-recipes.addShaped(<elevatorid:elevator_brown>, [[<ore:dyeBrown>, <ore:dyeBrown>, <ore:dyeBrown>], [<ore:dyeBrown>, <elevatorid:elevator_white>, <ore:dyeBrown>], [<ore:dyeBrown>, <ore:dyeBrown>, <ore:dyeBrown>]]);
-recipes.addShaped(<elevatorid:elevator_cyan>, [[<ore:dyeCyan>, <ore:dyeCyan>, <ore:dyeCyan>], [<ore:dyeCyan>, <elevatorid:elevator_white>, <ore:dyeCyan>], [<ore:dyeCyan>, <ore:dyeCyan>, <ore:dyeCyan>]]);
-recipes.addShaped(<elevatorid:elevator_gray>, [[<ore:dyeGray>, <ore:dyeGray>, <ore:dyeGray>], [<ore:dyeGray>, <elevatorid:elevator_white>, <ore:dyeGray>], [<ore:dyeGray>, <ore:dyeGray>, <ore:dyeGray>]]);
-recipes.addShaped(<elevatorid:elevator_green>, [[<ore:dyeGreen>, <ore:dyeGreen>, <ore:dyeGreen>], [<ore:dyeGreen>, <elevatorid:elevator_white>, <ore:dyeGreen>], [<ore:dyeGreen>, <ore:dyeGreen>, <ore:dyeGreen>]]);
-recipes.addShaped(<elevatorid:elevator_light_blue>, [[<ore:dyeLightBlue>, <ore:dyeLightBlue>, <ore:dyeLightBlue>], [<ore:dyeLightBlue>, <elevatorid:elevator_white>, <ore:dyeLightBlue>], [<ore:dyeLightBlue>, <ore:dyeLightBlue>, <ore:dyeLightBlue>]]);
-recipes.addShaped(<elevatorid:elevator_lime>, [[<ore:dyeLime>, <ore:dyeLime>, <ore:dyeLime>], [<ore:dyeLime>, <elevatorid:elevator_white>, <ore:dyeLime>], [<ore:dyeLime>, <ore:dyeLime>, <ore:dyeLime>]]);
-recipes.addShaped(<elevatorid:elevator_magenta>, [[<ore:dyeMagenta>, <ore:dyeMagenta>, <ore:dyeMagenta>], [<ore:dyeMagenta>, <elevatorid:elevator_white>, <ore:dyeMagenta>], [<ore:dyeMagenta>, <ore:dyeMagenta>, <ore:dyeMagenta>]]);
-recipes.addShaped(<elevatorid:elevator_red>, [[<ore:dyeRed>, <ore:dyeRed>, <ore:dyeRed>], [<ore:dyeRed>, <elevatorid:elevator_white>, <ore:dyeRed>], [<ore:dyeRed>, <ore:dyeRed>, <ore:dyeRed>]]);
-recipes.addShaped(<elevatorid:elevator_yellow>, [[<ore:dyeYellow>, <ore:dyeYellow>, <ore:dyeYellow>], [<ore:dyeYellow>, <elevatorid:elevator_white>, <ore:dyeYellow>], [<ore:dyeYellow>, <ore:dyeYellow>, <ore:dyeYellow>]]);
-recipes.addShaped(<elevatorid:elevator_purple>, [[<ore:dyePurple>, <ore:dyePurple>, <ore:dyePurple>], [<ore:dyePurple>, <elevatorid:elevator_white>, <ore:dyePurple>], [<ore:dyePurple>, <ore:dyePurple>, <ore:dyePurple>]]);
-recipes.addShaped(<elevatorid:elevator_orange>, [[<ore:dyeOrange>, <ore:dyeOrange>, <ore:dyeOrange>], [<ore:dyeOrange>, <elevatorid:elevator_white>, <ore:dyeOrange>], [<ore:dyeOrange>, <ore:dyeOrange>, <ore:dyeOrange>]]);
-recipes.addShaped(<elevatorid:elevator_pink>, [[<ore:dyePink>, <ore:dyePink>, <ore:dyePink>], [<ore:dyePink>, <elevatorid:elevator_white>, <ore:dyePink>], [<ore:dyePink>, <ore:dyePink>, <ore:dyePink>]]);
-recipes.addShaped(<elevatorid:elevator_silver>, [[<ore:dyeLightGray>, <ore:dyeLightGray>, <ore:dyeLightGray>], [<ore:dyeLightGray>, <elevatorid:elevator_white>, <ore:dyeLightGray>], [<ore:dyeLightGray>, <ore:dyeLightGray>, <ore:dyeLightGray>]]);
+recipes.addShaped(<openblocks:elevator:15>, [[<ore:dyeBlack>, <ore:dyeBlack>, <ore:dyeBlack>], [<ore:dyeBlack>, <ore:obElevatorAny>, <ore:dyeBlack>], [<ore:dyeBlack>, <ore:dyeBlack>, <ore:dyeBlack>]]);
+recipes.addShaped(<openblocks:elevator:11>, [[<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>], [<ore:dyeBlue>, <ore:obElevatorAny>, <ore:dyeBlue>], [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>]]);
+recipes.addShaped(<openblocks:elevator:12>, [[<ore:dyeBrown>, <ore:dyeBrown>, <ore:dyeBrown>], [<ore:dyeBrown>, <ore:obElevatorAny>, <ore:dyeBrown>], [<ore:dyeBrown>, <ore:dyeBrown>, <ore:dyeBrown>]]);
+recipes.addShaped(<openblocks:elevator:9>, [[<ore:dyeCyan>, <ore:dyeCyan>, <ore:dyeCyan>], [<ore:dyeCyan>, <ore:obElevatorAny>, <ore:dyeCyan>], [<ore:dyeCyan>, <ore:dyeCyan>, <ore:dyeCyan>]]);
+recipes.addShaped(<openblocks:elevator:7>, [[<ore:dyeGray>, <ore:dyeGray>, <ore:dyeGray>], [<ore:dyeGray>, <ore:obElevatorAny>, <ore:dyeGray>], [<ore:dyeGray>, <ore:dyeGray>, <ore:dyeGray>]]);
+recipes.addShaped(<openblocks:elevator:13>, [[<ore:dyeGreen>, <ore:dyeGreen>, <ore:dyeGreen>], [<ore:dyeGreen>, <ore:obElevatorAny>, <ore:dyeGreen>], [<ore:dyeGreen>, <ore:dyeGreen>, <ore:dyeGreen>]]);
+recipes.addShaped(<openblocks:elevator:3>, [[<ore:dyeLightBlue>, <ore:dyeLightBlue>, <ore:dyeLightBlue>], [<ore:dyeLightBlue>, <ore:obElevatorAny>, <ore:dyeLightBlue>], [<ore:dyeLightBlue>, <ore:dyeLightBlue>, <ore:dyeLightBlue>]]);
+recipes.addShaped(<openblocks:elevator:5>, [[<ore:dyeLime>, <ore:dyeLime>, <ore:dyeLime>], [<ore:dyeLime>, <ore:obElevatorAny>, <ore:dyeLime>], [<ore:dyeLime>, <ore:dyeLime>, <ore:dyeLime>]]);
+recipes.addShaped(<openblocks:elevator:2>, [[<ore:dyeMagenta>, <ore:dyeMagenta>, <ore:dyeMagenta>], [<ore:dyeMagenta>, <ore:obElevatorAny>, <ore:dyeMagenta>], [<ore:dyeMagenta>, <ore:dyeMagenta>, <ore:dyeMagenta>]]);
+recipes.addShaped(<openblocks:elevator:14>, [[<ore:dyeRed>, <ore:dyeRed>, <ore:dyeRed>], [<ore:dyeRed>, <ore:obElevatorAny>, <ore:dyeRed>], [<ore:dyeRed>, <ore:dyeRed>, <ore:dyeRed>]]);
+recipes.addShaped(<openblocks:elevator:4>, [[<ore:dyeYellow>, <ore:dyeYellow>, <ore:dyeYellow>], [<ore:dyeYellow>, <ore:obElevatorAny>, <ore:dyeYellow>], [<ore:dyeYellow>, <ore:dyeYellow>, <ore:dyeYellow>]]);
+recipes.addShaped(<openblocks:elevator:10>, [[<ore:dyePurple>, <ore:dyePurple>, <ore:dyePurple>], [<ore:dyePurple>, <ore:obElevatorAny>, <ore:dyePurple>], [<ore:dyePurple>, <ore:dyePurple>, <ore:dyePurple>]]);
+recipes.addShaped(<openblocks:elevator:1>, [[<ore:dyeOrange>, <ore:dyeOrange>, <ore:dyeOrange>], [<ore:dyeOrange>, <ore:obElevatorAny>, <ore:dyeOrange>], [<ore:dyeOrange>, <ore:dyeOrange>, <ore:dyeOrange>]]);
+recipes.addShaped(<openblocks:elevator:6>, [[<ore:dyePink>, <ore:dyePink>, <ore:dyePink>], [<ore:dyePink>, <ore:obElevatorAny>, <ore:dyePink>], [<ore:dyePink>, <ore:dyePink>, <ore:dyePink>]]);
+recipes.addShaped(<openblocks:elevator:8>, [[<ore:dyeLightGray>, <ore:dyeLightGray>, <ore:dyeLightGray>], [<ore:dyeLightGray>, <ore:obElevatorAny>, <ore:dyeLightGray>], [<ore:dyeLightGray>, <ore:dyeLightGray>, <ore:dyeLightGray>]]);
 
 //Mob Grinder Utils Fan Upgrades
 recipes.remove(<mob_grinding_utils:fan_upgrade:0>);

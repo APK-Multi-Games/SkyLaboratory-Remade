@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "SNOWY",
-    "HILLS",
     "COLD",
+    "HILLS",
+    "SNOWY",
     "RARE"
   ],
   "BiomeManager Entries": {},
@@ -38,12 +38,6 @@
       "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.girafi.waddles.entity.EntityAdeliePenguin",
-      "Weight": 2,
-      "Min Group Count": 1,
-      "Max Group Count": 4
     }
   ],
   "Spawnable Monsters": [

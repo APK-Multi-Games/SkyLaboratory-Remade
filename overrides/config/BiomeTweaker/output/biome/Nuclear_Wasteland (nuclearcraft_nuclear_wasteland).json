@@ -1,6 +1,6 @@
 
 {
-  "ID": 65,
+  "ID": 46,
   "Name": "Nuclear Wasteland",
   "Resource Location": "nuclearcraft:nuclear_wasteland",
   "Class": "nc.worldgen.biome.BiomeNuclearWasteland",
@@ -21,12 +21,12 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DRY",
-    "SPARSE",
-    "DEAD",
-    "PLAINS",
     "HOT",
     "SAVANNA",
-    "WASTELAND"
+    "SPARSE",
+    "WASTELAND",
+    "PLAINS",
+    "DEAD"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [

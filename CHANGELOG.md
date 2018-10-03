@@ -14,6 +14,21 @@
 * Updated Iron Chest
 * Updated Random PSIdeas
 * Updated Thaumcraft
+* Fixed Chicken Recipes for wood, flint and sand thanks to Kendrick
+* Fixed Prismarine  Recipe thanks to Kendrick
+* Fixed Sand to Dust Recipe thanks to Kendrick
+* Removed OpenBlocks Elevator as its been added back into the original OpenBlocks Mod
+* Removed Waddles mod due to it not bring anything productive to the modpack
+* Removed Better than Bunnies
+* Removed Blockcraftery
+* Removed Engineers Workshop over a year since last update removing due to conflicts
+* Removed Gendustry due to lack of updates
+* Removed Hopper Ducts  due to lack of updates
+* Removed Initial Inventory due to it being a unneeded mod since i am using Custom Starter Gear Mod instead
+* Removed Missing Pieces due to lack of Updates
+* Removed The Twilight Forest Was added by mistake so removing it now
+* Fixed Recipes for Elevators to use the OpenBlocks ID's instead of OpenBlocks Elevator mod since this was removed
+* Added Elevators to Oredict so that you can change the color of any color Elevator to another color
 
 -------
 #Version 0.0.1.2

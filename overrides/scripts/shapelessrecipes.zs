@@ -26,4 +26,7 @@ recipes.addShapeless(<minecraft:sand:1> * 2, [<snad:snad:1>]);
 recipes.addShapeless(<tconstruct:slime_vine_blue>, [<tconstruct:slime_leaves> * 4]);
 recipes.addShapeless(<tconstruct:slime_vine_purple>, [<tconstruct:slime_leaves:1> * 4]);
 
+// OpenBlock Elevator
+recipes.addShapeless(<openblocks:elevator>, [<ore:obElevatorAny>, <ore:listAllwater>]);
+
 print("Initialized 'shapelessrecipes'");
