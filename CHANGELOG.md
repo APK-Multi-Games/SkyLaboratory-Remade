@@ -26,6 +26,7 @@
 * Updated Rustic
 * Updated Simply Jetpacks 2
 * Updated Thaumic Periphery
+* Updated ValkrieLib
 * Fixed Chicken Recipes for wood, flint and sand thanks to Kendrick
 * Fixed Prismarine  Recipe thanks to Kendrick
 * Fixed Sand to Dust Recipe thanks to Kendrick
