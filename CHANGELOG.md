@@ -1,4 +1,6 @@
 #Version 0.0.1.3
+* Added vanillaautomation
+* Added Mod Name Tooltip
 * Updated CoFH Core
 * Updated CoFH World
 * Updated CoFH Vanilla+ Tools
@@ -14,6 +16,14 @@
 * Updated Iron Chest
 * Updated Random PSIdeas
 * Updated Thaumcraft
+* Updated Chisels & Bits
+* Updated CraftTweaker
+* Updated Just Enough Items (JEI)
+* Updated MrCrayfish's Vehicle Mod
+* Updated Reliquary
+* Updated Rustic
+* Updated Simply Jetpacks 2
+* Updated Thaumic Periphery
 * Fixed Chicken Recipes for wood, flint and sand thanks to Kendrick
 * Fixed Prismarine  Recipe thanks to Kendrick
 * Fixed Sand to Dust Recipe thanks to Kendrick
@@ -29,6 +39,7 @@
 * Removed The Twilight Forest Was added by mistake so removing it now
 * Fixed Recipes for Elevators to use the OpenBlocks ID's instead of OpenBlocks Elevator mod since this was removed
 * Added Elevators to Oredict so that you can change the color of any color Elevator to another color
+* Changes Many config changes to fix many issues with loading and to better optimize game play
 
 -------
 #Version 0.0.1.2
