@@ -1,6 +1,8 @@
 #Version 0.0.1.3
 * Added vanillaautomation
 * Added Mod Name Tooltip
+* Added Builder Gadgets
+* Added Pewter
 * Updated CoFH Core
 * Updated CoFH World
 * Updated CoFH Vanilla+ Tools
