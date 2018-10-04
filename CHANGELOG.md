@@ -40,6 +40,7 @@
 * Removed Missing Pieces due to lack of Updates
 * Removed The Twilight Forest Was added by mistake so removing it now
 * Fixed Recipes for Elevators to use the OpenBlocks ID's instead of OpenBlocks Elevator mod since this was removed
+* Fixed Conflicts with Tiny progressions stone armor
 * Added Elevators to Oredict so that you can change the color of any color Elevator to another color
 * Changes Many config changes to fix many issues with loading and to better optimize game play
 
