@@ -1,0 +1,6 @@
+
+{
+  "Name": "aw_npc_siege_engineer",
+  "Registry ID": "ancientwarfarenpc:aw_npc_siege_engineer",
+  "Class": "net.shadowmage.ancientwarfare.npc.entity.vehicle.NpcSiegeEngineer"
+}

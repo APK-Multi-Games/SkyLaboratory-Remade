@@ -1,0 +1,6 @@
+
+{
+  "Name": "aw_npc_courier",
+  "Registry ID": "ancientwarfarenpc:aw_npc_courier",
+  "Class": "net.shadowmage.ancientwarfare.npc.entity.NpcCourier"
+}

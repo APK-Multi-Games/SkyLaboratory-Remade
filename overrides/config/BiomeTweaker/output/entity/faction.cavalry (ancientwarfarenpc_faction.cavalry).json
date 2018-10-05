@@ -1,0 +1,6 @@
+
+{
+  "Name": "faction.cavalry",
+  "Registry ID": "ancientwarfarenpc:faction.cavalry",
+  "Class": "net.shadowmage.ancientwarfare.npc.entity.faction.NpcFactionMountedSoldier"
+}

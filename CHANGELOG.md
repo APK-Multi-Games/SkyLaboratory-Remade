@@ -1,3 +1,16 @@
+#Version 0.0.1.4
+* Removed Chickens Mod
+* Removed MoreChickens Mod
+* Removed Chicken Chunks Mod
+* Added Ancient Warfare 2
+* Added Bonsai Trees
+* Updated ArchitectureCraft
+* Updated Ender IO
+* Updated Iron Chest
+* Updated Redstone Arsenal
+* Updated Thermal Expansion
+
+-------
 #Version 0.0.1.3
 * Added vanillaautomation
 * Added Mod Name Tooltip

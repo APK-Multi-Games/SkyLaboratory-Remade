@@ -1,0 +1,6 @@
+
+{
+  "Name": "aw_npc_worker",
+  "Registry ID": "ancientwarfarenpc:aw_npc_worker",
+  "Class": "net.shadowmage.ancientwarfare.npc.entity.NpcWorker"
+}

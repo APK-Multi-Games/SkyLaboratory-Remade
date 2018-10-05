@@ -1,0 +1,6 @@
+
+{
+  "Name": "faction.soldier.elite",
+  "Registry ID": "ancientwarfarenpc:faction.soldier.elite",
+  "Class": "net.shadowmage.ancientwarfare.npc.entity.faction.NpcFactionSoldierElite"
+}

@@ -1,8 +1,10 @@
 {
   "name": "Sky Laboratory-Remade",
   "description": "Skyblock Modpack",
-  "version": "0.0.1.3",
+  "version": "0.0.1.4",
   "url": "https://minecraft.curseforge.com/projects/sky-laboratory-remade",
-  "authorList": [Raziel23x],
-  "credits": ""
+  "authorList": [
+    "Raziel23x"
+  ],
+  "credits": "Kendirk for testing all my updates before they are released"
 }

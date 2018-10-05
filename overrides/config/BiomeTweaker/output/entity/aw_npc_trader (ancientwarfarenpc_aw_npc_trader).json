@@ -1,0 +1,6 @@
+
+{
+  "Name": "aw_npc_trader",
+  "Registry ID": "ancientwarfarenpc:aw_npc_trader",
+  "Class": "net.shadowmage.ancientwarfare.npc.entity.NpcTrader"
+}

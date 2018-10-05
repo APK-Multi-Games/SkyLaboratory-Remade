@@ -1,0 +1,6 @@
+
+{
+  "Name": "faction.civilian.female",
+  "Registry ID": "ancientwarfarenpc:faction.civilian.female",
+  "Class": "net.shadowmage.ancientwarfare.npc.entity.faction.NpcFactionCivilianFemale"
+}

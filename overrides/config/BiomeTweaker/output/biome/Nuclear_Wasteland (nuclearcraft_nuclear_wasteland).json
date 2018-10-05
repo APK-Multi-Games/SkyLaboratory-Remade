@@ -21,26 +21,19 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DEAD",
-    "HOT",
-    "WASTELAND",
-    "DRY",
     "SPARSE",
+    "PLAINS",
     "SAVANNA",
-    "PLAINS"
+    "DRY",
+    "HOT",
+    "WASTELAND"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [
       5
     ]
   },
-  "Spawnable Creatures": [
-    {
-      "Entity Class": "com.setycz.chickens.entity.EntityChickensChicken",
-      "Weight": 10,
-      "Min Group Count": 3,
-      "Max Group Count": 5
-    }
-  ],
+  "Spawnable Creatures": [],
   "Spawnable Monsters": [
     {
       "Entity Class": "net.minecraft.entity.monster.EntitySpider",

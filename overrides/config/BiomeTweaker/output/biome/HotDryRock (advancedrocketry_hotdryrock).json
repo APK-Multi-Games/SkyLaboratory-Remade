@@ -20,9 +20,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
+    "PLAINS",
     "DRY",
-    "PLAINS"
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -49,12 +49,6 @@
       "Weight": 8,
       "Min Group Count": 4,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "com.setycz.chickens.entity.EntityChickensChicken",
-      "Weight": 10,
-      "Min Group Count": 3,
-      "Max Group Count": 5
     },
     {
       "Entity Class": "com.gendeathrow.hatchery.entities.EntityRooster",

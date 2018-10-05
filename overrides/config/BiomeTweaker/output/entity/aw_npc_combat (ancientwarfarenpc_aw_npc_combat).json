@@ -1,0 +1,6 @@
+
+{
+  "Name": "aw_npc_combat",
+  "Registry ID": "ancientwarfarenpc:aw_npc_combat",
+  "Class": "net.shadowmage.ancientwarfare.npc.entity.NpcCombat"
+}

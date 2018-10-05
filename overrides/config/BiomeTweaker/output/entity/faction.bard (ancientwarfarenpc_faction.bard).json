@@ -1,0 +1,6 @@
+
+{
+  "Name": "faction.bard",
+  "Registry ID": "ancientwarfarenpc:faction.bard",
+  "Class": "net.shadowmage.ancientwarfare.npc.entity.faction.NpcFactionBard"
+}

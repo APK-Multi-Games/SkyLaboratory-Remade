@@ -1,0 +1,6 @@
+
+{
+  "Name": "faction.archer.elite",
+  "Registry ID": "ancientwarfarenpc:faction.archer.elite",
+  "Class": "net.shadowmage.ancientwarfare.npc.entity.faction.NpcFactionArcherElite"
+}

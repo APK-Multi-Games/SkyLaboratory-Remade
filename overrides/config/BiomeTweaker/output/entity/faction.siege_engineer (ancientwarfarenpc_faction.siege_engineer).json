@@ -1,0 +1,6 @@
+
+{
+  "Name": "faction.siege_engineer",
+  "Registry ID": "ancientwarfarenpc:faction.siege_engineer",
+  "Class": "net.shadowmage.ancientwarfare.npc.entity.faction.NpcFactionSiegeEngineer"
+}
