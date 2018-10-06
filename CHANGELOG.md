@@ -9,6 +9,9 @@
 * Updated Iron Chest
 * Updated Redstone Arsenal
 * Updated Thermal Expansion
+* Updated CFG files
+* Added new scripts
+
 
 -------
 #Version 0.0.1.3

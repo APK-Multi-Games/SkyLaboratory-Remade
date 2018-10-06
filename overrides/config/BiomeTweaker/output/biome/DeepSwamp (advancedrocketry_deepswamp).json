@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "WET",
     "SWAMP",
-    "JUNGLE",
     "DENSE",
-    "HOT"
+    "HOT",
+    "JUNGLE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
