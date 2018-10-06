@@ -34,10 +34,16 @@ mods.immersiveengineering.Crusher.addRecipe(<minecraft:leather> * 5, <minecraft:
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:leather> * 2, <minecraft:leather_boots>, 8000);
 
 //Obsidian Armor
-//mods.immersiveengineering.Crusher.addRecipe(<enderio:itemPowderIngot:7> * 3, <actuallyadditions:itemHelmObsidian>, 10000);
-//mods.immersiveengineering.Crusher.addRecipe(<enderio:itemPowderIngot:7> * 6, <actuallyadditions:itemChestObsidian>, 16000);
-//mods.immersiveengineering.Crusher.addRecipe(<enderio:itemPowderIngot:7> * 5, <actuallyadditions:itemPantsObsidian>, 14000);
-//mods.immersiveengineering.Crusher.addRecipe(<enderio:itemPowderIngot:7> * 2, <actuallyadditions:itemBootsObsidian>, 8000);
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:770> * 3, <actuallyadditions:item_helm_obsidian>, 10000);
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:770> * 6, <actuallyadditions:item_chest_obsidian>, 16000);
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:770> * 5, <actuallyadditions:item_pants_obsidian>, 14000);
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:770> * 2, <actuallyadditions:item_boots_obsidian>, 8000);
+
+//Refined Obsidian Armor
+mods.immersiveengineering.Crusher.addRecipe(<mekanism:otherdust:5> * 3, <mekanismtools:obsidianhelmet>, 10000);
+mods.immersiveengineering.Crusher.addRecipe(<mekanism:otherdust:5> * 6, <mekanismtools:obsidianchestplate>, 16000);
+mods.immersiveengineering.Crusher.addRecipe(<mekanism:otherdust:5> * 5, <mekanismtools:obsidianleggings>, 14000);
+mods.immersiveengineering.Crusher.addRecipe(<mekanism:otherdust:5> * 2, <mekanismtools:obsidianboots>, 8000);
 
 //Other Horse Armor
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:diamond> * 6, <minecraft:diamond_horse_armor>, 6000);

@@ -1,6 +1,7 @@
 #Name: remove.zs
 #Author: Raziel23x
 
+import mods.jei.JEI.removeAndHide as rh;
 print("Initializing 'remove'...");
 
 //recipes.remove(<>);
@@ -20,6 +21,21 @@ recipes.remove(<extrautils2:sickle_stone>);
 recipes.remove(<extrautils2:sickle_iron>);
 recipes.remove(<extrautils2:sickle_gold>);
 recipes.remove(<extrautils2:sickle_diamond>);
+rh(<extrautils2:sickle_wood>);
+rh(<extrautils2:sickle_stone>);
+rh(<extrautils2:sickle_iron>);
+rh(<extrautils2:sickle_gold>);
+rh(<extrautils2:sickle_diamond>);
+
+//TP Obsidian Armor
+recipes.remove(<tp:obsidian_helmet>);
+recipes.remove(<tp:obsidian_chestplate>);
+recipes.remove(<tp:obsidian_boots>);
+recipes.remove(<tp:obsidian_leggings>);
+rh(<tp:obsidian_helmet>);
+rh(<tp:obsidian_chestplate>);
+rh(<tp:obsidian_boots>);
+rh(<tp:obsidian_leggings>);
 
 //Items removed due to bugs
 recipes.remove(<actuallyadditions:item_bag>);

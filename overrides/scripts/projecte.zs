@@ -43,15 +43,15 @@ recipes.addShaped(<projecte:relay_mk1> * 1, [[<ore:crystalAethium>, <environment
 
 //Anti-Matter Relay MK2
 recipes.remove(<projecte:relay_mk2>);
-recipes.addShaped(<projecte:relay_mk2> * 1, [[<ore:crystalAethium>, <projecte:matter_block:0>,	<ore:crystalAethium>], [<ore:crystalAethium>, <projecte:relay_mk1>, <ore:crystalAethium>], [<ore:crystalAethium>, <ore:crystalAethium>, <ore:crystalAethium>]]);
+recipes.addShaped(<projecte:relay_mk2> * 1, [[<ore:crystalAethium>, <projecte:matter_block:0>, <ore:crystalAethium>], [<ore:crystalAethium>, <projecte:relay_mk1>, <ore:crystalAethium>], [<ore:crystalAethium>, <ore:crystalAethium>, <ore:crystalAethium>]]);
 
 //Anti-Matter Relay MK3
 recipes.remove(<projecte:relay_mk3>);
-recipes.addShaped(<projecte:relay_mk3> * 1, [[<ore:crystalAethium>, <projecte:matter_block:1>,	<ore:crystalAethium>], [<ore:crystalAethium>, <projecte:relay_mk2>, <ore:crystalAethium>], [<ore:crystalAethium>, <ore:crystalAethium>, <ore:crystalAethium>]]);
+recipes.addShaped(<projecte:relay_mk3> * 1, [[<ore:crystalAethium>, <projecte:matter_block:1>, <ore:crystalAethium>], [<ore:crystalAethium>, <projecte:relay_mk2>, <ore:crystalAethium>], [<ore:crystalAethium>, <ore:crystalAethium>, <ore:crystalAethium>]]);
 
 //Energy Condenser MK1
 recipes.remove(<projecte:condenser_mk1>);
-recipes.addShaped(<projecte:condenser_mk1> * 1, [[<ore:blockLitherite>, <minecraft:nether_star>,	<ore:blockLitherite>], [<minecraft:diamond_block <projecte:alchemical_chest>,<minecraft:diamond_block>], [<ore:blockLitherite>, <minecraft:diamond_block>,	<ore:blockLitherite>]]);
+recipes.addShaped(<projecte:condenser_mk1> * 1, [[<ore:blockLitherite>, <minecraft:nether_star>, <ore:blockLitherite>], [<minecraft:diamond_block>, <projecte:alchemical_chest>, <minecraft:diamond_block>], [<ore:blockLitherite>, <minecraft:diamond_block>, <ore:blockLitherite>]]);
 
 //Energy Condenser MK2
 recipes.remove(<projecte:condenser_mk2>);

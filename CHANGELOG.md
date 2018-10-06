@@ -2,16 +2,19 @@
 * Removed Chickens Mod
 * Removed MoreChickens Mod
 * Removed Chicken Chunks Mod
-* Added Ancient Warfare 2
-* Added Bonsai Trees
+* Removed Recipes for Tiny Progressions Obsidian Armor and using Actually Additions instead
+* Added Ancient Warfare 2 Mod
+* Added Bonsai Trees Mod
 * Updated ArchitectureCraft
 * Updated Ender IO
 * Updated Iron Chest
 * Updated Redstone Arsenal
 * Updated Thermal Expansion
 * Updated CFG files
-* Added new scripts
-
+* Fixed Recipes for ProjectE
+* Fixed Obsidian Armor recipes for immersive engineering crusher
+* Fixed Lootbags Loot tables
+* Fixed names for the Mekanism Refined Obsidian Armor
 
 -------
 #Version 0.0.1.3

@@ -122,6 +122,8 @@ key_quark.emote.shrug:0
 key_quark.emote.headbang:0
 key_quark.emote.weep:0
 key_quark.emote.facepalm:0
+key_quark.keybind.toggleAutojump:48
+key_quark.keybind.lockBuilding:37
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -129,8 +131,6 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_quark.keybind.lockBuilding:37
-key_quark.keybind.toggleAutojump:48
 key_bloodmagic.keybind.open_holding:35
 key_bloodmagic.keybind.cycle_holding_pos:0
 key_bloodmagic.keybind.cycle_holding_neg:0
@@ -151,9 +151,9 @@ key_key.exchanger_force_drop_items:52
 key_key.ftbguides.guide:75
 key_key.ftbutilities.warp:0
 key_key.ftbutilities.nbt:49:ALT
-key_key.inventorysorter.itemout:-201
 key_key.inventorysorter.sort:-98
 key_key.inventorysorter.itemin:-200
+key_key.inventorysorter.itemout:-201
 key_key.ironbackpacks.equip:0
 key_key.ironbackpacks.open:23
 key_key.open_menu:55
@@ -328,6 +328,7 @@ key_key.journeymap.fullscreen.south:208
 key_key.journeymap.fullscreen.east:205
 key_key.journeymap.fullscreen.west:203
 key_key.control:29
+key_key.secretroomsmod.oneWayface:43
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
