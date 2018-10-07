@@ -1,5 +1,5 @@
 #Name: projecte.zs
-#Author: Raziel23x
+#Author: ValkyrieofNight
 
 print("Initializing 'projecte'...");
 recipes.remove(<projecte:item.pe_rm_armor_0>);

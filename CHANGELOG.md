@@ -1,3 +1,21 @@
+#Version 0.0.1.5
+* Updated Ender IO
+* Updated Advanced Rocketry
+* Updated Building Gadgets
+* Updated Carry On
+* Updated  Chisel & Bits
+* Updated Client Tweaks
+* Updated Cyclic
+* Updated Default Options
+* Updated Dragons Mounts 2
+* Updated NotEnoughIDs
+* Updated Obfuscate
+* Updated Pewter
+* Updated Thermal Expansion
+* Updated Waystones
+* Fixed having 2 graves For some reason every time i would disable the graves in open blocks it would reenable itself somehow
+
+-------
 #Version 0.0.1.4
 * Removed Chickens Mod
 * Removed MoreChickens Mod
