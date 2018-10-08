@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "DRY",
     "MOUNTAIN",
-    "RARE",
     "SAVANNA",
+    "RARE",
     "HOT",
     "SPARSE"
   ],

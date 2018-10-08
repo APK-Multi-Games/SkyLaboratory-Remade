@@ -1,4 +1,5 @@
 #Version 0.0.1.5
+* Added Rocky Core
 * Updated Ender IO
 * Updated Advanced Rocketry
 * Updated Building Gadgets
@@ -14,6 +15,7 @@
 * Updated Thermal Expansion
 * Updated Waystones
 * Fixed having 2 graves For some reason every time i would disable the graves in open blocks it would reenable itself somehow
+* Minor tweaks to CFG's
 
 -------
 #Version 0.0.1.4
