@@ -17,6 +17,8 @@ recipes.addShaped(<extrautils2:ingredients:8>, [[<minecraft:iron_ingot>, <minecr
 //Sponge Recipe
 recipes.addShaped(<minecraft:sponge>, [[<minecraft:wool:4>, <excompressum:wood_chippings>, <minecraft:wool:4>], [<excompressum:wood_chippings>,  <minecraft:slime>, <excompressum:wood_chippings>], [<minecraft:wool:4>, <excompressum:wood_chippings>, <minecraft:wool:4>]]);
 recipes.addShaped(<minecraft:sponge>, [[<mysticalagriculture:spider_essence>, <mysticalagriculture:nature_essence>, <mysticalagriculture:spider_essence>], [<mysticalagriculture:nature_essence>,  <mysticalagriculture:slime_essence>, <mysticalagriculture:nature_essence>], [<mysticalagriculture:spider_essence>, <mysticalagriculture:nature_essence>, <mysticalagriculture:spider_essence>]]);
+
+//Quartz Enriched Iron
 recipes.addShaped(<refinedstorage:quartz_enriched_iron> * 3, [[<mysticalagriculture:iron_essence>, <mysticalagriculture:iron_essence>], [<mysticalagriculture:iron_essence>, <mysticalagriculture:nether_quartz_essence>], [<mysticalagriculture:iron_essence>, <mysticalagriculture:nether_quartz_essence>]]);
 
 //Chicken Stick Recipe
@@ -46,12 +48,6 @@ recipes.addShaped(<chesttransporter:chesttransporter>, [[<ore:plankWood>, null, 
 recipes.addShaped(<chesttransporter:chesttransporter_iron>, [[<minecraft:iron_ingot>, null, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>], [null, <minecraft:stick>, null]]);
 recipes.addShaped(<chesttransporter:chesttransporter_gold>, [[<minecraft:gold_ingot>, null, <minecraft:gold_ingot>], [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>], [null, <minecraft:stick>, null]]);
 recipes.addShaped(<chesttransporter:chesttransporter_diamond>, [[<minecraft:diamond>, null, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>], [null, <minecraft:stick>, null]]);
-
-//Add recipes for slime dirt
-recipes.addShaped(<tconstruct:slime_dirt>, [[<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>], [<minecraft:slime_ball>, <minecraft:dirt>, <minecraft:slime_ball>], [<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>]]);
-recipes.addShaped(<tconstruct:slime_dirt:1>, [[<tconstruct:edible:1>, <tconstruct:edible:1>, <tconstruct:edible:1>], [<tconstruct:edible:1>, <minecraft:dirt>, <tconstruct:edible:1>], [<tconstruct:edible:1>, <tconstruct:edible:1>, <tconstruct:edible:1>]]);
-recipes.addShaped(<tconstruct:slime_dirt:2>, [[<tconstruct:edible:2>, <tconstruct:edible:2>, <tconstruct:edible:2>], [<tconstruct:edible:2>, <minecraft:dirt>, <tconstruct:edible:2>], [<tconstruct:edible:2>, <tconstruct:edible:2>, <tconstruct:edible:2>]]);
-recipes.addShaped(<tconstruct:slime_dirt:3>, [[<tconstruct:edible:4>, <tconstruct:edible:4>, <tconstruct:edible:4>], [<tconstruct:edible:4>, <minecraft:dirt>, <tconstruct:edible:4>], [<tconstruct:edible:4>, <tconstruct:edible:4>, <tconstruct:edible:4>]]);
 
 //Vacuum Hopper and other MGU changes
 recipes.remove(<mob_grinding_utils:absorption_hopper>);
@@ -110,10 +106,6 @@ recipes.addShaped(<minecraft:dragon_egg>, [[<minecraft:end_crystal>, <darkutils:
 recipes.remove(<mob_grinding_utils:dragon_muffler>);
 recipes.addShaped(<mob_grinding_utils:dragon_muffler>, [[<extrautils2:soundmuffler>, <extrautils2:soundmuffler>, <extrautils2:soundmuffler>], [<minecraft:dragon_breath>, <minecraft:dragon_egg>, <minecraft:dragon_breath>], [<extrautils2:soundmuffler>, <extrautils2:soundmuffler>, <extrautils2:soundmuffler>]]);
 
-//Cobblestone Gen using Oredict
-recipes.remove(<tp:cobblegen_block>);
-recipes.addShaped(<tp:cobblegen_block>, [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>], [<ore:listAllwater>, <ore:blockGlass>, <ore:listAlllava>], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
-
 //Mob Grinder Utils Upgrades
 recipes.remove(<mob_grinding_utils:saw>);
 recipes.addShaped(<mob_grinding_utils:saw>, [[<extrautils2:spike_diamond>, <mob_grinding_utils:spikes>, <extrautils2:spike_diamond>], [<mob_grinding_utils:spikes>, <extrautils2:ingredients:1>, <mob_grinding_utils:spikes>], [<minecraft:iron_block>, <minecraft:iron_block>, <minecraft:iron_block>]]);
@@ -129,16 +121,6 @@ recipes.remove(<mob_grinding_utils:saw_upgrade:3>);
 recipes.addShaped(<mob_grinding_utils:saw_upgrade:3>, [[<minecraft:gold_nugget>, <minecraft:rotten_flesh>, <minecraft:gold_nugget>], [<minecraft:rotten_flesh>, <minecraft:redstone_block>, <minecraft:rotten_flesh>], [<minecraft:gold_nugget>, <minecraft:rotten_flesh>, <minecraft:gold_nugget>]]);
 recipes.remove(<mob_grinding_utils:saw_upgrade:1>);
 recipes.addShaped(<mob_grinding_utils:saw_upgrade:1>, [[<minecraft:gold_nugget>, <minecraft:dye:4>, <minecraft:gold_nugget>], [<minecraft:dye:4>, <minecraft:redstone_block>, <minecraft:dye:4>], [<minecraft:gold_nugget>, <minecraft:dye:4>, <minecraft:gold_nugget>]]);
-
-//Immersive Engineering Blueprint Recipes
-recipes.remove(<immersiveengineering:blueprint>);
-recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "bullet"}), [[<minecraft:gunpowder>, <ore:ingotCopper>, <minecraft:gunpowder>], [<minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
-
-//recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "specialBullet"}));
-recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "specialBullet"}), [[<minecraft:dye:4>, <ore:ingotCopper>, <minecraft:dye:4>], [<minecraft:gunpowder>, <minecraft:gunpowder>, <minecraft:gunpowder>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
-
-//recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}));
-recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}), [[<minecraft:gunpowder>, <ore:ingotCopper>, <minecraft:gunpowder>], [<minecraft:dye:4>, <minecraft:gunpowder>, <minecraft:dye:4>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
 
 recipes.remove(<woodenshears:wshears>);
 recipes.addShaped(<woodenshears:wshears>, [[<ore:plankWood>, null, <ore:plankWood>], [null, <ore:treeSapling>, null], [<ore:stickWood>, null, <ore:stickWood>]]);

@@ -1,5 +1,18 @@
 #Version 0.0.1.5
 * Added Rocky Core
+* Updated Applied Energistics 2
+* Updated CraftTweaker
+* Updated FTB Guides
+* Updated FTB Utilities
+* Updated FTBLib
+* Updated Hatchery
+* Updated Immersive Engineering
+* Updated Iron Chest
+* Updated Reborn Core
+* Updated Signals
+* Updated Soul Shards Respawn
+* Updated Ultimate Car Mod
+* Updated YABBA
 * Updated Ender IO
 * Updated Advanced Rocketry
 * Updated Building Gadgets
@@ -16,6 +29,21 @@
 * Updated Waystones
 * Fixed having 2 graves For some reason every time i would disable the graves in open blocks it would reenable itself somehow
 * Minor tweaks to CFG's
+* Removed Thaumcraft
+* Removed Thaumcraft 6 Aspects for JEI
+* Removed Thaumic JEI
+* Removed Thaumic Tinkerer
+* Removed Thaumic Inventory Scanning (Thaumcraft Addon)
+* Removed Thaumic Equivalence
+* Removed Thaumic Computers
+* Removed Thaumic Periphery
+* Removed Rustic Thaumaturgy
+* Balanced Aroma1997s Dimensional World Recipes
+* Cleanup of Script names and better organzation of scripts'
+* Removed Random Things Fertilized Dirt Recipe
+* Removed Rustic Fertile Soil Recipe
+* Fixed Crop sticks to now work with hatchery fertilized farmland
+* Fixed Crop sticks to now work with hatchery fertilized dirt
 
 -------
 #Version 0.0.1.4

@@ -1,7 +1,7 @@
-#Name: Durability.zs
+#Name: durability.zs
 #Author: Raziel23x
 
-print("Initializing 'Durability'...");
+print("Initializing 'durability'...");
 
 
 <excompressum:compressed_crook>.maxDamage = 600;
@@ -21,4 +21,4 @@ print("Initializing 'Durability'...");
 <excompressum:compressed_hammer_diamond>.maxDamage = 20480;
 
 
-print("Initialized 'Durability'");
+print("Initialized 'durability'");

@@ -24,8 +24,8 @@
     "RARE",
     "JUNGLE",
     "HOT",
-    "DENSE",
-    "WET"
+    "WET",
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -22,10 +22,6 @@ recipes.addShapeless(<mob_grinding_utils:dark_oak_stone>, [<minecraft:cobbleston
 recipes.addShapeless(<minecraft:sand> * 2, [<snad:snad>]);
 recipes.addShapeless(<minecraft:sand:1> * 2, [<snad:snad:1>]);
 
-//Make Slime Vines Available
-recipes.addShapeless(<tconstruct:slime_vine_blue>, [<tconstruct:slime_leaves> * 4]);
-recipes.addShapeless(<tconstruct:slime_vine_purple>, [<tconstruct:slime_leaves:1> * 4]);
-
 // OpenBlock Elevator
 recipes.addShapeless(<openblocks:elevator>, [<ore:obElevatorAny>, <ore:listAllwater>]);
 

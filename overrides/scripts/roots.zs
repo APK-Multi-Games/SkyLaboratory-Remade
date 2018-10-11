@@ -6,6 +6,9 @@ print("Initializing 'roots'...");
 //recipes.remove(<>);
 //recipes.addShaped(<>, [[<>, <>, <>], [<>, <>, <>], [<>, <>, <>]]);
 
+// Removes Wooden shears from Roots to use wooden shears mod recipes instead
+recipes.remove(<roots:wood_shears>);
+
 //Wood Knife
 recipes.remove(<roots:wood_knife>);
 recipes.addShaped(<roots:wood_knife>, [[<ore:stickWood>, null, null], [null, <ore:plankWood>, null], [null, null, <ore:plankWood>]]);

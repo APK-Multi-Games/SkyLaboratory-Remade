@@ -18,4 +18,14 @@ recipes.addShaped(<tconstruct:materials:14>, [[<tp:reinforced_glass>, <tp:reinfo
 
 recipes.addShaped(<tinkerskyblock:rations>, [[<actuallyadditions:item_misc:12>, <tconstruct:materials:14>, <actuallyadditions:item_misc:12>], [<tconstruct:edible:3>, <tconstruct:materials:14>, <tconstruct:edible:3>], [<actuallyadditions:item_misc:12>, <tconstruct:materials:14>, <actuallyadditions:item_misc:12>]]);
 
+//Add recipes for slime dirt
+recipes.addShaped(<tconstruct:slime_dirt>, [[<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>], [<minecraft:slime_ball>, <minecraft:dirt>, <minecraft:slime_ball>], [<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>]]);
+recipes.addShaped(<tconstruct:slime_dirt:1>, [[<tconstruct:edible:1>, <tconstruct:edible:1>, <tconstruct:edible:1>], [<tconstruct:edible:1>, <minecraft:dirt>, <tconstruct:edible:1>], [<tconstruct:edible:1>, <tconstruct:edible:1>, <tconstruct:edible:1>]]);
+recipes.addShaped(<tconstruct:slime_dirt:2>, [[<tconstruct:edible:2>, <tconstruct:edible:2>, <tconstruct:edible:2>], [<tconstruct:edible:2>, <minecraft:dirt>, <tconstruct:edible:2>], [<tconstruct:edible:2>, <tconstruct:edible:2>, <tconstruct:edible:2>]]);
+recipes.addShaped(<tconstruct:slime_dirt:3>, [[<tconstruct:edible:4>, <tconstruct:edible:4>, <tconstruct:edible:4>], [<tconstruct:edible:4>, <minecraft:dirt>, <tconstruct:edible:4>], [<tconstruct:edible:4>, <tconstruct:edible:4>, <tconstruct:edible:4>]]);
+
+//Make Slime Vines Available
+recipes.addShapeless(<tconstruct:slime_vine_blue>, [<tconstruct:slime_leaves> * 4]);
+recipes.addShapeless(<tconstruct:slime_vine_purple>, [<tconstruct:slime_leaves:1> * 4]);
+
 print("Initialized 'tinkers'");

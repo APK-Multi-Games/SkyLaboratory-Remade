@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "RARE",
     "JUNGLE",
-    "HOT",
     "FOREST",
+    "HOT",
     "WET"
   ],
   "BiomeManager Entries": {},
