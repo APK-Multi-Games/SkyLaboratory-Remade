@@ -5,6 +5,7 @@ import mods.jei.JEI.removeAndHide as rh;
 print("Initializing 'remove'...");
 
 //recipes.remove(<>);
+//rh(<>);
 
 //Remove ChunkLoaders (use FTBU to manage chunkloading)
 recipes.remove(<opencomputers:upgrade:4>);
@@ -39,10 +40,13 @@ recipes.remove(<excompressum:double_compressed_diamond_hammer>);
 //Removed other farmlands
 recipes.remove(<randomthings:fertilizeddirt>);
 rh(<randomthings:fertilizeddirt>);
-
 recipes.remove(<randomthings:fertilizeddirttilled>);
 rh(<randomthings:fertilizeddirttilled>);
-
 recipes.remove(<rustic:fertile_soil>);
 rh(<rustic:fertile_soil>);
+
+/removes recipe botania added
+recipes.remove(<minecraft:end_portal_frame>);
+//rh(<minecraft:end_portal_frame>);
+
 print("Initialized 'remove'");

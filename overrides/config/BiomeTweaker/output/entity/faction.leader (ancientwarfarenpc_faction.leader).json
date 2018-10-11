@@ -1,6 +1,0 @@
-
-{
-  "Name": "faction.leader",
-  "Registry ID": "ancientwarfarenpc:faction.leader",
-  "Class": "net.shadowmage.ancientwarfare.npc.entity.faction.NpcFactionLeader"
-}

@@ -1,4 +1,4 @@
-#Name: aa.zs
+#Name: actuallyadditions.zs
 #Author: Raziel23x
 
 print("Initializing 'actuallyadditions'...");

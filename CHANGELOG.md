@@ -38,12 +38,14 @@
 * Removed Thaumic Computers
 * Removed Thaumic Periphery
 * Removed Rustic Thaumaturgy
+* Removed The Beneath Fixed TPS ISSUES
 * Balanced Aroma1997s Dimensional World Recipes
-* Cleanup of Script names and better organzation of scripts'
+* Cleanup of Script names and better organization of scripts
 * Removed Random Things Fertilized Dirt Recipe
 * Removed Rustic Fertile Soil Recipe
 * Fixed Crop sticks to now work with hatchery fertilized farmland
 * Fixed Crop sticks to now work with hatchery fertilized dirt
+* File size reduction cleaned up 1.2MB of cfg files that most of these mod updates left behind with garbage files no longer used by the mods due to updates and many mods changing where they store the config files way to go mod authors changing how your mod stores the config files and not having your mod clean up after itself
 
 -------
 #Version 0.0.1.4
