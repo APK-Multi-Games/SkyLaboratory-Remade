@@ -1,6 +1,7 @@
 #Name: immersiveengineering.zs
 #Author: Raziel23x
 
+import mods.jei.JEI.removeAndHide as rh;
 print("Initializing 'immersiveengineering'...");
 
 //Diamond Armor
@@ -130,5 +131,8 @@ recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "specialB
 
 //recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}));
 recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}), [[<minecraft:gunpowder>, <ore:ingotCopper>, <minecraft:gunpowder>], [<minecraft:dye:4>, <minecraft:gunpowder>, <minecraft:dye:4>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
+
+recipes.remove(<immersiveengineering:metal_device1:13>);
+rh(<immersiveengineering:metal_device1:13>);
 
 print("Initialized 'immersiveengineering'");

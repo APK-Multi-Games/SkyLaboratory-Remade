@@ -45,8 +45,7 @@ rh(<randomthings:fertilizeddirttilled>);
 recipes.remove(<rustic:fertile_soil>);
 rh(<rustic:fertile_soil>);
 
-/removes recipe botania added
+//removes the recipe botania added
 recipes.remove(<minecraft:end_portal_frame>);
-//rh(<minecraft:end_portal_frame>);
 
 print("Initialized 'remove'");

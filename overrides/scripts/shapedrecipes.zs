@@ -58,10 +58,7 @@ recipes.remove(<mob_grinding_utils:tank>);
 recipes.addShaped(<mob_grinding_utils:tank>, [[<minecraft:iron_ingot>, <minecraft:glass>, <minecraft:iron_ingot>], [<minecraft:glass>, <minecraft:glass>, <minecraft:glass>], [<minecraft:iron_ingot>, <minecraft:glass>, <minecraft:iron_ingot>]]);
 recipes.remove(<mob_grinding_utils:fan>);
 recipes.addShaped(<mob_grinding_utils:fan>, [[<minecraft:stone_slab>, <minecraft:iron_ingot>, <minecraft:stone_slab>], [<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>], [<minecraft:stone_slab>, <minecraft:iron_ingot>, <minecraft:stone_slab>]]);
-/*
-//The Beneath
-recipes.addShaped(<beneath:teleporterbeneath>, [[<extrautils2:compressedcobblestone:3>, <darkutils:material:1>, <extrautils2:compressedcobblestone:3>], [<darkutils:material:1>, <extrautils2:compressedcobblestone:4>, <darkutils:material:1>], [<extrautils2:compressedcobblestone:3>, <darkutils:material:1>, <extrautils2:compressedcobblestone:3>]]);
-*/
+
 //Dye Elevators
 recipes.addShaped(<openblocks:elevator:15>, [[<ore:dyeBlack>, <ore:dyeBlack>, <ore:dyeBlack>], [<ore:dyeBlack>, <ore:obElevatorAny>, <ore:dyeBlack>], [<ore:dyeBlack>, <ore:dyeBlack>, <ore:dyeBlack>]]);
 recipes.addShaped(<openblocks:elevator:11>, [[<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>], [<ore:dyeBlue>, <ore:obElevatorAny>, <ore:dyeBlue>], [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>]]);
