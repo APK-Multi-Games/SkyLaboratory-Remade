@@ -57,6 +57,11 @@
 * Removed Garden Cloche Recipe
 * Fixed Crop sticks to now work with hatchery fertilized farmland
 * Fixed Crop sticks to now work with hatchery fertilized dirt
+* Fixed Crop sticks to now work with farming for blockheads fertilized farmland rich
+* Fixed Crop sticks to now work with farming for blockheads fertilized farmland healthy
+* Fixed Crop sticks to now work with farming for blockheads fertilized farmland rich stable
+* Fixed Crop sticks to now work with farming for blockheads fertilized farmland healthy stable
+* Fixed Crop sticks to now work with farming for blockheads fertilized farmland stable
 * Disabled Quantum Quarry Fixed more TPS issues
 * Disabled Deep Dark Fixed more TPS issues
 * Disabled Vanilla Farming
