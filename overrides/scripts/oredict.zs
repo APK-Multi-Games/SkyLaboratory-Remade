@@ -60,8 +60,24 @@ val botaniablocks = [
 		<ore:obElevatorAny>.add(obelevators);
 	}
 
-//MISC
-val canolacrops = [
+	//Astral Sorcery
+	//Sooty Marble
+	val sootymarbles = [
+		<astralsorcery:blockblackmarble>,
+		<astralsorcery:blockblackmarble:1>,
+		<astralsorcery:blockblackmarble:2>,
+		<astralsorcery:blockblackmarble:3>,
+		<astralsorcery:blockblackmarble:4>,
+		<astralsorcery:blockblackmarble:5>,
+		<astralsorcery:blockblackmarble:6>	
+	] as IItemStack[];
+
+	for sootymarble in sootymarbles {
+		<ore:asSootyMarbleAny>.add(sootymarbles);
+	}
+
+	//MISC
+	val canolacrops = [
 		<car:canola>,
 		<actuallyadditions:item_misc:13>
 	 ] as IItemStack[];

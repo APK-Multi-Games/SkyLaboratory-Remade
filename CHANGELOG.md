@@ -1,5 +1,6 @@
 #Version 0.0.1.5
 * Added Rocky Core
+* Added RandomPatches should fix the issue with timing out and getting kicked from servers when you first try to join
 * Updated Applied Energistics 2
 * Updated CraftTweaker
 * Updated FTB Guides
@@ -28,6 +29,7 @@
 * Updated Thermal Expansion
 * Updated Waystones
 * Fixed having 2 graves For some reason every time i would disable the graves in open blocks it would reenable itself somehow
+* Fixed Astral Sorcery Recipes for the starter crafting table and wand
 * Minor tweaks to CFG's
 * Removed Thaumcraft
 * Removed Thaumcraft 6 Aspects for JEI
