@@ -73,7 +73,6 @@ val canolacrops = [
 
 //LAVA
 <ore:listAlllava>.add(<minecraft:lava_bucket>);
-<ore:listAlllava>.add(<randomthings:enderbucket>.withTag({Fluid: {FluidName: "lava", Amount: 1000}}));
 <ore:listAlllava>.add(<mekanism:machineblock2:11>.withTag({tier: 3, mekData: {security: 0, ownerUUID: "", fluidTank: {FluidName: "lava", Amount: 1000}, Items: []}}));
 <ore:listAlllava>.add(<mekanism:machineblock2:11>.withTag({tier: 2, mekData: {security: 0, ownerUUID: "", fluidTank: {FluidName: "lava", Amount: 1000}, Items: []}}));
 <ore:listAlllava>.add(<advancedrocketry:liquidtank>.withTag({FluidName: "lava", Amount: 1000}));
@@ -92,7 +91,6 @@ val canolacrops = [
 <ore:sand>.add(<snad:snad:1>);
 
 //Water
-<ore:listAllwater>.add(<randomthings:enderbucket>.withTag({Fluid: {FluidName: "water", Amount: 1000}}));
 <ore:listAllwater>.add(<mekanism:machineblock2:11>.withTag({tier: 3, mekData: {security: 0, ownerUUID: "", fluidTank: {FluidName: "water", Amount: 1000}, Items: []}}));
 <ore:listAllwater>.add(<mekanism:machineblock2:11>.withTag({tier: 2, mekData: {security: 0, ownerUUID: "", fluidTank: {FluidName: "water", Amount: 1000}, Items: []}}));
 <ore:listAllwater>.add(<advancedrocketry:liquidtank>.withTag({FluidName: "water", Amount: 1000}));
