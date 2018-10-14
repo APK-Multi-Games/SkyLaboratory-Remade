@@ -66,11 +66,15 @@
 * Fixed Crop sticks to now work with farming for blockheads fertilized farmland healthy stable
 * Fixed Crop sticks to now work with farming for blockheads fertilized farmland stable
 * Fixed Crop sticks to now work with End Steel Seeds
+* Fixed Crop sticks to now work with Sky Stone Seeds
+* Fixed Crop sticks to now work with Snad
+* Fixed Crop sticks to now work with Red Snad
 * Disabled Quantum Quarry Fixed more TPS issues
 * Disabled Deep Dark Fixed more TPS issues
 * Disabled Vanilla Farming
 * removed Vanilla End portal so use sky resources 2 end portal
 * Added All crops to the correct Hatchery and Farming for Blockheads new soil types
+* Added All Crops that use sand to support Snad
 * File size reduction cleaned up 1.2MB of cfg files that most of these mod updates left behind with garbage files no longer used by the mods due to updates and many mods changing where they store the config files way to go mod authors changing how your mod stores the config files and not having your mod clean up after itself
 
 -------
