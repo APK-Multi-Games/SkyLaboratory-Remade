@@ -62,6 +62,7 @@
 * Fixed Crop sticks to now work with farming for blockheads fertilized farmland rich stable
 * Fixed Crop sticks to now work with farming for blockheads fertilized farmland healthy stable
 * Fixed Crop sticks to now work with farming for blockheads fertilized farmland stable
+* Fixed Crop sticks to now work with End Steel Seeds
 * Disabled Quantum Quarry Fixed more TPS issues
 * Disabled Deep Dark Fixed more TPS issues
 * Disabled Vanilla Farming
