@@ -1,6 +1,10 @@
 #Version 0.0.1.5
 * Added Rocky Core
 * Added RandomPatches should fix the issue with timing out and getting kicked from servers when you first try to join
+* Updated Woot
+* Updated Splash Animation
+* Updated Construct Armory
+* Updated Bonsai Trees
 * Updated Forge to 14.23.5.2770
 * Updated Applied Energistics 2
 * Updated CraftTweaker
@@ -36,7 +40,7 @@
 * Updated UniDict
 * Updated FPS Reducer
 * Updated NuclearCraft
-* Fixed having 2 graves For some reason every time i would disable the graves in open blocks it would reenable itself somehow
+* Fixed having 2 graves For some reason every time I would disable the graves in open blocks it would reenable itself somehow
 * Fixed Astral Sorcery Recipes for the starter crafting table and wand
 * Minor tweaks to CFG's
 * Removed Thaumcraft
@@ -69,12 +73,12 @@
 * Fixed Crop sticks to now work with Sky Stone Seeds
 * Fixed Crop sticks to now work with Snad
 * Fixed Crop sticks to now work with Red Snad
-* Disabled Quantum Quarry Fixed more TPS issues
-* Disabled Deep Dark Fixed more TPS issues
-* Disabled Vanilla Farming
-* removed Vanilla End portal so use sky resources 2 end portal
 * Added All crops to the correct Hatchery and Farming for Blockheads new soil types
 * Added All Crops that use sand to support Snad
+* Disabled Vanilla Farming 
+* Disabled Quantum Quarry Fixed more TPS issues
+* Disabled Deep Dark Fixed more TPS issues
+* removed Vanilla End portal so use sky resources 2 end portal
 * File size reduction cleaned up 1.2MB of cfg files that most of these mod updates left behind with garbage files no longer used by the mods due to updates and many mods changing where they store the config files way to go mod authors changing how your mod stores the config files and not having your mod clean up after itself
 
 -------
