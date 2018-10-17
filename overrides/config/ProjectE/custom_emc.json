@@ -15,6 +15,14 @@
     {
       "item": "harvestcraft:avocado_sapling|0",
       "emc": 32
+    },
+    {
+      "item": "skyresources:baseitemcomponent|7",
+      "emc": 256
+    },
+    {
+      "item": "skyresources:baseitemcomponent|3",
+      "emc": 512
     }
   ]
 }

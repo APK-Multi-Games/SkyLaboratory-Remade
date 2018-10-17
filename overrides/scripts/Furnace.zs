@@ -7,4 +7,8 @@ print("Initializing 'furnace'...");
 furnace.addRecipe(<minecraft:glass> * 2, <snad:snad>);
 furnace.addRecipe(<minecraft:glass> * 2, <snad:snad:1>);
 
+//Flux Dust
+furnace.addRecipe(<fluxnetworks:flux>, <ore:dustRedstone>);
+furnace.addRecipe(<fluxnetworks:flux> * 9, <ore:blockRedstone>);
+
 print("Initialized 'furnace'");

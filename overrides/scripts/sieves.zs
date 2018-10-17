@@ -19,7 +19,7 @@ recipes.addShaped("excompressum_mana_sieve", <excompressum:mana_sieve>, [[<ore:b
 //Normal Sieve
 recipes.remove(<exnihilocreatio:block_sieve>);
 
-recipes.addShaped("exnihilocreatio_sieve", <exnihilocreatio:block_sieve>, [[<ore:plankWood>, <ic2:misc_resource:4>, <ore:plankWood>], [<ore:plankWood>, <ore:slabWood>, <ore:plankWood>], [<ore:stickWood>, null, <ore:stickWood>]]);
+recipes.addShaped("exnihilocreatio_sieve", <exnihilocreatio:block_sieve>, [[<ore:plankTreatedWood>, <ic2:misc_resource:4>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:slabTreatedWood>, <ore:plankTreatedWood>], [<ore:stickTreatedWood>, <ic2:misc_resource:4>, <ore:stickTreatedWood>]]);
 
 //Heavy Sieves
 recipes.remove(<excompressum:heavy_sieve>);
@@ -29,11 +29,11 @@ recipes.remove(<excompressum:heavy_sieve:3>);
 recipes.remove(<excompressum:heavy_sieve:4>);
 recipes.remove(<excompressum:heavy_sieve:5>);
 
-recipes.addShaped("excompressum_heavy_sieve_oak", <excompressum:heavy_sieve>, [[<minecraft:log>, <ic2:misc_resource:4>, <minecraft:log>], [<minecraft:log>, <exnihilocreatio:block_sieve>, <minecraft:log>], [<ore:stickWood>, null, <ore:stickWood>]]);
-recipes.addShaped("excompressum_heavy_sieve_spruce", <excompressum:heavy_sieve:1>, [[<minecraft:log:1>, <ic2:misc_resource:4>, <minecraft:log:1>], [<minecraft:log:1>, <exnihilocreatio:block_sieve>, <minecraft:log:1>], [<ore:stickWood>, null, <ore:stickWood>]]);
-recipes.addShaped("excompressum_heavy_sieve_birch", <excompressum:heavy_sieve:2>, [[<minecraft:log:2>, <ic2:misc_resource:4>, <minecraft:log:2>], [<minecraft:log:2>, <exnihilocreatio:block_sieve>, <minecraft:log:2>], [<ore:stickWood>, null, <ore:stickWood>]]);
-recipes.addShaped("excompressum_heavy_sieve_jungle", <excompressum:heavy_sieve:3>, [[<minecraft:log:3>, <ic2:misc_resource:4>, <minecraft:log:3>], [<minecraft:log:3>, <exnihilocreatio:block_sieve>, <minecraft:log:3>], [<ore:stickWood>, null, <ore:stickWood>]]);
-recipes.addShaped("excompressum_heavy_sieve_acacia", <excompressum:heavy_sieve:4>, [[<minecraft:log2>, <ic2:misc_resource:4>, <minecraft:log2>], [<minecraft:log2>, <exnihilocreatio:block_sieve>, <minecraft:log2>], [<ore:stickWood>, null, <ore:stickWood>]]);
-recipes.addShaped("excompressum_heavy_sieve_dark_oak", <excompressum:heavy_sieve:5>, [[<minecraft:log2:1>, <ic2:misc_resource:4>, <minecraft:log2:1>], [<minecraft:log2:1>, <exnihilocreatio:block_sieve>, <minecraft:log2:1>], [<ore:stickWood>, null, <ore:stickWood>]]);
+recipes.addShaped("excompressum_heavy_sieve_oak", <excompressum:heavy_sieve>, [[<quark:bark>, <ic2:misc_resource:4>, <quark:bark>], [<quark:bark>, <exnihilocreatio:block_sieve>, <quark:bark>], [<ore:stickTreatedWood>, <ic2:misc_resource:4>, <ore:stickTreatedWood>]]);
+recipes.addShaped("excompressum_heavy_sieve_spruce", <excompressum:heavy_sieve:1>, [[<quark:bark:1>, <ic2:misc_resource:4>, <quark:bark:1>], [<quark:bark:1>, <exnihilocreatio:block_sieve>, <quark:bark:1>], [<ore:stickTreatedWood>, <ic2:misc_resource:4>, <ore:stickTreatedWood>]]);
+recipes.addShaped("excompressum_heavy_sieve_birch", <excompressum:heavy_sieve:2>, [[<quark:bark:2>, <ic2:misc_resource:4>, <quark:bark:2>], [<quark:bark:2>, <exnihilocreatio:block_sieve>, <quark:bark:2>], [<ore:stickTreatedWood>, <ic2:misc_resource:4>, <ore:stickTreatedWood>]]);
+recipes.addShaped("excompressum_heavy_sieve_jungle", <excompressum:heavy_sieve:3>, [[<quark:bark:3>, <ic2:misc_resource:4>, <quark:bark:3>], [<quark:bark:3>, <exnihilocreatio:block_sieve>, <quark:bark:3>], [<ore:stickTreatedWood>, <ic2:misc_resource:4>, <ore:stickTreatedWood>]]);
+recipes.addShaped("excompressum_heavy_sieve_acacia", <excompressum:heavy_sieve:4>, [[<quark:bark:4>, <ic2:misc_resource:4>, <quark:bark:4>], [<quark:bark:4>, <exnihilocreatio:block_sieve>, <quark:bark:4>], [<ore:stickTreatedWood>, <ic2:misc_resource:4>, <ore:stickTreatedWood>]]);
+recipes.addShaped("excompressum_heavy_sieve_dark_oak", <excompressum:heavy_sieve:5>, [[<quark:bark:5>, <ic2:misc_resource:4>, <quark:bark:5>], [<quark:bark:5>, <exnihilocreatio:block_sieve>, <quark:bark:5>], [<ore:stickTreatedWood>, <ic2:misc_resource:4>, <ore:stickTreatedWood>]]);
 
 print("Initialized 'sieves'");

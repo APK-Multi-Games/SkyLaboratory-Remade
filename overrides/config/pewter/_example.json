@@ -47,6 +47,7 @@
     "temperature": 1000,
     "luminosity": 8
   },
+  "oreDictSuffixes": [],
   "matParts": [
     "HEAD",
     "HANDLE",
@@ -67,13 +68,19 @@
     ],
     "block": [],
     "nugget": [],
-    "ore": []
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
   },
   "smeltingTags": {
     "ingot": [],
     "block": [],
     "nugget": [],
-    "ore": []
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
   },
   "armor": {
     "core": {

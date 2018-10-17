@@ -1,6 +1,14 @@
 #Version 0.0.1.5
 * Added Rocky Core
 * Added RandomPatches should fix the issue with timing out and getting kicked from servers when you first try to join
+* Added EMC Values to Light Matter
+* Added EMC Values to Dark Matter
+* Added Flux Furance Recipes
+* Updated Actually Additions
+* Updated Industrial Foregoing
+* Updated Hammer Core
+* Updated Pam's HarvestCraft
+* Updated AIOT Botania
 * Updated Woot
 * Updated Splash Animation
 * Updated Construct Armory
@@ -57,7 +65,8 @@
 * Removed PTRLib
 * Removed Dimensional Cake Rebuilt
 * Removed Random Things Fixed more TPS issues
-* Balanced Aroma1997s Dimensional World Recipes
+* Balanced Aroma1997s Dimensional World Recipes to require Environmental Tech materials.
+* Balanced Sieves Recipe for the base Sieve now requires to be made out of treated wood and resin
 * Cleanup of Script names and better organization of scripts
 * Removed Random Things Fertilized Dirt Recipe
 * Removed Rustic Fertile Soil Recipe
